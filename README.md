@@ -6,7 +6,7 @@ This repository is the map. It is regenerated from the site's content, so the nu
 
 | | |
 |---|---|
-| Lessons | **218** across **29** modules (~19 hours) |
+| Lessons | **300** across **29** modules (~26 hours) |
 | Practice problems | **100** (26 easy · 59 medium · 15 hard) |
 | Cost | Free. No account needed to read a lesson. |
 | Machine-readable | [`roadmap.json`](roadmap.json) — every lesson and problem with its URL |
@@ -85,7 +85,7 @@ _Read growth curves at a glance instead of memorising a table._ · 5 lessons · 
 
 [![Arrays](assets/modules/arrays.png)](https://bytepatterns.com/learn/arrays?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Pointers, windows and in-place tricks, drawn out step by step._ · 8 lessons · [open module](https://bytepatterns.com/learn/arrays?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Pointers, windows and in-place tricks, drawn out step by step._ · 14 lessons · [open module](https://bytepatterns.com/learn/arrays?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -97,6 +97,12 @@ _Pointers, windows and in-place tricks, drawn out step by step._ · 8 lessons ·
 | 6 | [Move Zeroes](https://bytepatterns.com/learn/arrays/move-zeroes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Push the junk to the back without losing the order. | 5 |
 | 7 | [Container With Most Water](https://bytepatterns.com/learn/arrays/container-with-most-water?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | The shorter wall decides. So move the shorter wall. | 6 |
 | 8 | [Kadane's Algorithm](https://bytepatterns.com/learn/arrays/kadanes-algorithm?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Drop the past the moment it starts costing you. | 6 |
+| 9 | [Cyclic Sort](https://bytepatterns.com/learn/arrays/cyclic-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | When values are 1..n, every value already knows its index. | 5 |
+| 10 | [Merge Sorted Arrays](https://bytepatterns.com/learn/arrays/merge-sorted-arrays?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Fill from the back and you never overwrite unread data. | 5 |
+| 11 | [Dutch National Flag](https://bytepatterns.com/learn/arrays/dutch-national-flag?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Three values, three regions, one pass. | 5 |
+| 12 | [Product Except Self](https://bytepatterns.com/learn/arrays/product-except-self?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Two sweeps beat one division. | 5 |
+| 13 | [Rotate an Array](https://bytepatterns.com/learn/arrays/rotate-array?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Three reversals move every element home. | 4 |
+| 14 | [Majority Element](https://bytepatterns.com/learn/arrays/majority-element?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Cancel the votes in pairs and the majority survives. | 5 |
 
 Practice: [Single Stock Trade](https://bytepatterns.com/practice/arrays/single-stock-trade?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Drop Sorted Duplicates](https://bytepatterns.com/practice/arrays/drop-sorted-duplicates?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Product Of Others](https://bytepatterns.com/practice/arrays/product-of-others?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Longest Distinct Run](https://bytepatterns.com/practice/arrays/longest-distinct-run?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Window Maximums](https://bytepatterns.com/practice/arrays/window-maximums?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (hard) · [Majority Value](https://bytepatterns.com/practice/arrays/majority-value-finder?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Rotate Right By K](https://bytepatterns.com/practice/arrays/rotate-right-by-k?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Spiral Grid Walk](https://bytepatterns.com/practice/arrays/spiral-grid-walk?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium)
 
@@ -106,7 +112,7 @@ Practice: [Single Stock Trade](https://bytepatterns.com/practice/arrays/single-s
 
 [![Strings](assets/modules/strings.png)](https://bytepatterns.com/learn/strings?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Characters in a row — palindromes, windows, and the hashing that finds a needle fast._ · 7 lessons · [open module](https://bytepatterns.com/learn/strings?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Characters in a row — palindromes, windows, and the hashing that finds a needle fast._ · 11 lessons · [open module](https://bytepatterns.com/learn/strings?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -117,6 +123,10 @@ _Characters in a row — palindromes, windows, and the hashing that finds a need
 | 5 | [Longest Palindromic Substring](https://bytepatterns.com/learn/strings/longest-palindromic-substring?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Stand on every centre and push outwards. | 5 |
 | 6 | [Rabin-Karp Rolling Hash](https://bytepatterns.com/learn/strings/rabin-karp-rolling-hash?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Slide a number across the text instead of re-reading it. | 5 |
 | 7 | [String Matching Intuition](https://bytepatterns.com/learn/strings/string-matching-intuition?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | A mismatch already tells you where to restart. | 5 |
+| 8 | [Build the KMP Table](https://bytepatterns.com/learn/strings/kmp-failure-table?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Every prefix remembers its longest border. | 6 |
+| 9 | [Z-Algorithm Intuition](https://bytepatterns.com/learn/strings/z-algorithm?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Reuse what an earlier match already proved. | 6 |
+| 10 | [String Compression](https://bytepatterns.com/learn/strings/string-compression?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | One read cursor, one write cursor, no second string. | 5 |
+| 11 | [Encode and Decode Strings](https://bytepatterns.com/learn/strings/encode-decode-strings?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Send the length first and no character is special. | 5 |
 
 Practice: [Longest Shared Prefix](https://bytepatterns.com/practice/strings/longest-shared-prefix?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [First Unique Character](https://bytepatterns.com/practice/strings/first-unique-character?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Run Length Compression](https://bytepatterns.com/practice/strings/run-length-compression?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Multiply Digit Strings](https://bytepatterns.com/practice/strings/multiply-digit-strings?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Minimum Window Cover](https://bytepatterns.com/practice/strings/minimum-window-cover?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (hard) · [Group Anagrams Together](https://bytepatterns.com/practice/strings/group-anagrams-together?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Repeated DNA Sequences](https://bytepatterns.com/practice/strings/repeated-dna-sequences?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium)
 
@@ -126,7 +136,7 @@ Practice: [Longest Shared Prefix](https://bytepatterns.com/practice/strings/long
 
 [![Searching](assets/modules/searching.png)](https://bytepatterns.com/learn/searching?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Watch a search space collapse until only the answer is left._ · 5 lessons · [open module](https://bytepatterns.com/learn/searching?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Watch a search space collapse until only the answer is left._ · 8 lessons · [open module](https://bytepatterns.com/learn/searching?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -135,6 +145,9 @@ _Watch a search space collapse until only the answer is left._ · 5 lessons · [
 | 3 | [Binary Search Variants](https://bytepatterns.com/learn/searching/binary-search-variants?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Don't just find it. Find the first one that qualifies. | 6 |
 | 4 | [Search in Rotated Array](https://bytepatterns.com/learn/searching/search-in-rotated-array?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Half of it is still sorted. Find that half, use it. | 6 |
 | 5 | [Binary Search on Answer](https://bytepatterns.com/learn/searching/binary-search-on-answer?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | No sorted array? Binary search the answer range. | 6 |
+| 6 | [Search a 2D Matrix](https://bytepatterns.com/learn/searching/search-2d-matrix?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Start in the corner where one step rules out a whole line. | 5 |
+| 7 | [Find a Peak](https://bytepatterns.com/learn/searching/find-peak-element?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | An uphill step always has a summit ahead of it. | 5 |
+| 8 | [Kth Smallest in a Matrix](https://bytepatterns.com/learn/searching/kth-smallest-matrix?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Search the values, not the positions. | 6 |
 
 Practice: [Integer Square Root](https://bytepatterns.com/practice/searching/integer-square-root?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Peak In Bumpy List](https://bytepatterns.com/practice/searching/peak-in-bumpy-list?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Median Of Two Sorted Lists](https://bytepatterns.com/practice/searching/median-of-two-sorted-lists?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (hard) · [First And Last Occurrence](https://bytepatterns.com/practice/searching/first-and-last-occurrence?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Minimum Daily Capacity](https://bytepatterns.com/practice/searching/minimum-daily-capacity?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium)
 
@@ -144,7 +157,7 @@ Practice: [Integer Square Root](https://bytepatterns.com/practice/searching/inte
 
 [![Sorting](assets/modules/sorting.png)](https://bytepatterns.com/learn/sorting?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_See why the clever sorts beat the obvious ones._ · 8 lessons · [open module](https://bytepatterns.com/learn/sorting?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_See why the clever sorts beat the obvious ones._ · 10 lessons · [open module](https://bytepatterns.com/learn/sorting?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -156,6 +169,8 @@ _See why the clever sorts beat the obvious ones._ · 8 lessons · [open module](
 | 6 | [Quick Sort](https://bytepatterns.com/learn/sorting/quick-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Pick a pivot, split around it, and never merge. | 6 |
 | 7 | [Counting Sort](https://bytepatterns.com/learn/sorting/counting-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Skip comparisons entirely when the values are small. | 5 |
 | 8 | [Which Sort When?](https://bytepatterns.com/learn/sorting/which-sort-when?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | The right sort is the one that fits your data's shape. | 5 |
+| 9 | [Heap Sort](https://bytepatterns.com/learn/sorting/heap-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Build a heap, then peel the maximum off n times. | 6 |
+| 10 | [Radix Sort](https://bytepatterns.com/learn/sorting/radix-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Sort by the last digit first, and never compare a thing. | 5 |
 
 Practice: [Out Of Place Count](https://bytepatterns.com/practice/sorting/out-of-place-count?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Three Way Flag Sort](https://bytepatterns.com/practice/sorting/three-way-flag-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Largest Number Arrangement](https://bytepatterns.com/practice/sorting/largest-number-arrangement?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [H Index From Citations](https://bytepatterns.com/practice/sorting/h-index-citations?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Maximum Gap Buckets](https://bytepatterns.com/practice/sorting/maximum-gap-buckets?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (hard)
 
@@ -171,7 +186,7 @@ _Ten shapes for holding data, and the trade each one makes to be fast at somethi
 
 [![Linked Lists](assets/modules/linked-lists.png)](https://bytepatterns.com/learn/linked-lists?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Follow the pointers — and learn every trick they hide._ · 6 lessons · [open module](https://bytepatterns.com/learn/linked-lists?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Follow the pointers — and learn every trick they hide._ · 10 lessons · [open module](https://bytepatterns.com/learn/linked-lists?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -181,6 +196,10 @@ _Follow the pointers — and learn every trick they hide._ · 6 lessons · [open
 | 4 | [Reverse a Linked List](https://bytepatterns.com/learn/linked-lists/reverse-linked-list?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Flip every arrow backwards using three pointers. | 5 |
 | 5 | [Fast and Slow Pointers](https://bytepatterns.com/learn/linked-lists/fast-and-slow-pointers?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | One hop versus two finds the middle in one pass. | 5 |
 | 6 | [Detect a Cycle](https://bytepatterns.com/learn/linked-lists/detect-cycle?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | If the list loops, the fast pointer laps the slow one. | 5 |
+| 7 | [Find the Cycle Start](https://bytepatterns.com/learn/linked-lists/find-the-cycle-start?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Knowing a loop exists is half the job — now find its door. | 6 |
+| 8 | [Merge Two Sorted Lists](https://bytepatterns.com/learn/linked-lists/merge-two-sorted-lists?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Zip two ordered chains together without allocating a single node. | 5 |
+| 9 | [Copy a List With Random Links](https://bytepatterns.com/learn/linked-lists/copy-list-with-random-pointer?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Clone the nodes first, wire the pointers second. | 6 |
+| 10 | [Doubly Linked Lists](https://bytepatterns.com/learn/linked-lists/doubly-linked-lists?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Add a backwards pointer and removal stops needing a search. | 6 |
 
 Practice: [Merge Sorted Chains](https://bytepatterns.com/practice/linked-lists/merge-sorted-chains?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Drop Nth From End](https://bytepatterns.com/practice/linked-lists/drop-nth-from-end?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Weave List Halves](https://bytepatterns.com/practice/linked-lists/weave-list-halves?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Remove Value Nodes](https://bytepatterns.com/practice/linked-lists/remove-value-nodes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Add Two Digit Chains](https://bytepatterns.com/practice/linked-lists/add-two-digit-chains?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Partition Around Value](https://bytepatterns.com/practice/linked-lists/partition-around-value?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium)
 
@@ -190,7 +209,7 @@ Practice: [Merge Sorted Chains](https://bytepatterns.com/practice/linked-lists/m
 
 [![Stacks & Queues](assets/modules/stacks-queues.png)](https://bytepatterns.com/learn/stacks-queues?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Two humble rules, LIFO and FIFO, doing surprisingly heavy lifting._ · 5 lessons · [open module](https://bytepatterns.com/learn/stacks-queues?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Two humble rules, LIFO and FIFO, doing surprisingly heavy lifting._ · 9 lessons · [open module](https://bytepatterns.com/learn/stacks-queues?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -199,6 +218,10 @@ _Two humble rules, LIFO and FIFO, doing surprisingly heavy lifting._ · 5 lesson
 | 3 | [Queue Basics](https://bytepatterns.com/learn/stacks-queues/queue-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | First one in is the first one out. | 4 |
 | 4 | [Queue From Two Stacks](https://bytepatterns.com/learn/stacks-queues/queue-with-two-stacks?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Reverse a reversal and LIFO turns into FIFO. | 5 |
 | 5 | [Monotonic Stack](https://bytepatterns.com/learn/stacks-queues/monotonic-stack?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Keep the stack ordered and every item waits only once. | 6 |
+| 6 | [Min Stack](https://bytepatterns.com/learn/stacks-queues/min-stack?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Carry the answer up with the data instead of recomputing it. | 5 |
+| 7 | [Sliding Window Maximum](https://bytepatterns.com/learn/stacks-queues/sliding-window-maximum?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | A queue that drops anyone it has already outgrown. | 6 |
+| 8 | [Circular Queue](https://bytepatterns.com/learn/stacks-queues/circular-queue?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | A fixed array that never shifts, because the ends wrap around. | 5 |
+| 9 | [Largest Rectangle](https://bytepatterns.com/learn/stacks-queues/largest-rectangle?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Every bar waits on the stack until both its walls are known. | 7 |
 
 Practice: [Constant Time Min Stack](https://bytepatterns.com/practice/stacks-queues/constant-time-min-stack?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Days Until Warmer](https://bytepatterns.com/practice/stacks-queues/days-until-warmer?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Collapse Adjacent Pairs](https://bytepatterns.com/practice/stacks-queues/collapse-adjacent-pairs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Decode Nested Repeats](https://bytepatterns.com/practice/stacks-queues/decode-nested-repeats?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Largest Bar Rectangle](https://bytepatterns.com/practice/stacks-queues/largest-bar-rectangle?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (hard)
 
@@ -208,7 +231,7 @@ Practice: [Constant Time Min Stack](https://bytepatterns.com/practice/stacks-que
 
 [![Hash Tables](assets/modules/hash-tables.png)](https://bytepatterns.com/learn/hash-tables?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Trade a bit of memory for answers in constant time._ · 5 lessons · [open module](https://bytepatterns.com/learn/hash-tables?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Trade a bit of memory for answers in constant time._ · 8 lessons · [open module](https://bytepatterns.com/learn/hash-tables?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -217,6 +240,9 @@ _Trade a bit of memory for answers in constant time._ · 5 lessons · [open modu
 | 3 | [Frequency Counting](https://bytepatterns.com/learn/hash-tables/frequency-counting?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | One pass, one counter per distinct value. | 4 |
 | 4 | [Group Anagrams](https://bytepatterns.com/learn/hash-tables/group-anagrams?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Give every item a canonical key, then bucket by it. | 5 |
 | 5 | [When Hashing Fails](https://bytepatterns.com/learn/hash-tables/when-hashing-fails?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | O(1) is an average, not a promise. | 5 |
+| 6 | [Subarray Sums With a Map](https://bytepatterns.com/learn/hash-tables/subarray-sum-map?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | The complement trick, moved onto running totals. | 6 |
+| 7 | [Top K Without a Heap](https://bytepatterns.com/learn/hash-tables/top-k-buckets?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Counts are small integers, so index by them. | 5 |
+| 8 | [LFU: Frequency Buckets](https://bytepatterns.com/learn/hash-tables/lfu-frequency-buckets?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Group keys by use count and eviction becomes O(1). | 6 |
 
 Practice: [Repeated Value Check](https://bytepatterns.com/practice/hash-tables/repeated-value-check?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Subarrays Summing To K](https://bytepatterns.com/practice/hash-tables/subarrays-summing-to-k?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Longest Consecutive Run](https://bytepatterns.com/practice/hash-tables/longest-consecutive-run?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Shared Values Of Two Lists](https://bytepatterns.com/practice/hash-tables/shared-values-of-two-lists?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Consistent Renaming Check](https://bytepatterns.com/practice/hash-tables/consistent-renaming-check?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Four List Zero Tuples](https://bytepatterns.com/practice/hash-tables/four-list-zero-tuples?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium)
 
@@ -226,7 +252,7 @@ Practice: [Repeated Value Check](https://bytepatterns.com/practice/hash-tables/r
 
 [![Trees & BST](assets/modules/trees.png)](https://bytepatterns.com/learn/trees?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Hierarchies, ordered searches, and the paths between nodes._ · 8 lessons · [open module](https://bytepatterns.com/learn/trees?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Hierarchies, ordered searches, and the paths between nodes._ · 14 lessons · [open module](https://bytepatterns.com/learn/trees?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -238,6 +264,12 @@ _Hierarchies, ordered searches, and the paths between nodes._ · 8 lessons · [o
 | 6 | [Validate a BST](https://bytepatterns.com/learn/trees/validate-bst?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Checking the parent is not enough; carry a range down. | 6 |
 | 7 | [Tree Depth and Balance](https://bytepatterns.com/learn/trees/tree-depth-and-balance?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Height decides speed, and balance decides height. | 5 |
 | 8 | [Lowest Common Ancestor](https://bytepatterns.com/learn/trees/lowest-common-ancestor?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Walk down from the root until the two targets part ways. | 6 |
+| 9 | [Level Order Traversal](https://bytepatterns.com/learn/trees/level-order-traversal?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | A queue turns a tree into one tidy row per depth. | 5 |
+| 10 | [Diameter of a Tree](https://bytepatterns.com/learn/trees/tree-diameter?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | The longest path bends at exactly one node — find that node. | 6 |
+| 11 | [Path Sum Variants](https://bytepatterns.com/learn/trees/path-sum-variants?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Same tree, three questions — and three different things to carry. | 6 |
+| 12 | [Serialize a Tree](https://bytepatterns.com/learn/trees/serialize-and-deserialize?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Write the gaps down and the shape survives the trip. | 6 |
+| 13 | [Vertical Order Traversal](https://bytepatterns.com/learn/trees/vertical-order-traversal?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Give every node an x-coordinate and read the tree in columns. | 6 |
+| 14 | [Rebuild From Traversals](https://bytepatterns.com/learn/trees/build-tree-from-traversals?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Preorder names the root, inorder says where to cut. | 6 |
 
 Practice: [Deepest Level Count](https://bytepatterns.com/practice/trees/deepest-level-count?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Zigzag Level Walk](https://bytepatterns.com/practice/trees/zigzag-level-walk?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Right Edge View](https://bytepatterns.com/practice/trees/right-edge-view?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Mirror Symmetry Check](https://bytepatterns.com/practice/trees/mirror-symmetry-check?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Root To Leaf Target Sum](https://bytepatterns.com/practice/trees/root-to-leaf-target-sum?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Widest Node To Node Path](https://bytepatterns.com/practice/trees/widest-node-to-node-path?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Rebuild From Two Walks](https://bytepatterns.com/practice/trees/rebuild-from-two-walks?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (hard)
 
@@ -264,7 +296,7 @@ Practice: [Wildcard Word Search](https://bytepatterns.com/practice/tries/wildcar
 
 [![Heaps](assets/modules/heaps.png)](https://bytepatterns.com/learn/heaps?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Keep the most important thing on top — without sorting the rest._ · 4 lessons · [open module](https://bytepatterns.com/learn/heaps?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Keep the most important thing on top — without sorting the rest._ · 7 lessons · [open module](https://bytepatterns.com/learn/heaps?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -272,6 +304,9 @@ _Keep the most important thing on top — without sorting the rest._ · 4 lesson
 | 2 | [Heapify and Sift](https://bytepatterns.com/learn/heaps/heapify-and-sift?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | One wrong value walks a single path back into place. | 6 |
 | 3 | [Priority Queue](https://bytepatterns.com/learn/heaps/priority-queue?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Serve by urgency, not by who shouted first. | 5 |
 | 4 | [Top K Elements](https://bytepatterns.com/learn/heaps/top-k-elements?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Hold k winners and let the weakest one guard the door. | 6 |
+| 5 | [K Closest Points](https://bytepatterns.com/learn/heaps/k-closest-points?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Keep the k best by always evicting the current worst. | 6 |
+| 6 | [Reorganize a String](https://bytepatterns.com/learn/heaps/reorganize-a-string?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Spend the commonest letter first, and hold it back one round. | 6 |
+| 7 | [Task Scheduler](https://bytepatterns.com/learn/heaps/task-scheduler?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Same greedy pick, but now the loser has to sit out a cooldown. | 7 |
 
 Practice: [Kth Largest Value](https://bytepatterns.com/practice/heaps/kth-largest-value?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Smash Heaviest Stones](https://bytepatterns.com/practice/heaps/smash-heaviest-stones?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Closest Points To Origin](https://bytepatterns.com/practice/heaps/closest-points-to-origin?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Running Median Stream](https://bytepatterns.com/practice/heaps/running-median-stream?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (hard) · [Task Scheduler Cooldown](https://bytepatterns.com/practice/heaps/task-scheduler-cooldown?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Reorganize String Gaps](https://bytepatterns.com/practice/heaps/reorganize-string-gaps?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium)
 
@@ -298,7 +333,7 @@ Practice: [Kth Smallest In Matrix](https://bytepatterns.com/practice/two-heaps-k
 
 [![Graphs](assets/modules/graphs.png)](https://bytepatterns.com/learn/graphs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Nodes, edges, and the searches that ripple across them._ · 8 lessons · [open module](https://bytepatterns.com/learn/graphs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Nodes, edges, and the searches that ripple across them._ · 16 lessons · [open module](https://bytepatterns.com/learn/graphs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -310,6 +345,14 @@ _Nodes, edges, and the searches that ripple across them._ · 8 lessons · [open 
 | 6 | [Shortest Path, Unweighted](https://bytepatterns.com/learn/graphs/shortest-path-unweighted?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | BFS already found it — store parents to read it back. | 6 |
 | 7 | [Dijkstra's Algorithm](https://bytepatterns.com/learn/graphs/dijkstra-intro?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | When edges cost different amounts, always settle the nearest first. | 6 |
 | 8 | [Topological Sort](https://bytepatterns.com/learn/graphs/topological-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Order the steps so nothing runs before what it depends on. | 6 |
+| 9 | [Bellman-Ford](https://bytepatterns.com/learn/graphs/bellman-ford?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Relax every edge, V-1 times, and negative weights stop being a problem. | 6 |
+| 10 | [Kruskal's Spanning Tree](https://bytepatterns.com/learn/graphs/kruskal-mst?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Buy the cheapest cable that joins two pieces you have not joined yet. | 6 |
+| 11 | [Prim's Spanning Tree](https://bytepatterns.com/learn/graphs/prim-mst?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | One tree that grows, always by its cheapest way out. | 6 |
+| 12 | [Bipartite Check](https://bytepatterns.com/learn/graphs/bipartite-check?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Two colours, no neighbour sharing one — or the split is impossible. | 5 |
+| 13 | [Cycles in a Directed Graph](https://bytepatterns.com/learn/graphs/directed-cycle-colours?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Grey means still on the path — meet grey again and you have looped. | 6 |
+| 14 | [Graphs You Never Build](https://bytepatterns.com/learn/graphs/implicit-graph-bfs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Generate the neighbours on demand and BFS works the same. | 6 |
+| 15 | [Multi-Source BFS](https://bytepatterns.com/learn/graphs/multi-source-bfs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Seed the queue with every source and one sweep answers them all. | 5 |
+| 16 | [Strongly Connected Parts](https://bytepatterns.com/learn/graphs/strongly-connected-components?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Groups where every node can reach every other — found in two passes. | 7 |
 
 Practice: [Count Island Blobs](https://bytepatterns.com/practice/graphs/count-island-blobs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Course Order Feasibility](https://bytepatterns.com/practice/graphs/course-order-feasibility?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Word Ladder Steps](https://bytepatterns.com/practice/graphs/word-ladder-steps?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (hard) · [Trusted Town Judge](https://bytepatterns.com/practice/graphs/trusted-town-judge?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Deep Copy A Graph](https://bytepatterns.com/practice/graphs/deep-copy-a-graph?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Spreading Rot Minutes](https://bytepatterns.com/practice/graphs/spreading-rot-minutes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Two Colour Split Check](https://bytepatterns.com/practice/graphs/two-colour-split-check?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium)
 
@@ -360,7 +403,7 @@ _Recursion, backtracking and greedy choices, then recursion with a memo — plus
 
 [![Recursion](assets/modules/recursion.png)](https://bytepatterns.com/learn/recursion?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Watch the call stack grow, shrink, and finally make sense._ · 5 lessons · [open module](https://bytepatterns.com/learn/recursion?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Watch the call stack grow, shrink, and finally make sense._ · 8 lessons · [open module](https://bytepatterns.com/learn/recursion?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -369,6 +412,9 @@ _Watch the call stack grow, shrink, and finally make sense._ · 5 lessons · [op
 | 3 | [Factorial and Fibonacci](https://bytepatterns.com/learn/recursion/factorial-and-fibonacci?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | One call per step, or two calls that redo everything. | 6 |
 | 4 | [Memoization](https://bytepatterns.com/learn/recursion/memoization-intro?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Write each answer down once, never solve it twice. | 5 |
 | 5 | [Backtracking](https://bytepatterns.com/learn/recursion/backtracking-intro?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Choose, explore, then undo the choice and try the next. | 6 |
+| 6 | [Return Up or Pass Down](https://bytepatterns.com/learn/recursion/return-up-or-pass-down?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Every recursion moves information one of two ways. Pick one. | 6 |
+| 7 | [Tail Calls and Loops](https://bytepatterns.com/learn/recursion/tail-recursion?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | When nothing happens after the call, the frame is dead weight. | 6 |
+| 8 | [Your Own Call Stack](https://bytepatterns.com/learn/recursion/your-own-call-stack?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Not a tail call? Then carry the stack yourself. | 6 |
 
 Practice: [Flatten a Nested List](https://bytepatterns.com/practice/recursion/flatten-nested-counts?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Disc Tower Moves](https://bytepatterns.com/practice/recursion/disc-tower-moves?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Fast Power](https://bytepatterns.com/practice/recursion/fast-power-of-a-number?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium)
 
@@ -467,7 +513,7 @@ Practice: [Trailing Zeros Of A Factorial](https://bytepatterns.com/practice/math
 
 [![Dynamic Programming](assets/modules/dynamic-programming.png)](https://bytepatterns.com/learn/dynamic-programming?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Solve every subproblem once, then let the table do the work._ · 10 lessons · [open module](https://bytepatterns.com/learn/dynamic-programming?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Solve every subproblem once, then let the table do the work._ · 20 lessons · [open module](https://bytepatterns.com/learn/dynamic-programming?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -481,6 +527,16 @@ _Solve every subproblem once, then let the table do the work._ · 10 lessons · 
 | 8 | [Edit Distance](https://bytepatterns.com/learn/dynamic-programming/edit-distance?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Insert, delete, or replace — count the cheapest route. | 6 |
 | 9 | [Longest Increasing Subsequence](https://bytepatterns.com/learn/dynamic-programming/longest-increasing-subsequence?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Every element asks which smaller one it can extend. | 6 |
 | 10 | [DP on Grids](https://bytepatterns.com/learn/dynamic-programming/dp-on-grids?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Each cell's answer comes from the cells above and to its left. | 6 |
+| 11 | [Unbounded Knapsack](https://bytepatterns.com/learn/dynamic-programming/unbounded-knapsack?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Same table, forward loop — and every item can be taken again. | 6 |
+| 12 | [Counting Ways, Not Coins](https://bytepatterns.com/learn/dynamic-programming/coin-change-ways?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Loop coins on the outside and each combination is counted once. | 6 |
+| 13 | [Equal Split](https://bytepatterns.com/learn/dynamic-programming/partition-equal-subset?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Can any subset hit exactly half the total? Track reachable sums. | 6 |
+| 14 | [House Robber in a Circle](https://bytepatterns.com/learn/dynamic-programming/house-robber-circle?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | First and last are now neighbours, so run the line twice. | 5 |
+| 15 | [LIS in O(n log n)](https://bytepatterns.com/learn/dynamic-programming/lis-patience-tails?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Keep the smallest possible ending for a chain of each length. | 7 |
+| 16 | [Interval DP](https://bytepatterns.com/learn/dynamic-programming/matrix-chain-order?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Answer every short stretch first, then split the long ones. | 7 |
+| 17 | [DP on Trees](https://bytepatterns.com/learn/dynamic-programming/dp-on-trees?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Every node returns two answers: taken, and not taken. | 7 |
+| 18 | [Word Break](https://bytepatterns.com/learn/dynamic-programming/word-break-dp?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | A prefix is splittable if some earlier cut leaves a real word. | 6 |
+| 19 | [Reading the Answer Back](https://bytepatterns.com/learn/dynamic-programming/reading-the-answer-back?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | The table holds the score; walking it backwards holds the answer. | 6 |
+| 20 | [DP as a State Machine](https://bytepatterns.com/learn/dynamic-programming/stock-state-machine?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Two running totals, one per state, updated day by day. | 6 |
 
 Practice: [Cheapest Stair Climb](https://bytepatterns.com/practice/dynamic-programming/cheapest-stair-climb?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Grid Paths With Blocks](https://bytepatterns.com/practice/dynamic-programming/grid-paths-with-blocks?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Sentence Segmentation](https://bytepatterns.com/practice/dynamic-programming/sentence-segmentation?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Trading With Cooldown](https://bytepatterns.com/practice/dynamic-programming/trading-with-cooldown?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (hard) · [Paint Houses Cheaply](https://bytepatterns.com/practice/dynamic-programming/paint-houses-cheaply?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Decode Digit Message](https://bytepatterns.com/practice/dynamic-programming/decode-digit-message?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Unique BST Shapes](https://bytepatterns.com/practice/dynamic-programming/unique-bst-shapes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Pop Balloons For Coins](https://bytepatterns.com/practice/dynamic-programming/pop-balloons-for-coins?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (hard)
 
@@ -496,7 +552,7 @@ _What happens once one machine is not enough — and once one thread is not eith
 
 [![System Design](assets/modules/system-design.png)](https://bytepatterns.com/learn/system-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Scale, cache, shard — and know what each choice costs you._ · 15 lessons · [open module](https://bytepatterns.com/learn/system-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Scale, cache, shard — and know what each choice costs you._ · 17 lessons · [open module](https://bytepatterns.com/learn/system-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -515,6 +571,8 @@ _Scale, cache, shard — and know what each choice costs you._ · 15 lessons · 
 | 13 | [Designing a REST API](https://bytepatterns.com/learn/system-design/rest-api-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Address the thing; let the method be the verb. | 6 |
 | 14 | [WebSockets and Realtime](https://bytepatterns.com/learn/system-design/websockets-and-realtime?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Keep the line open instead of redialling. | 5 |
 | 15 | [Observability Basics](https://bytepatterns.com/learn/system-design/observability-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Metrics say something broke; traces say where. | 5 |
+| 16 | [Consistency Models](https://bytepatterns.com/learn/system-design/consistency-models?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Same data, different promises about what a read may see. | 6 |
+| 17 | [Tracing a Request](https://bytepatterns.com/learn/system-design/tracing-a-request?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | One request, one tree of spans, one honest answer about the time. | 6 |
 
 ### System Design Cases
 
@@ -553,7 +611,7 @@ _Design a URL shortener, a chat app, a feed — the interview round, end to end.
 
 [![Concurrency](assets/modules/concurrency.png)](https://bytepatterns.com/learn/concurrency?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Threads, locks and races — watch the interleavings that bite._ · 10 lessons · [open module](https://bytepatterns.com/learn/concurrency?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Threads, locks and races — watch the interleavings that bite._ · 15 lessons · [open module](https://bytepatterns.com/learn/concurrency?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -567,6 +625,11 @@ _Threads, locks and races — watch the interleavings that bite._ · 10 lessons 
 | 8 | [Atomic Operations](https://bytepatterns.com/learn/concurrency/atomic-operations?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Indivisible: nobody sees it half-done. | 4 |
 | 9 | [Semaphores](https://bytepatterns.com/learn/concurrency/semaphores?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Count the permits, not the holders. | 4 |
 | 10 | [Designing Thread-Safe Code](https://bytepatterns.com/learn/concurrency/designing-thread-safe-code?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Don't share, freeze it, or guard it. | 5 |
+| 11 | [Backpressure](https://bytepatterns.com/learn/concurrency/backpressure?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | An unbounded queue is not a buffer, it is a delayed crash. | 5 |
+| 12 | [Detecting Deadlock](https://bytepatterns.com/learn/concurrency/detecting-deadlock?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Draw who waits for whom; a closed ring is the proof. | 5 |
+| 13 | [Sizing a Thread Pool](https://bytepatterns.com/learn/concurrency/sizing-a-thread-pool?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | More threads stop helping the moment the work stops waiting. | 5 |
+| 14 | [Blocking the Event Loop](https://bytepatterns.com/learn/concurrency/blocking-the-event-loop?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | One thread runs everything, so one rude call stops the world. | 5 |
+| 15 | [Compare-and-Swap](https://bytepatterns.com/learn/concurrency/compare-and-swap?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Publish the new value only if nobody changed the old one. | 5 |
 
 ### SQL
 
@@ -574,7 +637,7 @@ _Threads, locks and races — watch the interleavings that bite._ · 10 lessons 
 
 [![SQL](assets/modules/sql.png)](https://bytepatterns.com/learn/sql?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Queries you can watch run — joins, groups, indexes, transactions._ · 10 lessons · [open module](https://bytepatterns.com/learn/sql?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Queries you can watch run — joins, groups, indexes, transactions._ · 15 lessons · [open module](https://bytepatterns.com/learn/sql?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -588,6 +651,11 @@ _Queries you can watch run — joins, groups, indexes, transactions._ · 10 less
 | 8 | [Transactions & ACID](https://bytepatterns.com/learn/sql/sql-transactions-acid?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | All of the writes land, or none of them do. | 6 |
 | 9 | [Query Execution Order](https://bytepatterns.com/learn/sql/sql-query-execution-order?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | SQL is written top-down but evaluated in a different order. | 5 |
 | 10 | [The N+1 Query Problem](https://bytepatterns.com/learn/sql/sql-n-plus-one-problem?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | One query for the list, then one more for every single row. | 5 |
+| 11 | [Window Functions](https://bytepatterns.com/learn/sql/sql-window-functions?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Aggregate across rows without collapsing them. | 6 |
+| 12 | [CTEs and Recursion](https://bytepatterns.com/learn/sql/sql-ctes-and-recursion?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Name a result, then build the next one on top of it. | 6 |
+| 13 | [Composite Indexes](https://bytepatterns.com/learn/sql/sql-composite-and-covering-indexes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Column order decides which queries the index can serve. | 6 |
+| 14 | [Isolation Levels](https://bytepatterns.com/learn/sql/sql-isolation-levels?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | How much of another transaction's mess you are allowed to see. | 6 |
+| 15 | [Reading a Query Plan](https://bytepatterns.com/learn/sql/sql-reading-a-query-plan?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Stop guessing why it is slow — ask the engine what it did. | 6 |
 
 ## The Rest of the Loop
 
@@ -627,7 +695,7 @@ _Objects, interfaces and patterns that survive the follow-up question._ · 15 le
 
 [![Behavioral](assets/modules/behavioral.png)](https://bytepatterns.com/learn/behavioral?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_Tell true stories that carry signal — and skip the traps._ · 8 lessons · [open module](https://bytepatterns.com/learn/behavioral?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_Tell true stories that carry signal — and skip the traps._ · 12 lessons · [open module](https://bytepatterns.com/learn/behavioral?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -639,6 +707,10 @@ _Tell true stories that carry signal — and skip the traps._ · 8 lessons · [o
 | 6 | [Questions to Ask](https://bytepatterns.com/learn/behavioral/questions-to-ask?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Your questions are part of the interview. | 4 |
 | 7 | [Negotiation Basics](https://bytepatterns.com/learn/behavioral/negotiation-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Know your number before the call starts. | 5 |
 | 8 | [Red Flags and Antipatterns](https://bytepatterns.com/learn/behavioral/red-flags-and-antipatterns?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | The habits that sink otherwise good candidates. | 4 |
+| 9 | [Cross-Team Conflict](https://bytepatterns.com/learn/behavioral/cross-team-conflict?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Nobody is wrong; two teams are graded on different numbers. | 5 |
+| 10 | [The Outage Story](https://bytepatterns.com/learn/behavioral/the-outage-story?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | What you did in the first ten minutes, and what you changed after. | 5 |
+| 11 | [Influence Without Authority](https://bytepatterns.com/learn/behavioral/influence-without-authority?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | You cannot tell anyone to do it, and it happened anyway. | 5 |
+| 12 | [Why This Team](https://bytepatterns.com/learn/behavioral/why-this-team?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | An answer that could be about anyone is an answer about nobody. | 5 |
 
 ## AI & ML
 
@@ -652,7 +724,7 @@ _Embeddings, retrieval, evaluation, agents — the round that did not exist five
 
 [![AI & ML](assets/modules/ai-ml.png)](https://bytepatterns.com/learn/ai-ml?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
-_From embeddings to agents — see how modern AI actually works._ · 15 lessons · [open module](https://bytepatterns.com/learn/ai-ml?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+_From embeddings to agents — see how modern AI actually works._ · 25 lessons · [open module](https://bytepatterns.com/learn/ai-ml?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 | # | Lesson | What you will see | Min |
 |---|---|---|---|
@@ -671,6 +743,16 @@ _From embeddings to agents — see how modern AI actually works._ · 15 lessons 
 | 13 | [Fine-Tuning vs Prompting](https://bytepatterns.com/learn/ai-ml/fine-tuning-vs-prompting?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Change the instructions, or change the weights. | 5 |
 | 14 | [Agents and Tools](https://bytepatterns.com/learn/ai-ml/agents-and-tools?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | A model in a loop that can act and try again. | 5 |
 | 15 | [Evaluating LLMs](https://bytepatterns.com/learn/ai-ml/evaluating-llms?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | If you cannot score it, you cannot improve it. | 5 |
+| 16 | [Chunking and Reranking](https://bytepatterns.com/learn/ai-ml/chunking-and-reranking?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Retrieval quality is decided before the model reads a word. | 5 |
+| 17 | [Adapters and LoRA](https://bytepatterns.com/learn/ai-ml/adapters-and-lora?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Train a thin correction instead of the whole weight matrix. | 5 |
+| 18 | [Quantization](https://bytepatterns.com/learn/ai-ml/quantization?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Store the weights in fewer bits and buy back memory bandwidth. | 5 |
+| 19 | [Approximate Neighbours](https://bytepatterns.com/learn/ai-ml/approximate-nearest-neighbours?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Walk a graph of vectors instead of comparing all of them. | 5 |
+| 20 | [LLM as a Judge](https://bytepatterns.com/learn/ai-ml/llm-as-a-judge?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | A model can grade answers — and quietly grade the wrong thing. | 5 |
+| 21 | [The Tool-Use Loop](https://bytepatterns.com/learn/ai-ml/the-tool-use-loop?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | The model proposes a call; your code decides whether it runs. | 5 |
+| 22 | [Guardrails](https://bytepatterns.com/learn/ai-ml/guardrails?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Checks around the model, because the model is not the boundary. | 5 |
+| 23 | [BPE vs WordPiece](https://bytepatterns.com/learn/ai-ml/bpe-vs-wordpiece?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Two ways to decide which pair of pieces becomes one piece. | 5 |
+| 24 | [The KV Cache](https://bytepatterns.com/learn/ai-ml/the-kv-cache?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Keep the past keys and values so each new token is cheap. | 5 |
+| 25 | [Speculative Decoding](https://bytepatterns.com/learn/ai-ml/speculative-decoding?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | A small model guesses ahead; the big one checks in one pass. | 5 |
 
 ## Practice problems
 

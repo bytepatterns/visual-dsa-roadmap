@@ -369,6 +369,60 @@
       "url": "https://bytepatterns.com/learn/arrays/kadanes-algorithm"
     },
     {
+      "module": "arrays",
+      "id": "cyclic-sort",
+      "order": 9,
+      "title": "Cyclic Sort",
+      "oneLiner": "When values are 1..n, every value already knows its index.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/arrays/cyclic-sort"
+    },
+    {
+      "module": "arrays",
+      "id": "merge-sorted-arrays",
+      "order": 10,
+      "title": "Merge Sorted Arrays",
+      "oneLiner": "Fill from the back and you never overwrite unread data.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/arrays/merge-sorted-arrays"
+    },
+    {
+      "module": "arrays",
+      "id": "dutch-national-flag",
+      "order": 11,
+      "title": "Dutch National Flag",
+      "oneLiner": "Three values, three regions, one pass.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/arrays/dutch-national-flag"
+    },
+    {
+      "module": "arrays",
+      "id": "product-except-self",
+      "order": 12,
+      "title": "Product Except Self",
+      "oneLiner": "Two sweeps beat one division.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/arrays/product-except-self"
+    },
+    {
+      "module": "arrays",
+      "id": "rotate-array",
+      "order": 13,
+      "title": "Rotate an Array",
+      "oneLiner": "Three reversals move every element home.",
+      "minutes": 4,
+      "url": "https://bytepatterns.com/learn/arrays/rotate-array"
+    },
+    {
+      "module": "arrays",
+      "id": "majority-element",
+      "order": 14,
+      "title": "Majority Element",
+      "oneLiner": "Cancel the votes in pairs and the majority survives.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/arrays/majority-element"
+    },
+    {
       "module": "strings",
       "id": "string-basics",
       "order": 1,
@@ -432,6 +486,42 @@
       "url": "https://bytepatterns.com/learn/strings/string-matching-intuition"
     },
     {
+      "module": "strings",
+      "id": "kmp-failure-table",
+      "order": 8,
+      "title": "Build the KMP Table",
+      "oneLiner": "Every prefix remembers its longest border.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/strings/kmp-failure-table"
+    },
+    {
+      "module": "strings",
+      "id": "z-algorithm",
+      "order": 9,
+      "title": "Z-Algorithm Intuition",
+      "oneLiner": "Reuse what an earlier match already proved.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/strings/z-algorithm"
+    },
+    {
+      "module": "strings",
+      "id": "string-compression",
+      "order": 10,
+      "title": "String Compression",
+      "oneLiner": "One read cursor, one write cursor, no second string.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/strings/string-compression"
+    },
+    {
+      "module": "strings",
+      "id": "encode-decode-strings",
+      "order": 11,
+      "title": "Encode and Decode Strings",
+      "oneLiner": "Send the length first and no character is special.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/strings/encode-decode-strings"
+    },
+    {
       "module": "searching",
       "id": "linear-search",
       "order": 1,
@@ -475,6 +565,33 @@
       "oneLiner": "No sorted array? Binary search the answer range.",
       "minutes": 6,
       "url": "https://bytepatterns.com/learn/searching/binary-search-on-answer"
+    },
+    {
+      "module": "searching",
+      "id": "search-2d-matrix",
+      "order": 6,
+      "title": "Search a 2D Matrix",
+      "oneLiner": "Start in the corner where one step rules out a whole line.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/searching/search-2d-matrix"
+    },
+    {
+      "module": "searching",
+      "id": "find-peak-element",
+      "order": 7,
+      "title": "Find a Peak",
+      "oneLiner": "An uphill step always has a summit ahead of it.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/searching/find-peak-element"
+    },
+    {
+      "module": "searching",
+      "id": "kth-smallest-matrix",
+      "order": 8,
+      "title": "Kth Smallest in a Matrix",
+      "oneLiner": "Search the values, not the positions.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/searching/kth-smallest-matrix"
     },
     {
       "module": "sorting",
@@ -549,6 +666,24 @@
       "url": "https://bytepatterns.com/learn/sorting/which-sort-when"
     },
     {
+      "module": "sorting",
+      "id": "heap-sort",
+      "order": 9,
+      "title": "Heap Sort",
+      "oneLiner": "Build a heap, then peel the maximum off n times.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/sorting/heap-sort"
+    },
+    {
+      "module": "sorting",
+      "id": "radix-sort",
+      "order": 10,
+      "title": "Radix Sort",
+      "oneLiner": "Sort by the last digit first, and never compare a thing.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/sorting/radix-sort"
+    },
+    {
       "module": "linked-lists",
       "id": "singly-linked-list-basics",
       "order": 1,
@@ -603,6 +738,42 @@
       "url": "https://bytepatterns.com/learn/linked-lists/detect-cycle"
     },
     {
+      "module": "linked-lists",
+      "id": "find-the-cycle-start",
+      "order": 7,
+      "title": "Find the Cycle Start",
+      "oneLiner": "Knowing a loop exists is half the job — now find its door.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/linked-lists/find-the-cycle-start"
+    },
+    {
+      "module": "linked-lists",
+      "id": "merge-two-sorted-lists",
+      "order": 8,
+      "title": "Merge Two Sorted Lists",
+      "oneLiner": "Zip two ordered chains together without allocating a single node.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/linked-lists/merge-two-sorted-lists"
+    },
+    {
+      "module": "linked-lists",
+      "id": "copy-list-with-random-pointer",
+      "order": 9,
+      "title": "Copy a List With Random Links",
+      "oneLiner": "Clone the nodes first, wire the pointers second.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/linked-lists/copy-list-with-random-pointer"
+    },
+    {
+      "module": "linked-lists",
+      "id": "doubly-linked-lists",
+      "order": 10,
+      "title": "Doubly Linked Lists",
+      "oneLiner": "Add a backwards pointer and removal stops needing a search.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/linked-lists/doubly-linked-lists"
+    },
+    {
       "module": "stacks-queues",
       "id": "stack-basics",
       "order": 1,
@@ -646,6 +817,42 @@
       "oneLiner": "Keep the stack ordered and every item waits only once.",
       "minutes": 6,
       "url": "https://bytepatterns.com/learn/stacks-queues/monotonic-stack"
+    },
+    {
+      "module": "stacks-queues",
+      "id": "min-stack",
+      "order": 6,
+      "title": "Min Stack",
+      "oneLiner": "Carry the answer up with the data instead of recomputing it.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/stacks-queues/min-stack"
+    },
+    {
+      "module": "stacks-queues",
+      "id": "sliding-window-maximum",
+      "order": 7,
+      "title": "Sliding Window Maximum",
+      "oneLiner": "A queue that drops anyone it has already outgrown.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/stacks-queues/sliding-window-maximum"
+    },
+    {
+      "module": "stacks-queues",
+      "id": "circular-queue",
+      "order": 8,
+      "title": "Circular Queue",
+      "oneLiner": "A fixed array that never shifts, because the ends wrap around.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/stacks-queues/circular-queue"
+    },
+    {
+      "module": "stacks-queues",
+      "id": "largest-rectangle",
+      "order": 9,
+      "title": "Largest Rectangle",
+      "oneLiner": "Every bar waits on the stack until both its walls are known.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/stacks-queues/largest-rectangle"
     },
     {
       "module": "hash-tables",
@@ -693,6 +900,33 @@
       "url": "https://bytepatterns.com/learn/hash-tables/when-hashing-fails"
     },
     {
+      "module": "hash-tables",
+      "id": "subarray-sum-map",
+      "order": 6,
+      "title": "Subarray Sums With a Map",
+      "oneLiner": "The complement trick, moved onto running totals.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/hash-tables/subarray-sum-map"
+    },
+    {
+      "module": "hash-tables",
+      "id": "top-k-buckets",
+      "order": 7,
+      "title": "Top K Without a Heap",
+      "oneLiner": "Counts are small integers, so index by them.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/hash-tables/top-k-buckets"
+    },
+    {
+      "module": "hash-tables",
+      "id": "lfu-frequency-buckets",
+      "order": 8,
+      "title": "LFU: Frequency Buckets",
+      "oneLiner": "Group keys by use count and eviction becomes O(1).",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/hash-tables/lfu-frequency-buckets"
+    },
+    {
       "module": "recursion",
       "id": "recursion-basics",
       "order": 1,
@@ -736,6 +970,33 @@
       "oneLiner": "Choose, explore, then undo the choice and try the next.",
       "minutes": 6,
       "url": "https://bytepatterns.com/learn/recursion/backtracking-intro"
+    },
+    {
+      "module": "recursion",
+      "id": "return-up-or-pass-down",
+      "order": 6,
+      "title": "Return Up or Pass Down",
+      "oneLiner": "Every recursion moves information one of two ways. Pick one.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/recursion/return-up-or-pass-down"
+    },
+    {
+      "module": "recursion",
+      "id": "tail-recursion",
+      "order": 7,
+      "title": "Tail Calls and Loops",
+      "oneLiner": "When nothing happens after the call, the frame is dead weight.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/recursion/tail-recursion"
+    },
+    {
+      "module": "recursion",
+      "id": "your-own-call-stack",
+      "order": 8,
+      "title": "Your Own Call Stack",
+      "oneLiner": "Not a tail call? Then carry the stack yourself.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/recursion/your-own-call-stack"
     },
     {
       "module": "backtracking",
@@ -900,6 +1161,60 @@
       "url": "https://bytepatterns.com/learn/trees/lowest-common-ancestor"
     },
     {
+      "module": "trees",
+      "id": "level-order-traversal",
+      "order": 9,
+      "title": "Level Order Traversal",
+      "oneLiner": "A queue turns a tree into one tidy row per depth.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/trees/level-order-traversal"
+    },
+    {
+      "module": "trees",
+      "id": "tree-diameter",
+      "order": 10,
+      "title": "Diameter of a Tree",
+      "oneLiner": "The longest path bends at exactly one node — find that node.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/trees/tree-diameter"
+    },
+    {
+      "module": "trees",
+      "id": "path-sum-variants",
+      "order": 11,
+      "title": "Path Sum Variants",
+      "oneLiner": "Same tree, three questions — and three different things to carry.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/trees/path-sum-variants"
+    },
+    {
+      "module": "trees",
+      "id": "serialize-and-deserialize",
+      "order": 12,
+      "title": "Serialize a Tree",
+      "oneLiner": "Write the gaps down and the shape survives the trip.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/trees/serialize-and-deserialize"
+    },
+    {
+      "module": "trees",
+      "id": "vertical-order-traversal",
+      "order": 13,
+      "title": "Vertical Order Traversal",
+      "oneLiner": "Give every node an x-coordinate and read the tree in columns.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/trees/vertical-order-traversal"
+    },
+    {
+      "module": "trees",
+      "id": "build-tree-from-traversals",
+      "order": 14,
+      "title": "Rebuild From Traversals",
+      "oneLiner": "Preorder names the root, inorder says where to cut.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/trees/build-tree-from-traversals"
+    },
+    {
       "module": "tries",
       "id": "trie-basics",
       "order": 1,
@@ -970,6 +1285,33 @@
       "oneLiner": "Hold k winners and let the weakest one guard the door.",
       "minutes": 6,
       "url": "https://bytepatterns.com/learn/heaps/top-k-elements"
+    },
+    {
+      "module": "heaps",
+      "id": "k-closest-points",
+      "order": 5,
+      "title": "K Closest Points",
+      "oneLiner": "Keep the k best by always evicting the current worst.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/heaps/k-closest-points"
+    },
+    {
+      "module": "heaps",
+      "id": "reorganize-a-string",
+      "order": 6,
+      "title": "Reorganize a String",
+      "oneLiner": "Spend the commonest letter first, and hold it back one round.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/heaps/reorganize-a-string"
+    },
+    {
+      "module": "heaps",
+      "id": "task-scheduler",
+      "order": 7,
+      "title": "Task Scheduler",
+      "oneLiner": "Same greedy pick, but now the loser has to sit out a cooldown.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/heaps/task-scheduler"
     },
     {
       "module": "two-heaps-k-way",
@@ -1078,6 +1420,78 @@
       "oneLiner": "Order the steps so nothing runs before what it depends on.",
       "minutes": 6,
       "url": "https://bytepatterns.com/learn/graphs/topological-sort"
+    },
+    {
+      "module": "graphs",
+      "id": "bellman-ford",
+      "order": 9,
+      "title": "Bellman-Ford",
+      "oneLiner": "Relax every edge, V-1 times, and negative weights stop being a problem.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/graphs/bellman-ford"
+    },
+    {
+      "module": "graphs",
+      "id": "kruskal-mst",
+      "order": 10,
+      "title": "Kruskal's Spanning Tree",
+      "oneLiner": "Buy the cheapest cable that joins two pieces you have not joined yet.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/graphs/kruskal-mst"
+    },
+    {
+      "module": "graphs",
+      "id": "prim-mst",
+      "order": 11,
+      "title": "Prim's Spanning Tree",
+      "oneLiner": "One tree that grows, always by its cheapest way out.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/graphs/prim-mst"
+    },
+    {
+      "module": "graphs",
+      "id": "bipartite-check",
+      "order": 12,
+      "title": "Bipartite Check",
+      "oneLiner": "Two colours, no neighbour sharing one — or the split is impossible.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/graphs/bipartite-check"
+    },
+    {
+      "module": "graphs",
+      "id": "directed-cycle-colours",
+      "order": 13,
+      "title": "Cycles in a Directed Graph",
+      "oneLiner": "Grey means still on the path — meet grey again and you have looped.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/graphs/directed-cycle-colours"
+    },
+    {
+      "module": "graphs",
+      "id": "implicit-graph-bfs",
+      "order": 14,
+      "title": "Graphs You Never Build",
+      "oneLiner": "Generate the neighbours on demand and BFS works the same.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/graphs/implicit-graph-bfs"
+    },
+    {
+      "module": "graphs",
+      "id": "multi-source-bfs",
+      "order": 15,
+      "title": "Multi-Source BFS",
+      "oneLiner": "Seed the queue with every source and one sweep answers them all.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/graphs/multi-source-bfs"
+    },
+    {
+      "module": "graphs",
+      "id": "strongly-connected-components",
+      "order": 16,
+      "title": "Strongly Connected Parts",
+      "oneLiner": "Groups where every node can reach every other — found in two passes.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/graphs/strongly-connected-components"
     },
     {
       "module": "matrix-grid",
@@ -1377,6 +1791,96 @@
       "url": "https://bytepatterns.com/learn/dynamic-programming/dp-on-grids"
     },
     {
+      "module": "dynamic-programming",
+      "id": "unbounded-knapsack",
+      "order": 11,
+      "title": "Unbounded Knapsack",
+      "oneLiner": "Same table, forward loop — and every item can be taken again.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/dynamic-programming/unbounded-knapsack"
+    },
+    {
+      "module": "dynamic-programming",
+      "id": "coin-change-ways",
+      "order": 12,
+      "title": "Counting Ways, Not Coins",
+      "oneLiner": "Loop coins on the outside and each combination is counted once.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/dynamic-programming/coin-change-ways"
+    },
+    {
+      "module": "dynamic-programming",
+      "id": "partition-equal-subset",
+      "order": 13,
+      "title": "Equal Split",
+      "oneLiner": "Can any subset hit exactly half the total? Track reachable sums.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/dynamic-programming/partition-equal-subset"
+    },
+    {
+      "module": "dynamic-programming",
+      "id": "house-robber-circle",
+      "order": 14,
+      "title": "House Robber in a Circle",
+      "oneLiner": "First and last are now neighbours, so run the line twice.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/dynamic-programming/house-robber-circle"
+    },
+    {
+      "module": "dynamic-programming",
+      "id": "lis-patience-tails",
+      "order": 15,
+      "title": "LIS in O(n log n)",
+      "oneLiner": "Keep the smallest possible ending for a chain of each length.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/dynamic-programming/lis-patience-tails"
+    },
+    {
+      "module": "dynamic-programming",
+      "id": "matrix-chain-order",
+      "order": 16,
+      "title": "Interval DP",
+      "oneLiner": "Answer every short stretch first, then split the long ones.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/dynamic-programming/matrix-chain-order"
+    },
+    {
+      "module": "dynamic-programming",
+      "id": "dp-on-trees",
+      "order": 17,
+      "title": "DP on Trees",
+      "oneLiner": "Every node returns two answers: taken, and not taken.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/dynamic-programming/dp-on-trees"
+    },
+    {
+      "module": "dynamic-programming",
+      "id": "word-break-dp",
+      "order": 18,
+      "title": "Word Break",
+      "oneLiner": "A prefix is splittable if some earlier cut leaves a real word.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/dynamic-programming/word-break-dp"
+    },
+    {
+      "module": "dynamic-programming",
+      "id": "reading-the-answer-back",
+      "order": 19,
+      "title": "Reading the Answer Back",
+      "oneLiner": "The table holds the score; walking it backwards holds the answer.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/dynamic-programming/reading-the-answer-back"
+    },
+    {
+      "module": "dynamic-programming",
+      "id": "stock-state-machine",
+      "order": 20,
+      "title": "DP as a State Machine",
+      "oneLiner": "Two running totals, one per state, updated day by day.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/dynamic-programming/stock-state-machine"
+    },
+    {
       "module": "system-design",
       "id": "what-is-system-design",
       "order": 1,
@@ -1510,6 +2014,24 @@
       "oneLiner": "Metrics say something broke; traces say where.",
       "minutes": 5,
       "url": "https://bytepatterns.com/learn/system-design/observability-basics"
+    },
+    {
+      "module": "system-design",
+      "id": "consistency-models",
+      "order": 16,
+      "title": "Consistency Models",
+      "oneLiner": "Same data, different promises about what a read may see.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/system-design/consistency-models"
+    },
+    {
+      "module": "system-design",
+      "id": "tracing-a-request",
+      "order": 17,
+      "title": "Tracing a Request",
+      "oneLiner": "One request, one tree of spans, one honest answer about the time.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/system-design/tracing-a-request"
     },
     {
       "module": "system-design-cases",
@@ -1827,6 +2349,96 @@
       "url": "https://bytepatterns.com/learn/ai-ml/evaluating-llms"
     },
     {
+      "module": "ai-ml",
+      "id": "chunking-and-reranking",
+      "order": 16,
+      "title": "Chunking and Reranking",
+      "oneLiner": "Retrieval quality is decided before the model reads a word.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/ai-ml/chunking-and-reranking"
+    },
+    {
+      "module": "ai-ml",
+      "id": "adapters-and-lora",
+      "order": 17,
+      "title": "Adapters and LoRA",
+      "oneLiner": "Train a thin correction instead of the whole weight matrix.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/ai-ml/adapters-and-lora"
+    },
+    {
+      "module": "ai-ml",
+      "id": "quantization",
+      "order": 18,
+      "title": "Quantization",
+      "oneLiner": "Store the weights in fewer bits and buy back memory bandwidth.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/ai-ml/quantization"
+    },
+    {
+      "module": "ai-ml",
+      "id": "approximate-nearest-neighbours",
+      "order": 19,
+      "title": "Approximate Neighbours",
+      "oneLiner": "Walk a graph of vectors instead of comparing all of them.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/ai-ml/approximate-nearest-neighbours"
+    },
+    {
+      "module": "ai-ml",
+      "id": "llm-as-a-judge",
+      "order": 20,
+      "title": "LLM as a Judge",
+      "oneLiner": "A model can grade answers — and quietly grade the wrong thing.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/ai-ml/llm-as-a-judge"
+    },
+    {
+      "module": "ai-ml",
+      "id": "the-tool-use-loop",
+      "order": 21,
+      "title": "The Tool-Use Loop",
+      "oneLiner": "The model proposes a call; your code decides whether it runs.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/ai-ml/the-tool-use-loop"
+    },
+    {
+      "module": "ai-ml",
+      "id": "guardrails",
+      "order": 22,
+      "title": "Guardrails",
+      "oneLiner": "Checks around the model, because the model is not the boundary.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/ai-ml/guardrails"
+    },
+    {
+      "module": "ai-ml",
+      "id": "bpe-vs-wordpiece",
+      "order": 23,
+      "title": "BPE vs WordPiece",
+      "oneLiner": "Two ways to decide which pair of pieces becomes one piece.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/ai-ml/bpe-vs-wordpiece"
+    },
+    {
+      "module": "ai-ml",
+      "id": "the-kv-cache",
+      "order": 24,
+      "title": "The KV Cache",
+      "oneLiner": "Keep the past keys and values so each new token is cheap.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/ai-ml/the-kv-cache"
+    },
+    {
+      "module": "ai-ml",
+      "id": "speculative-decoding",
+      "order": 25,
+      "title": "Speculative Decoding",
+      "oneLiner": "A small model guesses ahead; the big one checks in one pass.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/ai-ml/speculative-decoding"
+    },
+    {
       "module": "lld",
       "id": "what-is-lld",
       "order": 1,
@@ -2052,6 +2664,51 @@
       "url": "https://bytepatterns.com/learn/concurrency/designing-thread-safe-code"
     },
     {
+      "module": "concurrency",
+      "id": "backpressure",
+      "order": 11,
+      "title": "Backpressure",
+      "oneLiner": "An unbounded queue is not a buffer, it is a delayed crash.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/concurrency/backpressure"
+    },
+    {
+      "module": "concurrency",
+      "id": "detecting-deadlock",
+      "order": 12,
+      "title": "Detecting Deadlock",
+      "oneLiner": "Draw who waits for whom; a closed ring is the proof.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/concurrency/detecting-deadlock"
+    },
+    {
+      "module": "concurrency",
+      "id": "sizing-a-thread-pool",
+      "order": 13,
+      "title": "Sizing a Thread Pool",
+      "oneLiner": "More threads stop helping the moment the work stops waiting.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/concurrency/sizing-a-thread-pool"
+    },
+    {
+      "module": "concurrency",
+      "id": "blocking-the-event-loop",
+      "order": 14,
+      "title": "Blocking the Event Loop",
+      "oneLiner": "One thread runs everything, so one rude call stops the world.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/concurrency/blocking-the-event-loop"
+    },
+    {
+      "module": "concurrency",
+      "id": "compare-and-swap",
+      "order": 15,
+      "title": "Compare-and-Swap",
+      "oneLiner": "Publish the new value only if nobody changed the old one.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/concurrency/compare-and-swap"
+    },
+    {
       "module": "sql",
       "id": "sql-select-basics",
       "order": 1,
@@ -2142,6 +2799,51 @@
       "url": "https://bytepatterns.com/learn/sql/sql-n-plus-one-problem"
     },
     {
+      "module": "sql",
+      "id": "sql-window-functions",
+      "order": 11,
+      "title": "Window Functions",
+      "oneLiner": "Aggregate across rows without collapsing them.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/sql/sql-window-functions"
+    },
+    {
+      "module": "sql",
+      "id": "sql-ctes-and-recursion",
+      "order": 12,
+      "title": "CTEs and Recursion",
+      "oneLiner": "Name a result, then build the next one on top of it.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/sql/sql-ctes-and-recursion"
+    },
+    {
+      "module": "sql",
+      "id": "sql-composite-and-covering-indexes",
+      "order": 13,
+      "title": "Composite Indexes",
+      "oneLiner": "Column order decides which queries the index can serve.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/sql/sql-composite-and-covering-indexes"
+    },
+    {
+      "module": "sql",
+      "id": "sql-isolation-levels",
+      "order": 14,
+      "title": "Isolation Levels",
+      "oneLiner": "How much of another transaction's mess you are allowed to see.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/sql/sql-isolation-levels"
+    },
+    {
+      "module": "sql",
+      "id": "sql-reading-a-query-plan",
+      "order": 15,
+      "title": "Reading a Query Plan",
+      "oneLiner": "Stop guessing why it is slow — ask the engine what it did.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/sql/sql-reading-a-query-plan"
+    },
+    {
       "module": "behavioral",
       "id": "why-behavioral-matters",
       "order": 1,
@@ -2212,6 +2914,42 @@
       "oneLiner": "The habits that sink otherwise good candidates.",
       "minutes": 4,
       "url": "https://bytepatterns.com/learn/behavioral/red-flags-and-antipatterns"
+    },
+    {
+      "module": "behavioral",
+      "id": "cross-team-conflict",
+      "order": 9,
+      "title": "Cross-Team Conflict",
+      "oneLiner": "Nobody is wrong; two teams are graded on different numbers.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/behavioral/cross-team-conflict"
+    },
+    {
+      "module": "behavioral",
+      "id": "the-outage-story",
+      "order": 10,
+      "title": "The Outage Story",
+      "oneLiner": "What you did in the first ten minutes, and what you changed after.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/behavioral/the-outage-story"
+    },
+    {
+      "module": "behavioral",
+      "id": "influence-without-authority",
+      "order": 11,
+      "title": "Influence Without Authority",
+      "oneLiner": "You cannot tell anyone to do it, and it happened anyway.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/behavioral/influence-without-authority"
+    },
+    {
+      "module": "behavioral",
+      "id": "why-this-team",
+      "order": 12,
+      "title": "Why This Team",
+      "oneLiner": "An answer that could be about anyone is an answer about nobody.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/behavioral/why-this-team"
     }
   ],
   "problems": [
