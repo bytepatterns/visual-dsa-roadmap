@@ -17,7 +17,7 @@
     {
       "id": "structures",
       "title": "Data Structures",
-      "blurb": "Eight shapes for holding data, and the trade each one makes to be fast at something.",
+      "blurb": "Ten shapes for holding data, and the trade each one makes to be fast at something.",
       "modules": [
         "linked-lists",
         "stacks-queues",
@@ -25,18 +25,23 @@
         "trees",
         "tries",
         "heaps",
+        "two-heaps-k-way",
         "graphs",
+        "matrix-grid",
         "union-find"
       ]
     },
     {
       "id": "algorithms",
       "title": "Algorithms",
-      "blurb": "Recursion, then recursion with a memo — plus the sweep-line and bit tricks that are pure technique.",
+      "blurb": "Recursion, backtracking and greedy choices, then recursion with a memo — plus the sweep-line, bit and number tricks that are pure technique.",
       "modules": [
         "recursion",
+        "backtracking",
+        "greedy",
         "intervals",
         "bit-manipulation",
+        "math-number-theory",
         "dynamic-programming"
       ]
     },
@@ -125,94 +130,124 @@
       "order": 9
     },
     {
+      "id": "backtracking",
+      "title": "Backtracking",
+      "blurb": "Try a choice, go deeper, undo it — and prune the branches that cannot win.",
+      "order": 10
+    },
+    {
+      "id": "greedy",
+      "title": "Greedy",
+      "blurb": "Take the best local move and see exactly when that is enough.",
+      "order": 11
+    },
+    {
       "id": "trees",
       "title": "Trees & BST",
       "blurb": "Hierarchies, ordered searches, and the paths between nodes.",
-      "order": 10
+      "order": 12
     },
     {
       "id": "tries",
       "title": "Tries",
       "blurb": "A tree of prefixes: autocomplete, word search and spell-check in one shape.",
-      "order": 11
+      "order": 13
     },
     {
       "id": "heaps",
       "title": "Heaps",
       "blurb": "Keep the most important thing on top — without sorting the rest.",
-      "order": 12
+      "order": 14
+    },
+    {
+      "id": "two-heaps-k-way",
+      "title": "Two Heaps & K-Way Merge",
+      "blurb": "Two heaps that lean on each other, and one that merges k sorted streams.",
+      "order": 15
     },
     {
       "id": "graphs",
       "title": "Graphs",
       "blurb": "Nodes, edges, and the searches that ripple across them.",
-      "order": 13
+      "order": 16
+    },
+    {
+      "id": "matrix-grid",
+      "title": "Matrix & Grid",
+      "blurb": "Rows, columns and neighbours — the grid problems interviews keep drawing.",
+      "order": 17
     },
     {
       "id": "union-find",
       "title": "Union-Find",
       "blurb": "Merge groups in near-constant time, then ask who belongs together.",
-      "order": 14
+      "order": 18
     },
     {
       "id": "intervals",
       "title": "Intervals",
       "blurb": "Sort by start, sweep once — merges, overlaps and meeting rooms fall out.",
-      "order": 15
+      "order": 19
     },
     {
       "id": "bit-manipulation",
       "title": "Bit Manipulation",
       "blurb": "Flip, mask and shift — the tricks that turn a loop into one instruction.",
-      "order": 16
+      "order": 20
+    },
+    {
+      "id": "math-number-theory",
+      "title": "Math & Number Theory",
+      "blurb": "Modular arithmetic, primes and fast powers, drawn so the shortcuts make sense.",
+      "order": 21
     },
     {
       "id": "dynamic-programming",
       "title": "Dynamic Programming",
       "blurb": "Solve every subproblem once, then let the table do the work.",
-      "order": 17
+      "order": 22
     },
     {
       "id": "system-design",
       "title": "System Design",
       "blurb": "Scale, cache, shard — and know what each choice costs you.",
-      "order": 18
+      "order": 23
     },
     {
       "id": "system-design-cases",
       "title": "System Design Cases",
       "blurb": "Design a URL shortener, a chat app, a feed — the interview round, end to end.",
-      "order": 19
+      "order": 24
     },
     {
       "id": "ai-ml",
       "title": "AI & ML",
       "blurb": "From embeddings to agents — see how modern AI actually works.",
-      "order": 20
+      "order": 25
     },
     {
       "id": "lld",
       "title": "Low-Level Design",
       "blurb": "Objects, interfaces and patterns that survive the follow-up question.",
-      "order": 21
+      "order": 26
     },
     {
       "id": "concurrency",
       "title": "Concurrency",
       "blurb": "Threads, locks and races — watch the interleavings that bite.",
-      "order": 22
+      "order": 27
     },
     {
       "id": "sql",
       "title": "SQL",
       "blurb": "Queries you can watch run — joins, groups, indexes, transactions.",
-      "order": 23
+      "order": 28
     },
     {
       "id": "behavioral",
       "title": "Behavioral",
       "blurb": "Tell true stories that carry signal — and skip the traps.",
-      "order": 24
+      "order": 29
     }
   ],
   "lessons": [
@@ -703,6 +738,96 @@
       "url": "https://bytepatterns.com/learn/recursion/backtracking-intro"
     },
     {
+      "module": "backtracking",
+      "id": "backtracking-decision-tree",
+      "order": 1,
+      "title": "The Decision Tree",
+      "oneLiner": "Choose, explore, un-choose — one shared path walks the whole tree.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/backtracking/backtracking-decision-tree"
+    },
+    {
+      "module": "backtracking",
+      "id": "subsets-include-exclude",
+      "order": 2,
+      "title": "Subsets",
+      "oneLiner": "Two branches per item: leave it out, or take it.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/backtracking/subsets-include-exclude"
+    },
+    {
+      "module": "backtracking",
+      "id": "permutations-used-set",
+      "order": 3,
+      "title": "Permutations",
+      "oneLiner": "Every unused value is a branch; the used set is the pruning.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/backtracking/permutations-used-set"
+    },
+    {
+      "module": "backtracking",
+      "id": "n-queens-rows",
+      "order": 4,
+      "title": "N-Queens",
+      "oneLiner": "One queen per row, and a dead row sends you straight back up.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/backtracking/n-queens-rows"
+    },
+    {
+      "module": "backtracking",
+      "id": "word-search-pruning",
+      "order": 5,
+      "title": "Word Search & Pruning",
+      "oneLiner": "Walk the grid, block the cell, and quit on the first wrong letter.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/backtracking/word-search-pruning"
+    },
+    {
+      "module": "greedy",
+      "id": "greedy-when-it-works",
+      "order": 1,
+      "title": "What Makes Greedy Work",
+      "oneLiner": "Take the best move now — but only when it can never block a better answer.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/greedy/greedy-when-it-works"
+    },
+    {
+      "module": "greedy",
+      "id": "interval-scheduling-greedy",
+      "order": 2,
+      "title": "Interval Scheduling",
+      "oneLiner": "Sort by finishing time and the room books itself.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/greedy/interval-scheduling-greedy"
+    },
+    {
+      "module": "greedy",
+      "id": "jump-game-reach",
+      "order": 3,
+      "title": "Jump Game",
+      "oneLiner": "Carry one number: the furthest index still in reach.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/greedy/jump-game-reach"
+    },
+    {
+      "module": "greedy",
+      "id": "gas-station-start",
+      "order": 4,
+      "title": "Gas Station",
+      "oneLiner": "One pass picks the start, because every failed prefix is proof.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/greedy/gas-station-start"
+    },
+    {
+      "module": "greedy",
+      "id": "huffman-intuition",
+      "order": 5,
+      "title": "Huffman Intuition",
+      "oneLiner": "Merge the two rarest symbols, again and again, and the code writes itself.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/greedy/huffman-intuition"
+    },
+    {
       "module": "trees",
       "id": "tree-basics",
       "order": 1,
@@ -847,6 +972,42 @@
       "url": "https://bytepatterns.com/learn/heaps/top-k-elements"
     },
     {
+      "module": "two-heaps-k-way",
+      "id": "two-heaps-running-median",
+      "order": 1,
+      "title": "Two Heaps: Running Median",
+      "oneLiner": "Two heaps face each other, and the middle sits between their roots.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/two-heaps-k-way/two-heaps-running-median"
+    },
+    {
+      "module": "two-heaps-k-way",
+      "id": "k-way-merge",
+      "order": 2,
+      "title": "K-Way Merge",
+      "oneLiner": "One heap of k heads turns k sorted lists into one.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/two-heaps-k-way/k-way-merge"
+    },
+    {
+      "module": "two-heaps-k-way",
+      "id": "top-k-frequent-stream",
+      "order": 3,
+      "title": "Top K in a Stream",
+      "oneLiner": "Count once, then let a k-sized heap keep only the winners.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/two-heaps-k-way/top-k-frequent-stream"
+    },
+    {
+      "module": "two-heaps-k-way",
+      "id": "sliding-window-median",
+      "order": 4,
+      "title": "Sliding Window Median",
+      "oneLiner": "You cannot dig a value out of a heap — so mark it dead instead.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/two-heaps-k-way/sliding-window-median"
+    },
+    {
       "module": "graphs",
       "id": "graph-basics",
       "order": 1,
@@ -917,6 +1078,51 @@
       "oneLiner": "Order the steps so nothing runs before what it depends on.",
       "minutes": 6,
       "url": "https://bytepatterns.com/learn/graphs/topological-sort"
+    },
+    {
+      "module": "matrix-grid",
+      "id": "grid-traversal-neighbours",
+      "order": 1,
+      "title": "Grid Traversal",
+      "oneLiner": "Row first, column second, and always check the edge.",
+      "minutes": 4,
+      "url": "https://bytepatterns.com/learn/matrix-grid/grid-traversal-neighbours"
+    },
+    {
+      "module": "matrix-grid",
+      "id": "grid-spiral-order",
+      "order": 2,
+      "title": "Spiral Order",
+      "oneLiner": "Four walls that close in after every pass.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/matrix-grid/grid-spiral-order"
+    },
+    {
+      "module": "matrix-grid",
+      "id": "grid-rotate-in-place",
+      "order": 3,
+      "title": "Rotate In Place",
+      "oneLiner": "Mirror the diagonal, then flip each row.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/matrix-grid/grid-rotate-in-place"
+    },
+    {
+      "module": "matrix-grid",
+      "id": "grid-island-count",
+      "order": 4,
+      "title": "Number of Islands",
+      "oneLiner": "Count a blob once, then erase it so it cannot count twice.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/matrix-grid/grid-island-count"
+    },
+    {
+      "module": "matrix-grid",
+      "id": "grid-flood-fill",
+      "order": 5,
+      "title": "Flood Fill",
+      "oneLiner": "Spread while the colour matches, stop the moment it does not.",
+      "minutes": 4,
+      "url": "https://bytepatterns.com/learn/matrix-grid/grid-flood-fill"
     },
     {
       "module": "union-find",
@@ -1034,6 +1240,51 @@
       "oneLiner": "An integer is a subset; counting to 2^n lists them all.",
       "minutes": 5,
       "url": "https://bytepatterns.com/learn/bit-manipulation/bitmask-as-a-set"
+    },
+    {
+      "module": "math-number-theory",
+      "id": "modular-arithmetic",
+      "order": 1,
+      "title": "Modular Arithmetic",
+      "oneLiner": "A remainder is a position on a clock, not a leftover.",
+      "minutes": 4,
+      "url": "https://bytepatterns.com/learn/math-number-theory/modular-arithmetic"
+    },
+    {
+      "module": "math-number-theory",
+      "id": "gcd-euclid",
+      "order": 2,
+      "title": "GCD and Euclid",
+      "oneLiner": "Replace the pair with the leftover and it shrinks fast.",
+      "minutes": 4,
+      "url": "https://bytepatterns.com/learn/math-number-theory/gcd-euclid"
+    },
+    {
+      "module": "math-number-theory",
+      "id": "sieve-of-eratosthenes",
+      "order": 3,
+      "title": "Sieve of Eratosthenes",
+      "oneLiner": "Cross out what the primes can reach; the rest are prime.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/math-number-theory/sieve-of-eratosthenes"
+    },
+    {
+      "module": "math-number-theory",
+      "id": "fast-exponentiation",
+      "order": 4,
+      "title": "Fast Exponentiation",
+      "oneLiner": "Square your way up instead of multiplying n times.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/math-number-theory/fast-exponentiation"
+    },
+    {
+      "module": "math-number-theory",
+      "id": "counting-permutations-combinations",
+      "order": 5,
+      "title": "Permutations vs Combinations",
+      "oneLiner": "Divide by k! the moment order stops mattering.",
+      "minutes": 5,
+      "url": "https://bytepatterns.com/learn/math-number-theory/counting-permutations-combinations"
     },
     {
       "module": "dynamic-programming",
@@ -1351,6 +1602,96 @@
       "url": "https://bytepatterns.com/learn/system-design-cases/design-payment-ledger"
     },
     {
+      "module": "system-design-cases",
+      "id": "design-job-scheduler",
+      "order": 11,
+      "title": "Design a Job Scheduler",
+      "oneLiner": "The worker died mid-job. The ticket goes back on the rail.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-job-scheduler"
+    },
+    {
+      "module": "system-design-cases",
+      "id": "design-geo-proximity-search",
+      "order": 12,
+      "title": "Design Geo Proximity Search",
+      "oneLiner": "Two numbers, one index: fold a map down into a sorted string.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-geo-proximity-search"
+    },
+    {
+      "module": "system-design-cases",
+      "id": "design-ecommerce-inventory",
+      "order": 13,
+      "title": "Design E-commerce Inventory",
+      "oneLiner": "One unit left, two carts, and only one of them may hear yes.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-ecommerce-inventory"
+    },
+    {
+      "module": "system-design-cases",
+      "id": "design-ad-click-aggregation",
+      "order": 14,
+      "title": "Design Ad Click Aggregation",
+      "oneLiner": "The same click arrives twice, late, and out of order.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-ad-click-aggregation"
+    },
+    {
+      "module": "system-design-cases",
+      "id": "design-distributed-cache",
+      "order": 15,
+      "title": "Design a Distributed Cache",
+      "oneLiner": "A ring of machines where losing one moves only its own arc.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-distributed-cache"
+    },
+    {
+      "module": "system-design-cases",
+      "id": "design-key-value-store",
+      "order": 16,
+      "title": "Design a Key-Value Store",
+      "oneLiner": "Three copies, two acks, two reads — the sets have to overlap.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-key-value-store"
+    },
+    {
+      "module": "system-design-cases",
+      "id": "design-web-crawler",
+      "order": 17,
+      "title": "Design a Web Crawler",
+      "oneLiner": "A billion pages, one polite knock per host, nothing fetched twice.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-web-crawler"
+    },
+    {
+      "module": "system-design-cases",
+      "id": "design-leaderboard",
+      "order": 18,
+      "title": "Design a Leaderboard",
+      "oneLiner": "Keep it sorted on the way in, and the top hundred is free.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-leaderboard"
+    },
+    {
+      "module": "system-design-cases",
+      "id": "design-hotel-booking",
+      "order": 19,
+      "title": "Design Hotel Booking",
+      "oneLiner": "Four nights or none — a partial stay is not a booking.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-hotel-booking"
+    },
+    {
+      "module": "system-design-cases",
+      "id": "design-collaborative-editor",
+      "order": 20,
+      "title": "Design a Collaborative Editor",
+      "oneLiner": "Both typing in one paragraph, both landing on the same text.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-collaborative-editor"
+    },
+    {
       "module": "ai-ml",
       "id": "what-is-machine-learning",
       "order": 1,
@@ -1574,6 +1915,51 @@
       "oneLiner": "The classic interview warm-up, answered in objects rather than adjectives.",
       "minutes": 6,
       "url": "https://bytepatterns.com/learn/lld/designing-a-parking-lot"
+    },
+    {
+      "module": "lld",
+      "id": "designing-a-file-system",
+      "order": 11,
+      "title": "Designing a File System",
+      "oneLiner": "One contract answered by both a leaf and a whole subtree.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/lld/designing-a-file-system"
+    },
+    {
+      "module": "lld",
+      "id": "elevator-controller",
+      "order": 12,
+      "title": "Elevator Controller",
+      "oneLiner": "The car has a direction, and the direction answers the buttons.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/lld/elevator-controller"
+    },
+    {
+      "module": "lld",
+      "id": "lru-cache-design",
+      "order": 13,
+      "title": "LRU Cache",
+      "oneLiner": "A map that can find, a list that can reorder, one object.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/lld/lru-cache-design"
+    },
+    {
+      "module": "lld",
+      "id": "vending-machine-design",
+      "order": 14,
+      "title": "Vending Machine",
+      "oneLiner": "Four small objects, each one only answering for its own moment.",
+      "minutes": 6,
+      "url": "https://bytepatterns.com/learn/lld/vending-machine-design"
+    },
+    {
+      "module": "lld",
+      "id": "chess-board-model",
+      "order": 15,
+      "title": "Chess Board Model",
+      "oneLiner": "The piece owns its shape; the board owns who is standing where.",
+      "minutes": 7,
+      "url": "https://bytepatterns.com/learn/lld/chess-board-model"
     },
     {
       "module": "concurrency",
@@ -1999,6 +2385,32 @@
       "url": "https://bytepatterns.com/practice/strings/minimum-window-cover"
     },
     {
+      "topic": "strings",
+      "id": "group-anagrams-together",
+      "order": 6,
+      "title": "Group Anagrams Together",
+      "difficulty": "medium",
+      "patterns": [
+        "hash-map",
+        "canonical-form"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/strings/group-anagrams-together"
+    },
+    {
+      "topic": "strings",
+      "id": "repeated-dna-sequences",
+      "order": 7,
+      "title": "Repeated DNA Sequences",
+      "difficulty": "medium",
+      "patterns": [
+        "rolling-hash",
+        "hash-set"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/strings/repeated-dna-sequences"
+    },
+    {
       "topic": "searching",
       "id": "integer-square-root",
       "order": 1,
@@ -2038,6 +2450,32 @@
       "url": "https://bytepatterns.com/practice/searching/median-of-two-sorted-lists"
     },
     {
+      "topic": "searching",
+      "id": "first-and-last-occurrence",
+      "order": 4,
+      "title": "First And Last Occurrence",
+      "difficulty": "medium",
+      "patterns": [
+        "binary-search",
+        "boundary-search"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/searching/first-and-last-occurrence"
+    },
+    {
+      "topic": "searching",
+      "id": "minimum-daily-capacity",
+      "order": 5,
+      "title": "Minimum Daily Capacity",
+      "difficulty": "medium",
+      "patterns": [
+        "binary-search-on-answer",
+        "greedy-check"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/searching/minimum-daily-capacity"
+    },
+    {
       "topic": "sorting",
       "id": "out-of-place-count",
       "order": 1,
@@ -2075,6 +2513,32 @@
       ],
       "minutes": 30,
       "url": "https://bytepatterns.com/practice/sorting/largest-number-arrangement"
+    },
+    {
+      "topic": "sorting",
+      "id": "h-index-citations",
+      "order": 4,
+      "title": "H Index From Citations",
+      "difficulty": "medium",
+      "patterns": [
+        "sorting",
+        "counting"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/sorting/h-index-citations"
+    },
+    {
+      "topic": "sorting",
+      "id": "maximum-gap-buckets",
+      "order": 5,
+      "title": "Maximum Gap Buckets",
+      "difficulty": "hard",
+      "patterns": [
+        "bucket-sort",
+        "pigeonhole"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/sorting/maximum-gap-buckets"
     },
     {
       "topic": "linked-lists",
@@ -2296,6 +2760,124 @@
       "url": "https://bytepatterns.com/practice/hash-tables/four-list-zero-tuples"
     },
     {
+      "topic": "recursion",
+      "id": "flatten-nested-counts",
+      "order": 1,
+      "title": "Flatten a Nested List",
+      "difficulty": "easy",
+      "patterns": [
+        "recursion",
+        "tree-walk"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/recursion/flatten-nested-counts"
+    },
+    {
+      "topic": "recursion",
+      "id": "disc-tower-moves",
+      "order": 2,
+      "title": "Disc Tower Moves",
+      "difficulty": "medium",
+      "patterns": [
+        "recursion",
+        "divide-and-conquer"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/recursion/disc-tower-moves"
+    },
+    {
+      "topic": "recursion",
+      "id": "fast-power-of-a-number",
+      "order": 3,
+      "title": "Fast Power",
+      "difficulty": "medium",
+      "patterns": [
+        "recursion",
+        "divide-and-conquer"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/recursion/fast-power-of-a-number"
+    },
+    {
+      "topic": "backtracking",
+      "id": "phone-keypad-words",
+      "order": 1,
+      "title": "Phone Keypad Words",
+      "difficulty": "medium",
+      "patterns": [
+        "backtracking",
+        "decision-tree"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/backtracking/phone-keypad-words"
+    },
+    {
+      "topic": "backtracking",
+      "id": "combinations-summing-to-target",
+      "order": 2,
+      "title": "Combinations That Sum",
+      "difficulty": "medium",
+      "patterns": [
+        "backtracking",
+        "pruning"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/backtracking/combinations-summing-to-target"
+    },
+    {
+      "topic": "backtracking",
+      "id": "split-into-palindrome-pieces",
+      "order": 3,
+      "title": "Split Into Palindromes",
+      "difficulty": "medium",
+      "patterns": [
+        "backtracking",
+        "pruning"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/backtracking/split-into-palindrome-pieces"
+    },
+    {
+      "topic": "greedy",
+      "id": "fewest-removals-to-unclash",
+      "order": 1,
+      "title": "Fewest Removals to Unclash",
+      "difficulty": "medium",
+      "patterns": [
+        "greedy",
+        "interval-scheduling",
+        "sorting"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/greedy/fewest-removals-to-unclash"
+    },
+    {
+      "topic": "greedy",
+      "id": "fewest-hops-to-the-end",
+      "order": 2,
+      "title": "Fewest Hops to the End",
+      "difficulty": "medium",
+      "patterns": [
+        "greedy",
+        "reach-frontier"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/greedy/fewest-hops-to-the-end"
+    },
+    {
+      "topic": "greedy",
+      "id": "split-string-into-blocks",
+      "order": 3,
+      "title": "Split String Into Blocks",
+      "difficulty": "medium",
+      "patterns": [
+        "greedy",
+        "last-occurrence"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/greedy/split-string-into-blocks"
+    },
+    {
       "topic": "trees",
       "id": "deepest-level-count",
       "order": 1,
@@ -2388,6 +2970,45 @@
       "url": "https://bytepatterns.com/practice/trees/rebuild-from-two-walks"
     },
     {
+      "topic": "tries",
+      "id": "wildcard-word-search",
+      "order": 1,
+      "title": "Wildcard Word Search",
+      "difficulty": "medium",
+      "patterns": [
+        "trie",
+        "backtracking"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/tries/wildcard-word-search"
+    },
+    {
+      "topic": "tries",
+      "id": "replace-words-with-roots",
+      "order": 2,
+      "title": "Replace Words With Roots",
+      "difficulty": "medium",
+      "patterns": [
+        "trie",
+        "prefix-match"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/tries/replace-words-with-roots"
+    },
+    {
+      "topic": "tries",
+      "id": "maximum-xor-pair",
+      "order": 3,
+      "title": "Maximum XOR Pair",
+      "difficulty": "hard",
+      "patterns": [
+        "bit-trie",
+        "greedy"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/tries/maximum-xor-pair"
+    },
+    {
       "topic": "heaps",
       "id": "kth-largest-value",
       "order": 1,
@@ -2438,6 +3059,71 @@
       ],
       "minutes": 45,
       "url": "https://bytepatterns.com/practice/heaps/running-median-stream"
+    },
+    {
+      "topic": "heaps",
+      "id": "task-scheduler-cooldown",
+      "order": 5,
+      "title": "Task Scheduler Cooldown",
+      "difficulty": "medium",
+      "patterns": [
+        "heap",
+        "greedy"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/heaps/task-scheduler-cooldown"
+    },
+    {
+      "topic": "heaps",
+      "id": "reorganize-string-gaps",
+      "order": 6,
+      "title": "Reorganize String Gaps",
+      "difficulty": "medium",
+      "patterns": [
+        "heap",
+        "greedy"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/heaps/reorganize-string-gaps"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "kth-smallest-in-sorted-matrix",
+      "order": 1,
+      "title": "Kth Smallest In Matrix",
+      "difficulty": "medium",
+      "patterns": [
+        "k-way-merge",
+        "heap"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/kth-smallest-in-sorted-matrix"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "smallest-range-k-lists",
+      "order": 2,
+      "title": "Smallest Range K Lists",
+      "difficulty": "hard",
+      "patterns": [
+        "k-way-merge",
+        "sliding-window"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/smallest-range-k-lists"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "capital-project-picks",
+      "order": 3,
+      "title": "Capital Project Picks",
+      "difficulty": "hard",
+      "patterns": [
+        "two-heaps",
+        "greedy"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/capital-project-picks"
     },
     {
       "topic": "graphs",
@@ -2533,6 +3219,123 @@
       "url": "https://bytepatterns.com/practice/graphs/two-colour-split-check"
     },
     {
+      "topic": "matrix-grid",
+      "id": "island-perimeter-walk",
+      "order": 1,
+      "title": "Perimeter Of An Island",
+      "difficulty": "easy",
+      "patterns": [
+        "grid-scan",
+        "neighbour-check"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/matrix-grid/island-perimeter-walk"
+    },
+    {
+      "topic": "matrix-grid",
+      "id": "zero-out-rows-and-columns",
+      "order": 2,
+      "title": "Zero Out Rows And Columns",
+      "difficulty": "medium",
+      "patterns": [
+        "grid-marking",
+        "in-place"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/matrix-grid/zero-out-rows-and-columns"
+    },
+    {
+      "topic": "matrix-grid",
+      "id": "staircase-grid-search",
+      "order": 3,
+      "title": "Search A Sorted Grid",
+      "difficulty": "medium",
+      "patterns": [
+        "staircase-walk",
+        "grid-search"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/matrix-grid/staircase-grid-search"
+    },
+    {
+      "topic": "union-find",
+      "id": "count-provinces",
+      "order": 1,
+      "title": "Count Provinces",
+      "difficulty": "medium",
+      "patterns": [
+        "union-find",
+        "connected-components"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/union-find/count-provinces"
+    },
+    {
+      "topic": "union-find",
+      "id": "redundant-connection",
+      "order": 2,
+      "title": "Redundant Connection",
+      "difficulty": "medium",
+      "patterns": [
+        "union-find",
+        "cycle-detection"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/union-find/redundant-connection"
+    },
+    {
+      "topic": "union-find",
+      "id": "accounts-merge-emails",
+      "order": 3,
+      "title": "Accounts Merge By Email",
+      "difficulty": "hard",
+      "patterns": [
+        "union-find",
+        "hash-map"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/union-find/accounts-merge-emails"
+    },
+    {
+      "topic": "intervals",
+      "id": "non-overlapping-removals",
+      "order": 1,
+      "title": "Non Overlapping Removals",
+      "difficulty": "medium",
+      "patterns": [
+        "intervals",
+        "greedy"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/intervals/non-overlapping-removals"
+    },
+    {
+      "topic": "intervals",
+      "id": "employee-free-time",
+      "order": 2,
+      "title": "Employee Free Time",
+      "difficulty": "hard",
+      "patterns": [
+        "intervals",
+        "merge"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/intervals/employee-free-time"
+    },
+    {
+      "topic": "intervals",
+      "id": "car-pooling-capacity",
+      "order": 3,
+      "title": "Car Pooling Capacity",
+      "difficulty": "medium",
+      "patterns": [
+        "intervals",
+        "sweep-line"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/intervals/car-pooling-capacity"
+    },
+    {
       "topic": "bit-manipulation",
       "id": "reverse-bit-order",
       "order": 1,
@@ -2557,6 +3360,58 @@
       ],
       "minutes": 30,
       "url": "https://bytepatterns.com/practice/bit-manipulation/single-value-among-triples"
+    },
+    {
+      "topic": "bit-manipulation",
+      "id": "missing-value-in-range",
+      "order": 3,
+      "title": "The Missing Value",
+      "difficulty": "easy",
+      "patterns": [
+        "xor-cancel",
+        "single-pass"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/bit-manipulation/missing-value-in-range"
+    },
+    {
+      "topic": "math-number-theory",
+      "id": "factorial-trailing-zeros",
+      "order": 1,
+      "title": "Trailing Zeros Of A Factorial",
+      "difficulty": "easy",
+      "patterns": [
+        "factor-counting",
+        "math"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/math-number-theory/factorial-trailing-zeros"
+    },
+    {
+      "topic": "math-number-theory",
+      "id": "primes-below-limit",
+      "order": 2,
+      "title": "Primes Below A Limit",
+      "difficulty": "medium",
+      "patterns": [
+        "sieve",
+        "precomputation"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/math-number-theory/primes-below-limit"
+    },
+    {
+      "topic": "math-number-theory",
+      "id": "power-under-modulus",
+      "order": 3,
+      "title": "Power Under A Modulus",
+      "difficulty": "medium",
+      "patterns": [
+        "fast-exponentiation",
+        "modular-arithmetic"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/math-number-theory/power-under-modulus"
     },
     {
       "topic": "dynamic-programming",
