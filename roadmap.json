@@ -3537,6 +3537,45 @@
       "url": "https://bytepatterns.com/practice/recursion/fast-power-of-a-number"
     },
     {
+      "topic": "recursion",
+      "id": "depth-weighted-nested-sum",
+      "order": 4,
+      "title": "Depth Weighted Nested Sum",
+      "difficulty": "easy",
+      "patterns": [
+        "recursion",
+        "pass-down"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/recursion/depth-weighted-nested-sum"
+    },
+    {
+      "topic": "recursion",
+      "id": "doubling-row-symbol",
+      "order": 5,
+      "title": "Symbol In A Doubling Row",
+      "difficulty": "medium",
+      "patterns": [
+        "recursion",
+        "halving"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/recursion/doubling-row-symbol"
+    },
+    {
+      "topic": "recursion",
+      "id": "every-way-to-bracket",
+      "order": 6,
+      "title": "Every Way To Bracket",
+      "difficulty": "medium",
+      "patterns": [
+        "divide-and-conquer",
+        "memoization"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/recursion/every-way-to-bracket"
+    },
+    {
       "topic": "backtracking",
       "id": "phone-keypad-words",
       "order": 1,
@@ -3574,6 +3613,45 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/backtracking/split-into-palindrome-pieces"
+    },
+    {
+      "topic": "backtracking",
+      "id": "flip-letter-case-variants",
+      "order": 4,
+      "title": "Flip Letter Case Variants",
+      "difficulty": "easy",
+      "patterns": [
+        "backtracking",
+        "include-exclude"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/backtracking/flip-letter-case-variants"
+    },
+    {
+      "topic": "backtracking",
+      "id": "balanced-bracket-strings",
+      "order": 5,
+      "title": "Balanced Bracket Strings",
+      "difficulty": "medium",
+      "patterns": [
+        "backtracking",
+        "pruning"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/backtracking/balanced-bracket-strings"
+    },
+    {
+      "topic": "backtracking",
+      "id": "count-queen-placements",
+      "order": 6,
+      "title": "Count Queen Placements",
+      "difficulty": "hard",
+      "patterns": [
+        "backtracking",
+        "constraint-sets"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/backtracking/count-queen-placements"
     },
     {
       "topic": "greedy",
@@ -3614,6 +3692,46 @@
       ],
       "minutes": 20,
       "url": "https://bytepatterns.com/practice/greedy/split-string-into-blocks"
+    },
+    {
+      "topic": "greedy",
+      "id": "hand-out-cookies",
+      "order": 4,
+      "title": "Hand Out Cookies",
+      "difficulty": "easy",
+      "patterns": [
+        "greedy",
+        "sorting",
+        "two-pointers"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/greedy/hand-out-cookies"
+    },
+    {
+      "topic": "greedy",
+      "id": "circular-fuel-route",
+      "order": 5,
+      "title": "Circular Fuel Route",
+      "difficulty": "medium",
+      "patterns": [
+        "greedy",
+        "running-sum"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/greedy/circular-fuel-route"
+    },
+    {
+      "topic": "greedy",
+      "id": "fair-candy-shares",
+      "order": 6,
+      "title": "Fair Candy Shares",
+      "difficulty": "hard",
+      "patterns": [
+        "greedy",
+        "two-pass"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/greedy/fair-candy-shares"
     },
     {
       "topic": "trees",
@@ -3747,6 +3865,46 @@
       "url": "https://bytepatterns.com/practice/tries/maximum-xor-pair"
     },
     {
+      "topic": "tries",
+      "id": "prefix-tree-operations",
+      "order": 4,
+      "title": "Prefix Tree Operations",
+      "difficulty": "easy",
+      "patterns": [
+        "trie",
+        "design"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/tries/prefix-tree-operations"
+    },
+    {
+      "topic": "tries",
+      "id": "typeahead-top-three",
+      "order": 5,
+      "title": "Typeahead Top Three",
+      "difficulty": "medium",
+      "patterns": [
+        "trie",
+        "prefix-match"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/tries/typeahead-top-three"
+    },
+    {
+      "topic": "tries",
+      "id": "dictionary-words-in-grid",
+      "order": 6,
+      "title": "Dictionary Words In A Grid",
+      "difficulty": "hard",
+      "patterns": [
+        "trie",
+        "backtracking",
+        "grid-dfs"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/tries/dictionary-words-in-grid"
+    },
+    {
       "topic": "heaps",
       "id": "kth-largest-value",
       "order": 1,
@@ -3862,6 +4020,46 @@
       ],
       "minutes": 40,
       "url": "https://bytepatterns.com/practice/two-heaps-k-way/capital-project-picks"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "merge-k-sorted-runs",
+      "order": 4,
+      "title": "Merge K Sorted Runs",
+      "difficulty": "easy",
+      "patterns": [
+        "k-way-merge",
+        "min-heap"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/merge-k-sorted-runs"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "k-smallest-pair-sums",
+      "order": 5,
+      "title": "K Smallest Pair Sums",
+      "difficulty": "medium",
+      "patterns": [
+        "k-way-merge",
+        "min-heap"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/k-smallest-pair-sums"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "rolling-window-median",
+      "order": 6,
+      "title": "Rolling Window Median",
+      "difficulty": "hard",
+      "patterns": [
+        "two-heaps",
+        "lazy-deletion",
+        "sliding-window"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/rolling-window-median"
     },
     {
       "topic": "graphs",
@@ -3996,6 +4194,45 @@
       "url": "https://bytepatterns.com/practice/matrix-grid/staircase-grid-search"
     },
     {
+      "topic": "matrix-grid",
+      "id": "repaint-connected-region",
+      "order": 4,
+      "title": "Repaint A Connected Region",
+      "difficulty": "easy",
+      "patterns": [
+        "flood-fill",
+        "dfs"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/matrix-grid/repaint-connected-region"
+    },
+    {
+      "topic": "matrix-grid",
+      "id": "rotate-square-grid",
+      "order": 5,
+      "title": "Rotate A Square Grid",
+      "difficulty": "medium",
+      "patterns": [
+        "in-place",
+        "transpose-reverse"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/matrix-grid/rotate-square-grid"
+    },
+    {
+      "topic": "matrix-grid",
+      "id": "longest-climbing-path",
+      "order": 6,
+      "title": "Longest Climbing Path",
+      "difficulty": "hard",
+      "patterns": [
+        "grid-dfs",
+        "memoization"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/matrix-grid/longest-climbing-path"
+    },
+    {
       "topic": "union-find",
       "id": "count-provinces",
       "order": 1,
@@ -4033,6 +4270,45 @@
       ],
       "minutes": 45,
       "url": "https://bytepatterns.com/practice/union-find/accounts-merge-emails"
+    },
+    {
+      "topic": "union-find",
+      "id": "reachable-pair-check",
+      "order": 4,
+      "title": "Reachable Pair Check",
+      "difficulty": "easy",
+      "patterns": [
+        "union-find",
+        "connectivity"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/union-find/reachable-pair-check"
+    },
+    {
+      "topic": "union-find",
+      "id": "consistent-equalities",
+      "order": 5,
+      "title": "Consistent Equalities",
+      "difficulty": "medium",
+      "patterns": [
+        "union-find",
+        "two-phase"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/union-find/consistent-equalities"
+    },
+    {
+      "topic": "union-find",
+      "id": "stones-sharing-a-line",
+      "order": 6,
+      "title": "Stones Sharing A Line",
+      "difficulty": "medium",
+      "patterns": [
+        "union-find",
+        "connected-components"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/union-find/stones-sharing-a-line"
     },
     {
       "topic": "intervals",
@@ -4074,6 +4350,46 @@
       "url": "https://bytepatterns.com/practice/intervals/car-pooling-capacity"
     },
     {
+      "topic": "intervals",
+      "id": "attend-every-meeting",
+      "order": 4,
+      "title": "Attend Every Meeting",
+      "difficulty": "easy",
+      "patterns": [
+        "intervals",
+        "sorting"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/intervals/attend-every-meeting"
+    },
+    {
+      "topic": "intervals",
+      "id": "condense-values-into-ranges",
+      "order": 5,
+      "title": "Condense Values Into Ranges",
+      "difficulty": "easy",
+      "patterns": [
+        "intervals",
+        "single-pass"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/intervals/condense-values-into-ranges"
+    },
+    {
+      "topic": "intervals",
+      "id": "merge-overlapping-spans",
+      "order": 6,
+      "title": "Merge Overlapping Spans",
+      "difficulty": "medium",
+      "patterns": [
+        "intervals",
+        "sorting",
+        "merge"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/intervals/merge-overlapping-spans"
+    },
+    {
       "topic": "bit-manipulation",
       "id": "reverse-bit-order",
       "order": 1,
@@ -4113,6 +4429,45 @@
       "url": "https://bytepatterns.com/practice/bit-manipulation/missing-value-in-range"
     },
     {
+      "topic": "bit-manipulation",
+      "id": "differing-bit-count",
+      "order": 4,
+      "title": "Differing Bit Count",
+      "difficulty": "easy",
+      "patterns": [
+        "xor",
+        "bit-counting"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/bit-manipulation/differing-bit-count"
+    },
+    {
+      "topic": "bit-manipulation",
+      "id": "set-bits-for-every-number",
+      "order": 5,
+      "title": "Set Bits For Every Number",
+      "difficulty": "easy",
+      "patterns": [
+        "bit-shifting",
+        "reuse-smaller-answer"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/bit-manipulation/set-bits-for-every-number"
+    },
+    {
+      "topic": "bit-manipulation",
+      "id": "two-lone-values",
+      "order": 6,
+      "title": "Two Lone Values",
+      "difficulty": "medium",
+      "patterns": [
+        "xor-cancel",
+        "bit-partition"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/bit-manipulation/two-lone-values"
+    },
+    {
       "topic": "math-number-theory",
       "id": "factorial-trailing-zeros",
       "order": 1,
@@ -4150,6 +4505,45 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/math-number-theory/power-under-modulus"
+    },
+    {
+      "topic": "math-number-theory",
+      "id": "repeated-digit-sum",
+      "order": 4,
+      "title": "Repeated Digit Sum",
+      "difficulty": "easy",
+      "patterns": [
+        "modular-arithmetic",
+        "math"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/math-number-theory/repeated-digit-sum"
+    },
+    {
+      "topic": "math-number-theory",
+      "id": "measure-with-two-jugs",
+      "order": 5,
+      "title": "Measure With Two Jugs",
+      "difficulty": "medium",
+      "patterns": [
+        "gcd",
+        "math"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/math-number-theory/measure-with-two-jugs"
+    },
+    {
+      "topic": "math-number-theory",
+      "id": "choose-k-modulo-prime",
+      "order": 6,
+      "title": "Choose K Modulo A Prime",
+      "difficulty": "medium",
+      "patterns": [
+        "combinatorics",
+        "modular-inverse"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/math-number-theory/choose-k-modulo-prime"
     },
     {
       "topic": "dynamic-programming",
