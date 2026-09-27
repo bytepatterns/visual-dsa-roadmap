@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20",
+  "generated": "2026-09-27",
   "site": "https://bytepatterns.com",
   "phases": [
     {
@@ -1005,7 +1005,7 @@
       "title": "The Decision Tree",
       "oneLiner": "Choose, explore, un-choose — one shared path walks the whole tree.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/backtracking/backtracking-decision-tree"
+      "url": "https://bytepatterns.com/learn/backtracking/the-decision-tree"
     },
     {
       "module": "backtracking",
@@ -1014,7 +1014,7 @@
       "title": "Subsets",
       "oneLiner": "Two branches per item: leave it out, or take it.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/backtracking/subsets-include-exclude"
+      "url": "https://bytepatterns.com/learn/backtracking/subsets"
     },
     {
       "module": "backtracking",
@@ -1023,7 +1023,7 @@
       "title": "Permutations",
       "oneLiner": "Every unused value is a branch; the used set is the pruning.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/backtracking/permutations-used-set"
+      "url": "https://bytepatterns.com/learn/backtracking/permutations"
     },
     {
       "module": "backtracking",
@@ -1032,7 +1032,7 @@
       "title": "N-Queens",
       "oneLiner": "One queen per row, and a dead row sends you straight back up.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/backtracking/n-queens-rows"
+      "url": "https://bytepatterns.com/learn/backtracking/n-queens"
     },
     {
       "module": "backtracking",
@@ -1041,7 +1041,7 @@
       "title": "Word Search & Pruning",
       "oneLiner": "Walk the grid, block the cell, and quit on the first wrong letter.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/backtracking/word-search-pruning"
+      "url": "https://bytepatterns.com/learn/backtracking/word-search-and-pruning"
     },
     {
       "module": "greedy",
@@ -1050,7 +1050,7 @@
       "title": "What Makes Greedy Work",
       "oneLiner": "Take the best move now — but only when it can never block a better answer.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/greedy/greedy-when-it-works"
+      "url": "https://bytepatterns.com/learn/greedy/what-makes-greedy-work"
     },
     {
       "module": "greedy",
@@ -1059,7 +1059,7 @@
       "title": "Interval Scheduling",
       "oneLiner": "Sort by finishing time and the room books itself.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/greedy/interval-scheduling-greedy"
+      "url": "https://bytepatterns.com/learn/greedy/interval-scheduling"
     },
     {
       "module": "greedy",
@@ -1068,7 +1068,7 @@
       "title": "Jump Game",
       "oneLiner": "Carry one number: the furthest index still in reach.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/greedy/jump-game-reach"
+      "url": "https://bytepatterns.com/learn/greedy/jump-game"
     },
     {
       "module": "greedy",
@@ -1077,7 +1077,7 @@
       "title": "Gas Station",
       "oneLiner": "One pass picks the start, because every failed prefix is proof.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/greedy/gas-station-start"
+      "url": "https://bytepatterns.com/learn/greedy/gas-station"
     },
     {
       "module": "greedy",
@@ -1230,7 +1230,7 @@
       "title": "Prefix Search",
       "oneLiner": "Walk to the prefix once, then everything below it is the answer.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/tries/prefix-autocomplete"
+      "url": "https://bytepatterns.com/learn/tries/prefix-search-and-autocomplete"
     },
     {
       "module": "tries",
@@ -1239,7 +1239,7 @@
       "title": "Word Search With a Trie",
       "oneLiner": "One walk over the grid, pruned the moment the path stops being a prefix.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/tries/word-search-trie"
+      "url": "https://bytepatterns.com/learn/tries/word-search-with-a-trie"
     },
     {
       "module": "tries",
@@ -1500,7 +1500,7 @@
       "title": "Grid Traversal",
       "oneLiner": "Row first, column second, and always check the edge.",
       "minutes": 4,
-      "url": "https://bytepatterns.com/learn/matrix-grid/grid-traversal-neighbours"
+      "url": "https://bytepatterns.com/learn/matrix-grid/grid-traversal-and-neighbours"
     },
     {
       "module": "matrix-grid",
@@ -1509,7 +1509,7 @@
       "title": "Spiral Order",
       "oneLiner": "Four walls that close in after every pass.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/matrix-grid/grid-spiral-order"
+      "url": "https://bytepatterns.com/learn/matrix-grid/spiral-order"
     },
     {
       "module": "matrix-grid",
@@ -1518,7 +1518,7 @@
       "title": "Rotate In Place",
       "oneLiner": "Mirror the diagonal, then flip each row.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/matrix-grid/grid-rotate-in-place"
+      "url": "https://bytepatterns.com/learn/matrix-grid/rotate-in-place"
     },
     {
       "module": "matrix-grid",
@@ -1527,7 +1527,7 @@
       "title": "Number of Islands",
       "oneLiner": "Count a blob once, then erase it so it cannot count twice.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/matrix-grid/grid-island-count"
+      "url": "https://bytepatterns.com/learn/matrix-grid/number-of-islands"
     },
     {
       "module": "matrix-grid",
@@ -1536,7 +1536,7 @@
       "title": "Flood Fill",
       "oneLiner": "Spread while the colour matches, stop the moment it does not.",
       "minutes": 4,
-      "url": "https://bytepatterns.com/learn/matrix-grid/grid-flood-fill"
+      "url": "https://bytepatterns.com/learn/matrix-grid/flood-fill"
     },
     {
       "module": "union-find",
@@ -1572,7 +1572,7 @@
       "title": "Components & Cycles",
       "oneLiner": "Start the counter at n and drop it on every union that actually merges.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/union-find/dsu-components-and-cycles"
+      "url": "https://bytepatterns.com/learn/union-find/components-and-cycles"
     },
     {
       "module": "intervals",
@@ -1581,7 +1581,7 @@
       "title": "Interval Basics & Sorting",
       "oneLiner": "Sort by start and the pairwise question becomes a left-to-right scan.",
       "minutes": 4,
-      "url": "https://bytepatterns.com/learn/intervals/interval-basics-sorting"
+      "url": "https://bytepatterns.com/learn/intervals/interval-basics-and-sorting"
     },
     {
       "module": "intervals",
@@ -1626,7 +1626,7 @@
       "title": "XOR Tricks",
       "oneLiner": "Pairs cancel out, and the loner is left standing.",
       "minutes": 4,
-      "url": "https://bytepatterns.com/learn/bit-manipulation/xor-single-number"
+      "url": "https://bytepatterns.com/learn/bit-manipulation/xor-tricks"
     },
     {
       "module": "bit-manipulation",
@@ -1671,7 +1671,7 @@
       "title": "GCD and Euclid",
       "oneLiner": "Replace the pair with the leftover and it shrinks fast.",
       "minutes": 4,
-      "url": "https://bytepatterns.com/learn/math-number-theory/gcd-euclid"
+      "url": "https://bytepatterns.com/learn/math-number-theory/gcd-and-euclid"
     },
     {
       "module": "math-number-theory",
@@ -1914,7 +1914,7 @@
       "title": "Caching",
       "oneLiner": "Keep the answer near whoever keeps asking.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/system-design/caching-basics"
+      "url": "https://bytepatterns.com/learn/system-design/caching"
     },
     {
       "module": "system-design",
@@ -1932,7 +1932,7 @@
       "title": "Content Delivery Networks",
       "oneLiner": "Distance is latency you cannot optimise away.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/system-design/cdn-basics"
+      "url": "https://bytepatterns.com/learn/system-design/cdn"
     },
     {
       "module": "system-design",
@@ -1995,7 +1995,7 @@
       "title": "Designing a REST API",
       "oneLiner": "Address the thing; let the method be the verb.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/system-design/rest-api-design"
+      "url": "https://bytepatterns.com/learn/system-design/api-design-rest"
     },
     {
       "module": "system-design",
@@ -2040,7 +2040,7 @@
       "title": "Design a URL Shortener",
       "oneLiner": "One tiny key, a hundred million long links behind it.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/system-design-cases/design-url-shortener"
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-a-url-shortener"
     },
     {
       "module": "system-design-cases",
@@ -2049,7 +2049,7 @@
       "title": "Design a Rate Limiter",
       "oneLiner": "The algorithm is easy; where the counter lives is the interview.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/system-design-cases/design-rate-limiter"
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-a-rate-limiter"
     },
     {
       "module": "system-design-cases",
@@ -2058,7 +2058,7 @@
       "title": "Design a Chat App",
       "oneLiner": "Finding the socket is harder than sending the message.",
       "minutes": 7,
-      "url": "https://bytepatterns.com/learn/system-design-cases/design-chat-app"
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-a-chat-app"
     },
     {
       "module": "system-design-cases",
@@ -2067,7 +2067,7 @@
       "title": "Design a News Feed",
       "oneLiner": "Pay at write time, at read time, or a little of both.",
       "minutes": 7,
-      "url": "https://bytepatterns.com/learn/system-design-cases/design-news-feed"
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-a-news-feed"
     },
     {
       "module": "system-design-cases",
@@ -2076,7 +2076,7 @@
       "title": "Design a Notification System",
       "oneLiner": "One event, three channels, and never the same message twice.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/system-design-cases/design-notification-system"
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-a-notification-system"
     },
     {
       "module": "system-design-cases",
@@ -2094,7 +2094,7 @@
       "title": "Design a File Storage Service",
       "oneLiner": "Upload the paragraph that changed, not the ten gigabytes.",
       "minutes": 7,
-      "url": "https://bytepatterns.com/learn/system-design-cases/design-file-storage"
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-a-file-storage-service"
     },
     {
       "module": "system-design-cases",
@@ -2121,7 +2121,7 @@
       "title": "Design a Payment Ledger",
       "oneLiner": "Nothing is ever edited — a correction is one more line.",
       "minutes": 7,
-      "url": "https://bytepatterns.com/learn/system-design-cases/design-payment-ledger"
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-a-payment-ledger"
     },
     {
       "module": "system-design-cases",
@@ -2130,7 +2130,7 @@
       "title": "Design a Job Scheduler",
       "oneLiner": "The worker died mid-job. The ticket goes back on the rail.",
       "minutes": 7,
-      "url": "https://bytepatterns.com/learn/system-design-cases/design-job-scheduler"
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-a-job-scheduler"
     },
     {
       "module": "system-design-cases",
@@ -2166,7 +2166,7 @@
       "title": "Design a Distributed Cache",
       "oneLiner": "A ring of machines where losing one moves only its own arc.",
       "minutes": 7,
-      "url": "https://bytepatterns.com/learn/system-design-cases/design-distributed-cache"
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-a-distributed-cache"
     },
     {
       "module": "system-design-cases",
@@ -2175,7 +2175,7 @@
       "title": "Design a Key-Value Store",
       "oneLiner": "Three copies, two acks, two reads — the sets have to overlap.",
       "minutes": 7,
-      "url": "https://bytepatterns.com/learn/system-design-cases/design-key-value-store"
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-a-key-value-store"
     },
     {
       "module": "system-design-cases",
@@ -2184,7 +2184,7 @@
       "title": "Design a Web Crawler",
       "oneLiner": "A billion pages, one polite knock per host, nothing fetched twice.",
       "minutes": 7,
-      "url": "https://bytepatterns.com/learn/system-design-cases/design-web-crawler"
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-a-web-crawler"
     },
     {
       "module": "system-design-cases",
@@ -2193,7 +2193,7 @@
       "title": "Design a Leaderboard",
       "oneLiner": "Keep it sorted on the way in, and the top hundred is free.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/system-design-cases/design-leaderboard"
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-a-leaderboard"
     },
     {
       "module": "system-design-cases",
@@ -2211,7 +2211,7 @@
       "title": "Design a Collaborative Editor",
       "oneLiner": "Both typing in one paragraph, both landing on the same text.",
       "minutes": 7,
-      "url": "https://bytepatterns.com/learn/system-design-cases/design-collaborative-editor"
+      "url": "https://bytepatterns.com/learn/system-design-cases/design-a-collaborative-editor"
     },
     {
       "module": "ai-ml",
@@ -2715,7 +2715,7 @@
       "title": "SELECT Basics",
       "oneLiner": "Name the columns you want; the table hands them back.",
       "minutes": 4,
-      "url": "https://bytepatterns.com/learn/sql/sql-select-basics"
+      "url": "https://bytepatterns.com/learn/sql/select-basics"
     },
     {
       "module": "sql",
@@ -2724,7 +2724,7 @@
       "title": "WHERE and Filtering",
       "oneLiner": "Filter in the database, not in your application loop.",
       "minutes": 4,
-      "url": "https://bytepatterns.com/learn/sql/sql-where-and-filtering"
+      "url": "https://bytepatterns.com/learn/sql/where-and-filtering"
     },
     {
       "module": "sql",
@@ -2733,7 +2733,7 @@
       "title": "ORDER BY and LIMIT",
       "oneLiner": "Sort once in the engine, then take only the slice you show.",
       "minutes": 4,
-      "url": "https://bytepatterns.com/learn/sql/sql-order-and-limit"
+      "url": "https://bytepatterns.com/learn/sql/order-and-limit"
     },
     {
       "module": "sql",
@@ -2742,7 +2742,7 @@
       "title": "Aggregations & GROUP BY",
       "oneLiner": "Fold many rows into one number per group.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/sql/sql-aggregations-group-by"
+      "url": "https://bytepatterns.com/learn/sql/aggregations-group-by"
     },
     {
       "module": "sql",
@@ -2751,7 +2751,7 @@
       "title": "INNER and OUTER JOINs",
       "oneLiner": "Match rows across tables — and decide who survives a miss.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/sql/sql-joins-inner-outer"
+      "url": "https://bytepatterns.com/learn/sql/joins-inner-outer"
     },
     {
       "module": "sql",
@@ -2760,7 +2760,7 @@
       "title": "Subqueries",
       "oneLiner": "A query inside a query, answered before the outer one runs.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/sql/sql-subqueries"
+      "url": "https://bytepatterns.com/learn/sql/subqueries"
     },
     {
       "module": "sql",
@@ -2769,7 +2769,7 @@
       "title": "Indexes",
       "oneLiner": "A second, sorted copy of one column that ends the full scan.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/sql/sql-indexes"
+      "url": "https://bytepatterns.com/learn/sql/indexes"
     },
     {
       "module": "sql",
@@ -2778,7 +2778,7 @@
       "title": "Transactions & ACID",
       "oneLiner": "All of the writes land, or none of them do.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/sql/sql-transactions-acid"
+      "url": "https://bytepatterns.com/learn/sql/transactions-acid"
     },
     {
       "module": "sql",
@@ -2787,7 +2787,7 @@
       "title": "Query Execution Order",
       "oneLiner": "SQL is written top-down but evaluated in a different order.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/sql/sql-query-execution-order"
+      "url": "https://bytepatterns.com/learn/sql/query-execution-order"
     },
     {
       "module": "sql",
@@ -2796,7 +2796,7 @@
       "title": "The N+1 Query Problem",
       "oneLiner": "One query for the list, then one more for every single row.",
       "minutes": 5,
-      "url": "https://bytepatterns.com/learn/sql/sql-n-plus-one-problem"
+      "url": "https://bytepatterns.com/learn/sql/n-plus-one-problem"
     },
     {
       "module": "sql",
@@ -2805,7 +2805,7 @@
       "title": "Window Functions",
       "oneLiner": "Aggregate across rows without collapsing them.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/sql/sql-window-functions"
+      "url": "https://bytepatterns.com/learn/sql/window-functions"
     },
     {
       "module": "sql",
@@ -2814,7 +2814,7 @@
       "title": "CTEs and Recursion",
       "oneLiner": "Name a result, then build the next one on top of it.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/sql/sql-ctes-and-recursion"
+      "url": "https://bytepatterns.com/learn/sql/ctes-and-recursion"
     },
     {
       "module": "sql",
@@ -2823,7 +2823,7 @@
       "title": "Composite Indexes",
       "oneLiner": "Column order decides which queries the index can serve.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/sql/sql-composite-and-covering-indexes"
+      "url": "https://bytepatterns.com/learn/sql/composite-and-covering-indexes"
     },
     {
       "module": "sql",
@@ -2832,7 +2832,7 @@
       "title": "Isolation Levels",
       "oneLiner": "How much of another transaction's mess you are allowed to see.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/sql/sql-isolation-levels"
+      "url": "https://bytepatterns.com/learn/sql/isolation-levels"
     },
     {
       "module": "sql",
@@ -2841,7 +2841,7 @@
       "title": "Reading a Query Plan",
       "oneLiner": "Stop guessing why it is slow — ask the engine what it did.",
       "minutes": 6,
-      "url": "https://bytepatterns.com/learn/sql/sql-reading-a-query-plan"
+      "url": "https://bytepatterns.com/learn/sql/reading-a-query-plan"
     },
     {
       "module": "behavioral",
@@ -3029,7 +3029,7 @@
         "single-pass"
       ],
       "minutes": 15,
-      "url": "https://bytepatterns.com/practice/arrays/majority-value-finder"
+      "url": "https://bytepatterns.com/practice/arrays/majority-value"
     },
     {
       "topic": "arrays",
@@ -3263,7 +3263,7 @@
         "counting"
       ],
       "minutes": 20,
-      "url": "https://bytepatterns.com/practice/sorting/h-index-citations"
+      "url": "https://bytepatterns.com/practice/sorting/h-index-from-citations"
     },
     {
       "topic": "sorting",
