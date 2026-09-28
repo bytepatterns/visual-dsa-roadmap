@@ -6,7 +6,7 @@ This repository is the map. It is regenerated from the site's content, so the nu
 
 | | |
 |---|---|
-| Lessons | **300** across **29** modules (~26 hours) |
+| Lessons | **312** across **30** modules (~28 hours) |
 | Practice problems | **150** (44 easy · 82 medium · 24 hard) |
 | Cost | Free. No account needed to read a lesson. |
 | Machine-readable | [`roadmap.json`](roadmap.json) — every lesson and problem with its URL |
@@ -48,6 +48,7 @@ This repository is the map. It is regenerated from the site's content, so the nu
 - [Systems](#systems)
   - [System Design](#system-design)
   - [System Design Cases](#system-design-cases)
+  - [AWS for Interviews](#aws)
   - [Concurrency](#concurrency)
   - [SQL](#sql)
 - [The Rest of the Loop](#interview)
@@ -545,7 +546,7 @@ Practice: [Cheapest Stair Climb](https://bytepatterns.com/practice/dynamic-progr
 
 <a id="systems"></a>
 
-_What happens once one machine is not enough — and once one thread is not either._
+_What happens once one machine is not enough — and once one thread is not either. Then the same ideas as AWS services._
 
 ### System Design
 
@@ -605,6 +606,29 @@ _Design a URL shortener, a chat app, a feed — the interview round, end to end.
 | 18 | [Design a Leaderboard](https://bytepatterns.com/learn/system-design-cases/design-a-leaderboard?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Keep it sorted on the way in, and the top hundred is free. | 6 |
 | 19 | [Design Hotel Booking](https://bytepatterns.com/learn/system-design-cases/design-hotel-booking?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Four nights or none — a partial stay is not a booking. | 7 |
 | 20 | [Design a Collaborative Editor](https://bytepatterns.com/learn/system-design-cases/design-a-collaborative-editor?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Both typing in one paragraph, both landing on the same text. | 7 |
+
+### AWS for Interviews
+
+<a id="aws"></a>
+
+[![AWS for Interviews](assets/modules/aws.png)](https://bytepatterns.com/learn/aws?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+_IAM, S3, queues, VPCs and caches — the AWS round, drawn as requests moving through boxes._ · 12 lessons · [open module](https://bytepatterns.com/learn/aws?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+| # | Lesson | What you will see | Min |
+|---|---|---|---|
+| 1 | [Shared Responsibility & IAM](https://bytepatterns.com/learn/aws/shared-responsibility-and-iam?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | AWS secures the cloud; you decide who may call what inside it. | 6 |
+| 2 | [S3: Consistency, Classes, Lifecycle](https://bytepatterns.com/learn/aws/s3-storage-classes-and-lifecycle?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Strong reads, a class per access pattern, and rules that age data out. | 6 |
+| 3 | [EC2, Auto Scaling & Load Balancers](https://bytepatterns.com/learn/aws/ec2-auto-scaling-and-load-balancers?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | A fleet that grows with traffic and heals itself, behind one address. | 6 |
+| 4 | [Lambda & Event-Driven Design](https://bytepatterns.com/learn/aws/lambda-and-event-driven?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Cold starts, concurrency, and a queue that absorbs the burst. | 7 |
+| 5 | [VPC: Subnets, NAT & Firewalls](https://bytepatterns.com/learn/aws/vpc-subnets-and-security-groups?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Routes decide where a packet can go; firewalls decide whether it may. | 7 |
+| 6 | [RDS vs DynamoDB](https://bytepatterns.com/learn/aws/rds-vs-dynamodb?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Flexible SQL, or key lookups at any scale — if the keys spread. | 7 |
+| 7 | [SQS vs SNS vs EventBridge](https://bytepatterns.com/learn/aws/sqs-vs-sns-vs-eventbridge?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Pull from a queue, push to many, or route by what the event says. | 7 |
+| 8 | [CloudFront & Caching Layers](https://bytepatterns.com/learn/aws/cloudfront-and-caching?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Edge, regional cache, origin — and a cache key that decides it all. | 6 |
+| 9 | [ECS vs EKS vs Fargate](https://bytepatterns.com/learn/aws/ecs-vs-eks-vs-fargate?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Pick an orchestrator, then pick how much of the host you want to own. | 6 |
+| 10 | [CloudWatch, Alarms & X-Ray](https://bytepatterns.com/learn/aws/cloudwatch-and-x-ray?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Metrics say that, traces say where, logs say why. | 6 |
+| 11 | [AWS Cost Levers](https://bytepatterns.com/learn/aws/aws-cost-levers?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Right-size, scale, commit the floor, Spot the rest, watch the wires. | 6 |
+| 12 | [Design a System on AWS](https://bytepatterns.com/learn/aws/design-a-system-on-aws?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Draw the request path, then walk the six pillars as follow-ups. | 8 |
 
 ### Concurrency
 
@@ -761,7 +785,7 @@ _From embeddings to agents — see how modern AI actually works._ · 25 lessons 
 
 The same lessons, grouped by the idea they use instead of the module they sit in. A lesson that uses several ideas is listed under each.
 
-[Two pointers](#topic-two-pointers) (22) · [Sliding window](#topic-sliding-window) (5) · [Prefix sum](#topic-prefix-sum) (6) · [Binary search](#topic-binary-search) (11) · [Sorting](#topic-sorting) (29) · [Hashing](#topic-hashing) (27) · [Stack](#topic-stack) (8) · [Monotonic stack](#topic-monotonic-stack) (3) · [Queue](#topic-queue) (17) · [Heap](#topic-heap) (15) · [Tree](#topic-tree) (23) · [BST](#topic-bst) (4) · [Trie](#topic-trie) (5) · [Graph](#topic-graph) (22) · [BFS](#topic-bfs) (9) · [DFS](#topic-dfs) (13) · [Topological sort](#topic-topological-sort) (1) · [Shortest path](#topic-shortest-path) (3) · [Union-find](#topic-union-find) (5) · [Dynamic programming](#topic-dp) (22) · [Memoization](#topic-memoization) (5) · [Recursion](#topic-recursion) (25) · [Backtracking](#topic-backtracking) (9) · [Greedy](#topic-greedy) (14) · [Intervals](#topic-intervals) (6) · [Bit manipulation](#topic-bit-manipulation) (6) · [Matrix](#topic-matrix) (13) · [Linked list](#topic-linked-list) (11) · [Strings](#topic-strings) (23) · [Math](#topic-math) (5) · [System design](#topic-system-design) (2) · [Caching](#topic-caching) (10) · [Rate limiting](#topic-rate-limiting) (4) · [Distributed](#topic-distributed) (20) · [Machine learning](#topic-ml) (22) · [Embeddings](#topic-embeddings) (6) · [Attention](#topic-attention) (4) · [Complexity](#topic-complexity) (18) · [OOP](#topic-oop) (15) · [Concurrency](#topic-concurrency) (20)
+[Two pointers](#topic-two-pointers) (22) · [Sliding window](#topic-sliding-window) (5) · [Prefix sum](#topic-prefix-sum) (6) · [Binary search](#topic-binary-search) (11) · [Sorting](#topic-sorting) (29) · [Hashing](#topic-hashing) (28) · [Stack](#topic-stack) (8) · [Monotonic stack](#topic-monotonic-stack) (3) · [Queue](#topic-queue) (20) · [Heap](#topic-heap) (15) · [Tree](#topic-tree) (23) · [BST](#topic-bst) (4) · [Trie](#topic-trie) (5) · [Graph](#topic-graph) (22) · [BFS](#topic-bfs) (9) · [DFS](#topic-dfs) (13) · [Topological sort](#topic-topological-sort) (1) · [Shortest path](#topic-shortest-path) (3) · [Union-find](#topic-union-find) (5) · [Dynamic programming](#topic-dp) (22) · [Memoization](#topic-memoization) (5) · [Recursion](#topic-recursion) (25) · [Backtracking](#topic-backtracking) (9) · [Greedy](#topic-greedy) (14) · [Intervals](#topic-intervals) (6) · [Bit manipulation](#topic-bit-manipulation) (6) · [Matrix](#topic-matrix) (13) · [Linked list](#topic-linked-list) (11) · [Strings](#topic-strings) (23) · [Math](#topic-math) (5) · [System design](#topic-system-design) (14) · [Caching](#topic-caching) (12) · [Rate limiting](#topic-rate-limiting) (4) · [Distributed](#topic-distributed) (25) · [Machine learning](#topic-ml) (22) · [Embeddings](#topic-embeddings) (6) · [Attention](#topic-attention) (4) · [Complexity](#topic-complexity) (18) · [OOP](#topic-oop) (15) · [Concurrency](#topic-concurrency) (21)
 
 ### Two pointers
 
@@ -832,7 +856,7 @@ The same lessons, grouped by the idea they use instead of the module they sit in
 
 <a id="topic-hashing"></a>
 
-27 lessons
+28 lessons
 
 - **Strings:** [Longest Unique Substring](https://bytepatterns.com/learn/strings/longest-substring-without-repeats?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Rabin-Karp Rolling Hash](https://bytepatterns.com/learn/strings/rabin-karp-rolling-hash?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 - **Sorting:** [Counting Sort](https://bytepatterns.com/learn/sorting/counting-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
@@ -845,6 +869,7 @@ The same lessons, grouped by the idea they use instead of the module they sit in
 - **System Design Cases:** [Design a URL Shortener](https://bytepatterns.com/learn/system-design-cases/design-a-url-shortener?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a File Storage Service](https://bytepatterns.com/learn/system-design-cases/design-a-file-storage-service?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design Ride Matching](https://bytepatterns.com/learn/system-design-cases/design-ride-matching?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design Ad Click Aggregation](https://bytepatterns.com/learn/system-design-cases/design-ad-click-aggregation?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Distributed Cache](https://bytepatterns.com/learn/system-design-cases/design-a-distributed-cache?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Key-Value Store](https://bytepatterns.com/learn/system-design-cases/design-a-key-value-store?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Web Crawler](https://bytepatterns.com/learn/system-design-cases/design-a-web-crawler?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 - **Low-Level Design:** [LRU Cache](https://bytepatterns.com/learn/lld/lru-cache-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 - **SQL:** [Aggregations & GROUP BY](https://bytepatterns.com/learn/sql/aggregations-group-by?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **AWS for Interviews:** [RDS vs DynamoDB](https://bytepatterns.com/learn/aws/rds-vs-dynamodb?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 ### Stack
 
@@ -867,7 +892,7 @@ The same lessons, grouped by the idea they use instead of the module they sit in
 
 <a id="topic-queue"></a>
 
-17 lessons
+20 lessons
 
 - **Stacks & Queues:** [Queue Basics](https://bytepatterns.com/learn/stacks-queues/queue-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Queue From Two Stacks](https://bytepatterns.com/learn/stacks-queues/queue-with-two-stacks?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Sliding Window Maximum](https://bytepatterns.com/learn/stacks-queues/sliding-window-maximum?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Circular Queue](https://bytepatterns.com/learn/stacks-queues/circular-queue?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 - **Trees & BST:** [Level Order Traversal](https://bytepatterns.com/learn/trees/level-order-traversal?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
@@ -876,6 +901,7 @@ The same lessons, grouped by the idea they use instead of the module they sit in
 - **System Design:** [Message Queues](https://bytepatterns.com/learn/system-design/message-queues?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 - **System Design Cases:** [Design a Chat App](https://bytepatterns.com/learn/system-design-cases/design-a-chat-app?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Notification System](https://bytepatterns.com/learn/system-design-cases/design-a-notification-system?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Job Scheduler](https://bytepatterns.com/learn/system-design-cases/design-a-job-scheduler?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Web Crawler](https://bytepatterns.com/learn/system-design-cases/design-a-web-crawler?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 - **Concurrency:** [Thread Pools](https://bytepatterns.com/learn/concurrency/thread-pools?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Producer and Consumer](https://bytepatterns.com/learn/concurrency/producer-consumer?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Async and the Event Loop](https://bytepatterns.com/learn/concurrency/async-await-event-loop?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Backpressure](https://bytepatterns.com/learn/concurrency/backpressure?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **AWS for Interviews:** [Lambda & Event-Driven Design](https://bytepatterns.com/learn/aws/lambda-and-event-driven?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [SQS vs SNS vs EventBridge](https://bytepatterns.com/learn/aws/sqs-vs-sns-vs-eventbridge?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a System on AWS](https://bytepatterns.com/learn/aws/design-a-system-on-aws?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 ### Heap
 
@@ -1113,20 +1139,22 @@ The same lessons, grouped by the idea they use instead of the module they sit in
 
 <a id="topic-system-design"></a>
 
-2 lessons
+14 lessons
 
 - **System Design:** [What Is System Design](https://bytepatterns.com/learn/system-design/what-is-system-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Designing a REST API](https://bytepatterns.com/learn/system-design/api-design-rest?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **AWS for Interviews:** [Shared Responsibility & IAM](https://bytepatterns.com/learn/aws/shared-responsibility-and-iam?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [S3: Consistency, Classes, Lifecycle](https://bytepatterns.com/learn/aws/s3-storage-classes-and-lifecycle?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [EC2, Auto Scaling & Load Balancers](https://bytepatterns.com/learn/aws/ec2-auto-scaling-and-load-balancers?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Lambda & Event-Driven Design](https://bytepatterns.com/learn/aws/lambda-and-event-driven?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [VPC: Subnets, NAT & Firewalls](https://bytepatterns.com/learn/aws/vpc-subnets-and-security-groups?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [RDS vs DynamoDB](https://bytepatterns.com/learn/aws/rds-vs-dynamodb?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [SQS vs SNS vs EventBridge](https://bytepatterns.com/learn/aws/sqs-vs-sns-vs-eventbridge?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [CloudFront & Caching Layers](https://bytepatterns.com/learn/aws/cloudfront-and-caching?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [ECS vs EKS vs Fargate](https://bytepatterns.com/learn/aws/ecs-vs-eks-vs-fargate?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [CloudWatch, Alarms & X-Ray](https://bytepatterns.com/learn/aws/cloudwatch-and-x-ray?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [AWS Cost Levers](https://bytepatterns.com/learn/aws/aws-cost-levers?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a System on AWS](https://bytepatterns.com/learn/aws/design-a-system-on-aws?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 ### Caching
 
 <a id="topic-caching"></a>
 
-10 lessons
+12 lessons
 
 - **Hash Tables:** [LFU: Frequency Buckets](https://bytepatterns.com/learn/hash-tables/lfu-frequency-buckets?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 - **System Design:** [Caching](https://bytepatterns.com/learn/system-design/caching?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Invalidation and Eviction](https://bytepatterns.com/learn/system-design/cache-invalidation-and-eviction?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Content Delivery Networks](https://bytepatterns.com/learn/system-design/cdn?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 - **System Design Cases:** [Design a URL Shortener](https://bytepatterns.com/learn/system-design-cases/design-a-url-shortener?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a News Feed](https://bytepatterns.com/learn/system-design-cases/design-a-news-feed?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design Search Autocomplete](https://bytepatterns.com/learn/system-design-cases/design-search-autocomplete?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design Video Streaming](https://bytepatterns.com/learn/system-design-cases/design-video-streaming?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Distributed Cache](https://bytepatterns.com/learn/system-design-cases/design-a-distributed-cache?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 - **Low-Level Design:** [LRU Cache](https://bytepatterns.com/learn/lld/lru-cache-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **AWS for Interviews:** [CloudFront & Caching Layers](https://bytepatterns.com/learn/aws/cloudfront-and-caching?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a System on AWS](https://bytepatterns.com/learn/aws/design-a-system-on-aws?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 ### Rate limiting
 
@@ -1142,10 +1170,11 @@ The same lessons, grouped by the idea they use instead of the module they sit in
 
 <a id="topic-distributed"></a>
 
-20 lessons
+25 lessons
 
 - **System Design:** [Vertical vs Horizontal Scaling](https://bytepatterns.com/learn/system-design/vertical-vs-horizontal-scaling?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Load Balancing](https://bytepatterns.com/learn/system-design/load-balancing?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Database Replication](https://bytepatterns.com/learn/system-design/database-replication?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Database Sharding](https://bytepatterns.com/learn/system-design/database-sharding?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [SQL vs NoSQL](https://bytepatterns.com/learn/system-design/sql-vs-nosql?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Consistency and CAP](https://bytepatterns.com/learn/system-design/consistency-and-cap?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Message Queues](https://bytepatterns.com/learn/system-design/message-queues?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [WebSockets and Realtime](https://bytepatterns.com/learn/system-design/websockets-and-realtime?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Observability Basics](https://bytepatterns.com/learn/system-design/observability-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Consistency Models](https://bytepatterns.com/learn/system-design/consistency-models?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Tracing a Request](https://bytepatterns.com/learn/system-design/tracing-a-request?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 - **System Design Cases:** [Design a Rate Limiter](https://bytepatterns.com/learn/system-design-cases/design-a-rate-limiter?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Chat App](https://bytepatterns.com/learn/system-design-cases/design-a-chat-app?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a News Feed](https://bytepatterns.com/learn/system-design-cases/design-a-news-feed?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Payment Ledger](https://bytepatterns.com/learn/system-design-cases/design-a-payment-ledger?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Job Scheduler](https://bytepatterns.com/learn/system-design-cases/design-a-job-scheduler?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design Ad Click Aggregation](https://bytepatterns.com/learn/system-design-cases/design-ad-click-aggregation?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Distributed Cache](https://bytepatterns.com/learn/system-design-cases/design-a-distributed-cache?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Key-Value Store](https://bytepatterns.com/learn/system-design-cases/design-a-key-value-store?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Collaborative Editor](https://bytepatterns.com/learn/system-design-cases/design-a-collaborative-editor?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **AWS for Interviews:** [S3: Consistency, Classes, Lifecycle](https://bytepatterns.com/learn/aws/s3-storage-classes-and-lifecycle?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [EC2, Auto Scaling & Load Balancers](https://bytepatterns.com/learn/aws/ec2-auto-scaling-and-load-balancers?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [RDS vs DynamoDB](https://bytepatterns.com/learn/aws/rds-vs-dynamodb?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [SQS vs SNS vs EventBridge](https://bytepatterns.com/learn/aws/sqs-vs-sns-vs-eventbridge?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [CloudWatch, Alarms & X-Ray](https://bytepatterns.com/learn/aws/cloudwatch-and-x-ray?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 ### Machine learning
 
@@ -1198,11 +1227,12 @@ The same lessons, grouped by the idea they use instead of the module they sit in
 
 <a id="topic-concurrency"></a>
 
-20 lessons
+21 lessons
 
 - **System Design Cases:** [Design E-commerce Inventory](https://bytepatterns.com/learn/system-design-cases/design-ecommerce-inventory?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design Hotel Booking](https://bytepatterns.com/learn/system-design-cases/design-hotel-booking?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Collaborative Editor](https://bytepatterns.com/learn/system-design-cases/design-a-collaborative-editor?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 - **Concurrency:** [Threads vs Processes](https://bytepatterns.com/learn/concurrency/threads-vs-processes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Race Conditions](https://bytepatterns.com/learn/concurrency/race-conditions?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Locks and Mutexes](https://bytepatterns.com/learn/concurrency/locks-and-mutexes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Deadlock](https://bytepatterns.com/learn/concurrency/deadlock?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Thread Pools](https://bytepatterns.com/learn/concurrency/thread-pools?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Producer and Consumer](https://bytepatterns.com/learn/concurrency/producer-consumer?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Async and the Event Loop](https://bytepatterns.com/learn/concurrency/async-await-event-loop?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Atomic Operations](https://bytepatterns.com/learn/concurrency/atomic-operations?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Semaphores](https://bytepatterns.com/learn/concurrency/semaphores?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Designing Thread-Safe Code](https://bytepatterns.com/learn/concurrency/designing-thread-safe-code?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Backpressure](https://bytepatterns.com/learn/concurrency/backpressure?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Detecting Deadlock](https://bytepatterns.com/learn/concurrency/detecting-deadlock?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Sizing a Thread Pool](https://bytepatterns.com/learn/concurrency/sizing-a-thread-pool?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Blocking the Event Loop](https://bytepatterns.com/learn/concurrency/blocking-the-event-loop?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Compare-and-Swap](https://bytepatterns.com/learn/concurrency/compare-and-swap?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 - **SQL:** [Transactions & ACID](https://bytepatterns.com/learn/sql/transactions-acid?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Isolation Levels](https://bytepatterns.com/learn/sql/isolation-levels?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **AWS for Interviews:** [Lambda & Event-Driven Design](https://bytepatterns.com/learn/aws/lambda-and-event-driven?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 ## Practice problems
 
