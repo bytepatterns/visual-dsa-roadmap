@@ -4428,6 +4428,45 @@
       "url": "https://bytepatterns.com/practice/linked-lists/partition-around-value"
     },
     {
+      "topic": "linked-lists",
+      "id": "chain-loop-check",
+      "order": 7,
+      "title": "Loop in a Chain",
+      "difficulty": "easy",
+      "patterns": [
+        "fast-slow-pointers",
+        "cycle-detection"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/linked-lists/chain-loop-check"
+    },
+    {
+      "topic": "linked-lists",
+      "id": "back-forward-history",
+      "order": 8,
+      "title": "Back and Forward History",
+      "difficulty": "easy",
+      "patterns": [
+        "doubly-linked-list",
+        "design"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/linked-lists/back-forward-history"
+    },
+    {
+      "topic": "linked-lists",
+      "id": "loop-entry-node",
+      "order": 9,
+      "title": "Where the Loop Begins",
+      "difficulty": "medium",
+      "patterns": [
+        "fast-slow-pointers",
+        "cycle-detection"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/linked-lists/loop-entry-node"
+    },
+    {
       "topic": "stacks-queues",
       "id": "constant-time-min-stack",
       "order": 1,
@@ -4805,6 +4844,19 @@
       "url": "https://bytepatterns.com/practice/greedy/fair-candy-shares"
     },
     {
+      "topic": "greedy",
+      "id": "cheapest-rope-joining",
+      "order": 7,
+      "title": "Cheapest Rope Joining",
+      "difficulty": "medium",
+      "patterns": [
+        "greedy",
+        "min-heap"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/greedy/cheapest-rope-joining"
+    },
+    {
       "topic": "trees",
       "id": "deepest-level-count",
       "order": 1,
@@ -5054,6 +5106,19 @@
       "url": "https://bytepatterns.com/practice/heaps/reorganize-string-gaps"
     },
     {
+      "topic": "heaps",
+      "id": "min-heap-array-check",
+      "order": 7,
+      "title": "Min-Heap Array Check",
+      "difficulty": "easy",
+      "patterns": [
+        "heap",
+        "array-as-tree"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/heaps/min-heap-array-check"
+    },
+    {
       "topic": "two-heaps-k-way",
       "id": "kth-smallest-in-sorted-matrix",
       "order": 1,
@@ -5131,6 +5196,20 @@
       ],
       "minutes": 45,
       "url": "https://bytepatterns.com/practice/two-heaps-k-way/rolling-window-median"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "k-most-frequent-values",
+      "order": 7,
+      "title": "K Most Frequent Values",
+      "difficulty": "medium",
+      "patterns": [
+        "top-k",
+        "min-heap",
+        "hash-map"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/k-most-frequent-values"
     },
     {
       "topic": "graphs",
@@ -5226,6 +5305,60 @@
       "url": "https://bytepatterns.com/practice/graphs/two-colour-split-check"
     },
     {
+      "topic": "graphs",
+      "id": "signal-spread-time",
+      "order": 8,
+      "title": "Signal Spread Time",
+      "difficulty": "medium",
+      "patterns": [
+        "dijkstra",
+        "shortest-path",
+        "min-heap"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/graphs/signal-spread-time"
+    },
+    {
+      "topic": "graphs",
+      "id": "cheapest-trip-stop-limit",
+      "order": 9,
+      "title": "Cheapest Trip Within a Stop Limit",
+      "difficulty": "medium",
+      "patterns": [
+        "bellman-ford",
+        "shortest-path"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/graphs/cheapest-trip-stop-limit"
+    },
+    {
+      "topic": "graphs",
+      "id": "mutual-reach-groups",
+      "order": 10,
+      "title": "Mutual Reach Groups",
+      "difficulty": "hard",
+      "patterns": [
+        "strongly-connected-components",
+        "dfs"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/graphs/mutual-reach-groups"
+    },
+    {
+      "topic": "graphs",
+      "id": "rising-tide-crossing",
+      "order": 11,
+      "title": "Rising Tide Crossing",
+      "difficulty": "hard",
+      "patterns": [
+        "union-find",
+        "minimum-spanning-tree",
+        "sorting"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/graphs/rising-tide-crossing"
+    },
+    {
       "topic": "matrix-grid",
       "id": "island-perimeter-walk",
       "order": 1,
@@ -5302,6 +5435,19 @@
       ],
       "minutes": 40,
       "url": "https://bytepatterns.com/practice/matrix-grid/longest-climbing-path"
+    },
+    {
+      "topic": "matrix-grid",
+      "id": "landlocked-islands",
+      "order": 7,
+      "title": "Landlocked Islands",
+      "difficulty": "medium",
+      "patterns": [
+        "flood-fill",
+        "grid-traversal"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/matrix-grid/landlocked-islands"
     },
     {
       "topic": "union-find",
@@ -5461,6 +5607,19 @@
       "url": "https://bytepatterns.com/practice/intervals/merge-overlapping-spans"
     },
     {
+      "topic": "intervals",
+      "id": "insert-and-merge-span",
+      "order": 7,
+      "title": "Insert and Merge a Span",
+      "difficulty": "medium",
+      "patterns": [
+        "intervals",
+        "merge"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/intervals/insert-and-merge-span"
+    },
+    {
       "topic": "bit-manipulation",
       "id": "reverse-bit-order",
       "order": 1,
@@ -5537,6 +5696,32 @@
       ],
       "minutes": 30,
       "url": "https://bytepatterns.com/practice/bit-manipulation/two-lone-values"
+    },
+    {
+      "topic": "bit-manipulation",
+      "id": "power-of-four-check",
+      "order": 7,
+      "title": "Power of Four Check",
+      "difficulty": "easy",
+      "patterns": [
+        "bitmask",
+        "power-of-two"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/bit-manipulation/power-of-four-check"
+    },
+    {
+      "topic": "bit-manipulation",
+      "id": "every-subset-by-bitmask",
+      "order": 8,
+      "title": "Every Subset by Bitmask",
+      "difficulty": "easy",
+      "patterns": [
+        "bitmask",
+        "subsets"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/bit-manipulation/every-subset-by-bitmask"
     },
     {
       "topic": "math-number-theory",
@@ -5719,6 +5904,85 @@
       ],
       "minutes": 50,
       "url": "https://bytepatterns.com/practice/dynamic-programming/pop-balloons-for-coins"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "non-adjacent-harvest",
+      "order": 9,
+      "title": "Non-Adjacent Harvest",
+      "difficulty": "easy",
+      "patterns": [
+        "bottom-up-dp",
+        "rolling-variables"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/non-adjacent-harvest"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "fewest-coins-for-amount",
+      "order": 10,
+      "title": "Fewest Coins for an Amount",
+      "difficulty": "medium",
+      "patterns": [
+        "bottom-up-dp",
+        "unbounded-knapsack"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/fewest-coins-for-amount"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "longest-rising-subsequence",
+      "order": 11,
+      "title": "Longest Rising Subsequence",
+      "difficulty": "medium",
+      "patterns": [
+        "bottom-up-dp",
+        "subsequence-dp"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/longest-rising-subsequence"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "fewest-edits-between-words",
+      "order": 12,
+      "title": "Fewest Edits Between Words",
+      "difficulty": "medium",
+      "patterns": [
+        "string-dp",
+        "bottom-up-dp"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/fewest-edits-between-words"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "nesting-envelopes",
+      "order": 13,
+      "title": "Nesting Envelopes",
+      "difficulty": "hard",
+      "patterns": [
+        "binary-search",
+        "patience-sorting",
+        "sorting"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/nesting-envelopes"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "cheapest-stick-cuts",
+      "order": 14,
+      "title": "Cheapest Stick Cuts",
+      "difficulty": "hard",
+      "patterns": [
+        "interval-dp",
+        "bottom-up-dp"
+      ],
+      "minutes": 50,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/cheapest-stick-cuts"
     }
   ]
 }
