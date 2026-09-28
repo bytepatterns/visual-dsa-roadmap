@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-09-28",
   "site": "https://bytepatterns.com",
   "phases": [
     {
@@ -258,6 +258,9 @@
       "title": "What Is Big-O?",
       "oneLiner": "Stop timing code. Start predicting how it scales.",
       "minutes": 4,
+      "tags": [
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/big-o/what-is-big-o"
     },
     {
@@ -267,6 +270,9 @@
       "title": "O(1) and O(n)",
       "oneLiner": "One step, or every step? That's the whole difference.",
       "minutes": 4,
+      "tags": [
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/big-o/o1-and-on"
     },
     {
@@ -276,6 +282,9 @@
       "title": "O(n²) and Nested Loops",
       "oneLiner": "Every pair costs you. Nested loops explode fast.",
       "minutes": 5,
+      "tags": [
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/big-o/on2-and-nested-loops"
     },
     {
@@ -285,6 +294,10 @@
       "title": "O(log n) and Halving",
       "oneLiner": "Throw away half the problem, every single step.",
       "minutes": 4,
+      "tags": [
+        "complexity",
+        "binary-search"
+      ],
       "url": "https://bytepatterns.com/learn/big-o/ologn-halving"
     },
     {
@@ -294,6 +307,9 @@
       "title": "Comparing Complexities",
       "oneLiner": "O(n log n) beats O(n²) long before you notice.",
       "minutes": 5,
+      "tags": [
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/big-o/comparing-complexities"
     },
     {
@@ -303,6 +319,9 @@
       "title": "Array Basics",
       "oneLiner": "One block of memory, instant access to any slot.",
       "minutes": 4,
+      "tags": [
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/arrays/array-basics"
     },
     {
@@ -312,6 +331,9 @@
       "title": "Two Pointers",
       "oneLiner": "Two indexes closing in beat one loop nesting another.",
       "minutes": 5,
+      "tags": [
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/arrays/two-pointers"
     },
     {
@@ -321,6 +343,10 @@
       "title": "Sliding Window",
       "oneLiner": "Reuse the last answer instead of recomputing it.",
       "minutes": 5,
+      "tags": [
+        "sliding-window",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/arrays/sliding-window"
     },
     {
@@ -330,6 +356,9 @@
       "title": "Prefix Sums",
       "oneLiner": "Pay once up front, answer range queries instantly.",
       "minutes": 5,
+      "tags": [
+        "prefix-sum"
+      ],
       "url": "https://bytepatterns.com/learn/arrays/prefix-sums"
     },
     {
@@ -339,6 +368,9 @@
       "title": "In-Place Reversal",
       "oneLiner": "Flip an array with one temp variable, not a copy.",
       "minutes": 4,
+      "tags": [
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/arrays/in-place-reversal"
     },
     {
@@ -348,6 +380,9 @@
       "title": "Move Zeroes",
       "oneLiner": "Push the junk to the back without losing the order.",
       "minutes": 5,
+      "tags": [
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/arrays/move-zeroes"
     },
     {
@@ -357,6 +392,10 @@
       "title": "Container With Most Water",
       "oneLiner": "The shorter wall decides. So move the shorter wall.",
       "minutes": 6,
+      "tags": [
+        "two-pointers",
+        "greedy"
+      ],
       "url": "https://bytepatterns.com/learn/arrays/container-with-most-water"
     },
     {
@@ -366,6 +405,10 @@
       "title": "Kadane's Algorithm",
       "oneLiner": "Drop the past the moment it starts costing you.",
       "minutes": 6,
+      "tags": [
+        "dp",
+        "greedy"
+      ],
       "url": "https://bytepatterns.com/learn/arrays/kadanes-algorithm"
     },
     {
@@ -375,6 +418,9 @@
       "title": "Cyclic Sort",
       "oneLiner": "When values are 1..n, every value already knows its index.",
       "minutes": 5,
+      "tags": [
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/arrays/cyclic-sort"
     },
     {
@@ -384,6 +430,10 @@
       "title": "Merge Sorted Arrays",
       "oneLiner": "Fill from the back and you never overwrite unread data.",
       "minutes": 5,
+      "tags": [
+        "two-pointers",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/arrays/merge-sorted-arrays"
     },
     {
@@ -393,6 +443,10 @@
       "title": "Dutch National Flag",
       "oneLiner": "Three values, three regions, one pass.",
       "minutes": 5,
+      "tags": [
+        "two-pointers",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/arrays/dutch-national-flag"
     },
     {
@@ -402,6 +456,9 @@
       "title": "Product Except Self",
       "oneLiner": "Two sweeps beat one division.",
       "minutes": 5,
+      "tags": [
+        "prefix-sum"
+      ],
       "url": "https://bytepatterns.com/learn/arrays/product-except-self"
     },
     {
@@ -411,6 +468,9 @@
       "title": "Rotate an Array",
       "oneLiner": "Three reversals move every element home.",
       "minutes": 4,
+      "tags": [
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/arrays/rotate-array"
     },
     {
@@ -420,6 +480,7 @@
       "title": "Majority Element",
       "oneLiner": "Cancel the votes in pairs and the majority survives.",
       "minutes": 5,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/arrays/majority-element"
     },
     {
@@ -429,6 +490,10 @@
       "title": "String Basics",
       "oneLiner": "Strings never change — every edit builds a brand-new one.",
       "minutes": 4,
+      "tags": [
+        "strings",
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/strings/string-basics"
     },
     {
@@ -438,6 +503,10 @@
       "title": "Valid Palindrome",
       "oneLiner": "Two pointers walk inward and settle it in one pass.",
       "minutes": 4,
+      "tags": [
+        "strings",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/strings/valid-palindrome"
     },
     {
@@ -447,6 +516,10 @@
       "title": "Reverse Words",
       "oneLiner": "Flip the word order without disturbing the letters.",
       "minutes": 4,
+      "tags": [
+        "strings",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/strings/reverse-words"
     },
     {
@@ -456,6 +529,11 @@
       "title": "Longest Unique Substring",
       "oneLiner": "Grow a window, shrink it the moment a letter repeats.",
       "minutes": 5,
+      "tags": [
+        "strings",
+        "sliding-window",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/strings/longest-substring-without-repeats"
     },
     {
@@ -465,6 +543,10 @@
       "title": "Longest Palindromic Substring",
       "oneLiner": "Stand on every centre and push outwards.",
       "minutes": 5,
+      "tags": [
+        "strings",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/strings/longest-palindromic-substring"
     },
     {
@@ -474,6 +556,11 @@
       "title": "Rabin-Karp Rolling Hash",
       "oneLiner": "Slide a number across the text instead of re-reading it.",
       "minutes": 5,
+      "tags": [
+        "strings",
+        "hashing",
+        "sliding-window"
+      ],
       "url": "https://bytepatterns.com/learn/strings/rabin-karp-rolling-hash"
     },
     {
@@ -483,6 +570,10 @@
       "title": "String Matching Intuition",
       "oneLiner": "A mismatch already tells you where to restart.",
       "minutes": 5,
+      "tags": [
+        "strings",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/strings/string-matching-intuition"
     },
     {
@@ -492,6 +583,9 @@
       "title": "Build the KMP Table",
       "oneLiner": "Every prefix remembers its longest border.",
       "minutes": 6,
+      "tags": [
+        "strings"
+      ],
       "url": "https://bytepatterns.com/learn/strings/kmp-failure-table"
     },
     {
@@ -501,6 +595,10 @@
       "title": "Z-Algorithm Intuition",
       "oneLiner": "Reuse what an earlier match already proved.",
       "minutes": 6,
+      "tags": [
+        "strings",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/strings/z-algorithm"
     },
     {
@@ -510,6 +608,10 @@
       "title": "String Compression",
       "oneLiner": "One read cursor, one write cursor, no second string.",
       "minutes": 5,
+      "tags": [
+        "strings",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/strings/string-compression"
     },
     {
@@ -519,6 +621,9 @@
       "title": "Encode and Decode Strings",
       "oneLiner": "Send the length first and no character is special.",
       "minutes": 5,
+      "tags": [
+        "strings"
+      ],
       "url": "https://bytepatterns.com/learn/strings/encode-decode-strings"
     },
     {
@@ -528,6 +633,9 @@
       "title": "Linear Search",
       "oneLiner": "The simple one that always works. Often that's enough.",
       "minutes": 3,
+      "tags": [
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/searching/linear-search"
     },
     {
@@ -537,6 +645,9 @@
       "title": "Binary Search",
       "oneLiner": "A million records, twenty guesses. Sorted data only.",
       "minutes": 5,
+      "tags": [
+        "binary-search"
+      ],
       "url": "https://bytepatterns.com/learn/searching/binary-search"
     },
     {
@@ -546,6 +657,9 @@
       "title": "Binary Search Variants",
       "oneLiner": "Don't just find it. Find the first one that qualifies.",
       "minutes": 6,
+      "tags": [
+        "binary-search"
+      ],
       "url": "https://bytepatterns.com/learn/searching/binary-search-variants"
     },
     {
@@ -555,6 +669,9 @@
       "title": "Search in Rotated Array",
       "oneLiner": "Half of it is still sorted. Find that half, use it.",
       "minutes": 6,
+      "tags": [
+        "binary-search"
+      ],
       "url": "https://bytepatterns.com/learn/searching/search-in-rotated-array"
     },
     {
@@ -564,6 +681,10 @@
       "title": "Binary Search on Answer",
       "oneLiner": "No sorted array? Binary search the answer range.",
       "minutes": 6,
+      "tags": [
+        "binary-search",
+        "greedy"
+      ],
       "url": "https://bytepatterns.com/learn/searching/binary-search-on-answer"
     },
     {
@@ -573,6 +694,10 @@
       "title": "Search a 2D Matrix",
       "oneLiner": "Start in the corner where one step rules out a whole line.",
       "minutes": 5,
+      "tags": [
+        "matrix",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/searching/search-2d-matrix"
     },
     {
@@ -582,6 +707,9 @@
       "title": "Find a Peak",
       "oneLiner": "An uphill step always has a summit ahead of it.",
       "minutes": 5,
+      "tags": [
+        "binary-search"
+      ],
       "url": "https://bytepatterns.com/learn/searching/find-peak-element"
     },
     {
@@ -591,6 +719,10 @@
       "title": "Kth Smallest in a Matrix",
       "oneLiner": "Search the values, not the positions.",
       "minutes": 6,
+      "tags": [
+        "binary-search",
+        "matrix"
+      ],
       "url": "https://bytepatterns.com/learn/searching/kth-smallest-matrix"
     },
     {
@@ -600,6 +732,10 @@
       "title": "Sorting Basics",
       "oneLiner": "Comparisons, swaps, stability: the vocabulary of order.",
       "minutes": 4,
+      "tags": [
+        "sorting",
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/sorting/sorting-basics"
     },
     {
@@ -609,6 +745,10 @@
       "title": "Bubble Sort",
       "oneLiner": "Swap neighbours until the big values float to the end.",
       "minutes": 4,
+      "tags": [
+        "sorting",
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/sorting/bubble-sort"
     },
     {
@@ -618,6 +758,10 @@
       "title": "Selection Sort",
       "oneLiner": "Find the smallest, put it in front, then do it again.",
       "minutes": 4,
+      "tags": [
+        "sorting",
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/sorting/selection-sort"
     },
     {
@@ -627,6 +771,10 @@
       "title": "Insertion Sort",
       "oneLiner": "Build a sorted run, slide each newcomer into place.",
       "minutes": 5,
+      "tags": [
+        "sorting",
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/sorting/insertion-sort"
     },
     {
@@ -636,6 +784,11 @@
       "title": "Merge Sort",
       "oneLiner": "Split until trivial, then merge your way back up.",
       "minutes": 6,
+      "tags": [
+        "sorting",
+        "recursion",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/sorting/merge-sort"
     },
     {
@@ -645,6 +798,11 @@
       "title": "Quick Sort",
       "oneLiner": "Pick a pivot, split around it, and never merge.",
       "minutes": 6,
+      "tags": [
+        "sorting",
+        "recursion",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/sorting/quick-sort"
     },
     {
@@ -654,6 +812,10 @@
       "title": "Counting Sort",
       "oneLiner": "Skip comparisons entirely when the values are small.",
       "minutes": 5,
+      "tags": [
+        "sorting",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/sorting/counting-sort"
     },
     {
@@ -663,6 +825,10 @@
       "title": "Which Sort When?",
       "oneLiner": "The right sort is the one that fits your data's shape.",
       "minutes": 5,
+      "tags": [
+        "sorting",
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/sorting/which-sort-when"
     },
     {
@@ -672,6 +838,10 @@
       "title": "Heap Sort",
       "oneLiner": "Build a heap, then peel the maximum off n times.",
       "minutes": 6,
+      "tags": [
+        "sorting",
+        "heap"
+      ],
       "url": "https://bytepatterns.com/learn/sorting/heap-sort"
     },
     {
@@ -681,6 +851,9 @@
       "title": "Radix Sort",
       "oneLiner": "Sort by the last digit first, and never compare a thing.",
       "minutes": 5,
+      "tags": [
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/sorting/radix-sort"
     },
     {
@@ -690,6 +863,9 @@
       "title": "Singly Linked List Basics",
       "oneLiner": "Each item carries the address of the next one.",
       "minutes": 4,
+      "tags": [
+        "linked-list"
+      ],
       "url": "https://bytepatterns.com/learn/linked-lists/singly-linked-list-basics"
     },
     {
@@ -699,6 +875,9 @@
       "title": "Traversal and Search",
       "oneLiner": "One node at a time is the only way through.",
       "minutes": 4,
+      "tags": [
+        "linked-list"
+      ],
       "url": "https://bytepatterns.com/learn/linked-lists/traversal-and-search"
     },
     {
@@ -708,6 +887,9 @@
       "title": "Insert and Delete",
       "oneLiner": "Rewire two links, and nothing else has to move.",
       "minutes": 5,
+      "tags": [
+        "linked-list"
+      ],
       "url": "https://bytepatterns.com/learn/linked-lists/insert-and-delete"
     },
     {
@@ -717,6 +899,9 @@
       "title": "Reverse a Linked List",
       "oneLiner": "Flip every arrow backwards using three pointers.",
       "minutes": 5,
+      "tags": [
+        "linked-list"
+      ],
       "url": "https://bytepatterns.com/learn/linked-lists/reverse-linked-list"
     },
     {
@@ -726,6 +911,10 @@
       "title": "Fast and Slow Pointers",
       "oneLiner": "One hop versus two finds the middle in one pass.",
       "minutes": 5,
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/linked-lists/fast-and-slow-pointers"
     },
     {
@@ -735,6 +924,10 @@
       "title": "Detect a Cycle",
       "oneLiner": "If the list loops, the fast pointer laps the slow one.",
       "minutes": 5,
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/linked-lists/detect-cycle"
     },
     {
@@ -744,6 +937,10 @@
       "title": "Find the Cycle Start",
       "oneLiner": "Knowing a loop exists is half the job — now find its door.",
       "minutes": 6,
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/linked-lists/find-the-cycle-start"
     },
     {
@@ -753,6 +950,10 @@
       "title": "Merge Two Sorted Lists",
       "oneLiner": "Zip two ordered chains together without allocating a single node.",
       "minutes": 5,
+      "tags": [
+        "linked-list",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/linked-lists/merge-two-sorted-lists"
     },
     {
@@ -762,6 +963,10 @@
       "title": "Copy a List With Random Links",
       "oneLiner": "Clone the nodes first, wire the pointers second.",
       "minutes": 6,
+      "tags": [
+        "linked-list",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/linked-lists/copy-list-with-random-pointer"
     },
     {
@@ -771,6 +976,9 @@
       "title": "Doubly Linked Lists",
       "oneLiner": "Add a backwards pointer and removal stops needing a search.",
       "minutes": 6,
+      "tags": [
+        "linked-list"
+      ],
       "url": "https://bytepatterns.com/learn/linked-lists/doubly-linked-lists"
     },
     {
@@ -780,6 +988,9 @@
       "title": "Stack Basics",
       "oneLiner": "Last one in is the first one out.",
       "minutes": 4,
+      "tags": [
+        "stack"
+      ],
       "url": "https://bytepatterns.com/learn/stacks-queues/stack-basics"
     },
     {
@@ -789,6 +1000,10 @@
       "title": "Valid Parentheses",
       "oneLiner": "A closing bracket must answer the newest opening one.",
       "minutes": 5,
+      "tags": [
+        "stack",
+        "strings"
+      ],
       "url": "https://bytepatterns.com/learn/stacks-queues/valid-parentheses"
     },
     {
@@ -798,6 +1013,9 @@
       "title": "Queue Basics",
       "oneLiner": "First one in is the first one out.",
       "minutes": 4,
+      "tags": [
+        "queue"
+      ],
       "url": "https://bytepatterns.com/learn/stacks-queues/queue-basics"
     },
     {
@@ -807,6 +1025,10 @@
       "title": "Queue From Two Stacks",
       "oneLiner": "Reverse a reversal and LIFO turns into FIFO.",
       "minutes": 5,
+      "tags": [
+        "queue",
+        "stack"
+      ],
       "url": "https://bytepatterns.com/learn/stacks-queues/queue-with-two-stacks"
     },
     {
@@ -816,6 +1038,10 @@
       "title": "Monotonic Stack",
       "oneLiner": "Keep the stack ordered and every item waits only once.",
       "minutes": 6,
+      "tags": [
+        "monotonic-stack",
+        "stack"
+      ],
       "url": "https://bytepatterns.com/learn/stacks-queues/monotonic-stack"
     },
     {
@@ -825,6 +1051,9 @@
       "title": "Min Stack",
       "oneLiner": "Carry the answer up with the data instead of recomputing it.",
       "minutes": 5,
+      "tags": [
+        "stack"
+      ],
       "url": "https://bytepatterns.com/learn/stacks-queues/min-stack"
     },
     {
@@ -834,6 +1063,11 @@
       "title": "Sliding Window Maximum",
       "oneLiner": "A queue that drops anyone it has already outgrown.",
       "minutes": 6,
+      "tags": [
+        "sliding-window",
+        "monotonic-stack",
+        "queue"
+      ],
       "url": "https://bytepatterns.com/learn/stacks-queues/sliding-window-maximum"
     },
     {
@@ -843,6 +1077,9 @@
       "title": "Circular Queue",
       "oneLiner": "A fixed array that never shifts, because the ends wrap around.",
       "minutes": 5,
+      "tags": [
+        "queue"
+      ],
       "url": "https://bytepatterns.com/learn/stacks-queues/circular-queue"
     },
     {
@@ -852,6 +1089,10 @@
       "title": "Largest Rectangle",
       "oneLiner": "Every bar waits on the stack until both its walls are known.",
       "minutes": 7,
+      "tags": [
+        "monotonic-stack",
+        "stack"
+      ],
       "url": "https://bytepatterns.com/learn/stacks-queues/largest-rectangle"
     },
     {
@@ -861,6 +1102,9 @@
       "title": "Hash Table Basics",
       "oneLiner": "Turn a key into an address and skip the search.",
       "minutes": 4,
+      "tags": [
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/hash-tables/hash-table-basics"
     },
     {
@@ -870,6 +1114,9 @@
       "title": "Two Sum",
       "oneLiner": "Remember what you have seen and the pair finds itself.",
       "minutes": 5,
+      "tags": [
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/hash-tables/two-sum"
     },
     {
@@ -879,6 +1126,9 @@
       "title": "Frequency Counting",
       "oneLiner": "One pass, one counter per distinct value.",
       "minutes": 4,
+      "tags": [
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/hash-tables/frequency-counting"
     },
     {
@@ -888,6 +1138,11 @@
       "title": "Group Anagrams",
       "oneLiner": "Give every item a canonical key, then bucket by it.",
       "minutes": 5,
+      "tags": [
+        "hashing",
+        "strings",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/hash-tables/group-anagrams"
     },
     {
@@ -897,6 +1152,10 @@
       "title": "When Hashing Fails",
       "oneLiner": "O(1) is an average, not a promise.",
       "minutes": 5,
+      "tags": [
+        "hashing",
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/hash-tables/when-hashing-fails"
     },
     {
@@ -906,6 +1165,10 @@
       "title": "Subarray Sums With a Map",
       "oneLiner": "The complement trick, moved onto running totals.",
       "minutes": 6,
+      "tags": [
+        "hashing",
+        "prefix-sum"
+      ],
       "url": "https://bytepatterns.com/learn/hash-tables/subarray-sum-map"
     },
     {
@@ -915,6 +1178,10 @@
       "title": "Top K Without a Heap",
       "oneLiner": "Counts are small integers, so index by them.",
       "minutes": 5,
+      "tags": [
+        "hashing",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/hash-tables/top-k-buckets"
     },
     {
@@ -924,6 +1191,10 @@
       "title": "LFU: Frequency Buckets",
       "oneLiner": "Group keys by use count and eviction becomes O(1).",
       "minutes": 6,
+      "tags": [
+        "hashing",
+        "caching"
+      ],
       "url": "https://bytepatterns.com/learn/hash-tables/lfu-frequency-buckets"
     },
     {
@@ -933,6 +1204,9 @@
       "title": "Recursion Basics",
       "oneLiner": "A function that solves a smaller copy of itself.",
       "minutes": 5,
+      "tags": [
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/recursion/recursion-basics"
     },
     {
@@ -942,6 +1216,10 @@
       "title": "The Call Stack",
       "oneLiner": "Every pending call waits its turn on a stack of frames.",
       "minutes": 5,
+      "tags": [
+        "recursion",
+        "stack"
+      ],
       "url": "https://bytepatterns.com/learn/recursion/call-stack-visualized"
     },
     {
@@ -951,6 +1229,11 @@
       "title": "Factorial and Fibonacci",
       "oneLiner": "One call per step, or two calls that redo everything.",
       "minutes": 6,
+      "tags": [
+        "recursion",
+        "complexity",
+        "memoization"
+      ],
       "url": "https://bytepatterns.com/learn/recursion/factorial-and-fibonacci"
     },
     {
@@ -960,6 +1243,11 @@
       "title": "Memoization",
       "oneLiner": "Write each answer down once, never solve it twice.",
       "minutes": 5,
+      "tags": [
+        "recursion",
+        "memoization",
+        "dp"
+      ],
       "url": "https://bytepatterns.com/learn/recursion/memoization-intro"
     },
     {
@@ -969,6 +1257,10 @@
       "title": "Backtracking",
       "oneLiner": "Choose, explore, then undo the choice and try the next.",
       "minutes": 6,
+      "tags": [
+        "recursion",
+        "backtracking"
+      ],
       "url": "https://bytepatterns.com/learn/recursion/backtracking-intro"
     },
     {
@@ -978,6 +1270,10 @@
       "title": "Return Up or Pass Down",
       "oneLiner": "Every recursion moves information one of two ways. Pick one.",
       "minutes": 6,
+      "tags": [
+        "recursion",
+        "tree"
+      ],
       "url": "https://bytepatterns.com/learn/recursion/return-up-or-pass-down"
     },
     {
@@ -987,6 +1283,9 @@
       "title": "Tail Calls and Loops",
       "oneLiner": "When nothing happens after the call, the frame is dead weight.",
       "minutes": 6,
+      "tags": [
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/recursion/tail-recursion"
     },
     {
@@ -996,6 +1295,11 @@
       "title": "Your Own Call Stack",
       "oneLiner": "Not a tail call? Then carry the stack yourself.",
       "minutes": 6,
+      "tags": [
+        "recursion",
+        "stack",
+        "tree"
+      ],
       "url": "https://bytepatterns.com/learn/recursion/your-own-call-stack"
     },
     {
@@ -1005,6 +1309,11 @@
       "title": "The Decision Tree",
       "oneLiner": "Choose, explore, un-choose — one shared path walks the whole tree.",
       "minutes": 5,
+      "tags": [
+        "backtracking",
+        "recursion",
+        "dfs"
+      ],
       "url": "https://bytepatterns.com/learn/backtracking/the-decision-tree"
     },
     {
@@ -1014,6 +1323,10 @@
       "title": "Subsets",
       "oneLiner": "Two branches per item: leave it out, or take it.",
       "minutes": 5,
+      "tags": [
+        "backtracking",
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/backtracking/subsets"
     },
     {
@@ -1023,6 +1336,10 @@
       "title": "Permutations",
       "oneLiner": "Every unused value is a branch; the used set is the pruning.",
       "minutes": 5,
+      "tags": [
+        "backtracking",
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/backtracking/permutations"
     },
     {
@@ -1032,6 +1349,10 @@
       "title": "N-Queens",
       "oneLiner": "One queen per row, and a dead row sends you straight back up.",
       "minutes": 6,
+      "tags": [
+        "backtracking",
+        "matrix"
+      ],
       "url": "https://bytepatterns.com/learn/backtracking/n-queens"
     },
     {
@@ -1041,6 +1362,11 @@
       "title": "Word Search & Pruning",
       "oneLiner": "Walk the grid, block the cell, and quit on the first wrong letter.",
       "minutes": 6,
+      "tags": [
+        "backtracking",
+        "matrix",
+        "dfs"
+      ],
       "url": "https://bytepatterns.com/learn/backtracking/word-search-and-pruning"
     },
     {
@@ -1050,6 +1376,10 @@
       "title": "What Makes Greedy Work",
       "oneLiner": "Take the best move now — but only when it can never block a better answer.",
       "minutes": 5,
+      "tags": [
+        "greedy",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/greedy/what-makes-greedy-work"
     },
     {
@@ -1059,6 +1389,11 @@
       "title": "Interval Scheduling",
       "oneLiner": "Sort by finishing time and the room books itself.",
       "minutes": 5,
+      "tags": [
+        "greedy",
+        "intervals",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/greedy/interval-scheduling"
     },
     {
@@ -1068,6 +1403,9 @@
       "title": "Jump Game",
       "oneLiner": "Carry one number: the furthest index still in reach.",
       "minutes": 5,
+      "tags": [
+        "greedy"
+      ],
       "url": "https://bytepatterns.com/learn/greedy/jump-game"
     },
     {
@@ -1077,6 +1415,10 @@
       "title": "Gas Station",
       "oneLiner": "One pass picks the start, because every failed prefix is proof.",
       "minutes": 6,
+      "tags": [
+        "greedy",
+        "prefix-sum"
+      ],
       "url": "https://bytepatterns.com/learn/greedy/gas-station"
     },
     {
@@ -1086,6 +1428,11 @@
       "title": "Huffman Intuition",
       "oneLiner": "Merge the two rarest symbols, again and again, and the code writes itself.",
       "minutes": 6,
+      "tags": [
+        "greedy",
+        "heap",
+        "tree"
+      ],
       "url": "https://bytepatterns.com/learn/greedy/huffman-intuition"
     },
     {
@@ -1095,6 +1442,9 @@
       "title": "Tree Basics",
       "oneLiner": "One root, many branches, and no way back up.",
       "minutes": 4,
+      "tags": [
+        "tree"
+      ],
       "url": "https://bytepatterns.com/learn/trees/tree-basics"
     },
     {
@@ -1104,6 +1454,9 @@
       "title": "Binary Trees",
       "oneLiner": "At most two children: one left, one right, never swapped.",
       "minutes": 4,
+      "tags": [
+        "tree"
+      ],
       "url": "https://bytepatterns.com/learn/trees/binary-trees"
     },
     {
@@ -1113,6 +1466,11 @@
       "title": "Tree Traversals",
       "oneLiner": "Same nodes, same recursion, three different reading orders.",
       "minutes": 5,
+      "tags": [
+        "tree",
+        "dfs",
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/trees/tree-traversals"
     },
     {
@@ -1122,6 +1480,10 @@
       "title": "BST Basics",
       "oneLiner": "Smaller values left, larger values right, all the way down.",
       "minutes": 5,
+      "tags": [
+        "bst",
+        "tree"
+      ],
       "url": "https://bytepatterns.com/learn/trees/bst-basics"
     },
     {
@@ -1131,6 +1493,10 @@
       "title": "BST Insert and Search",
       "oneLiner": "One comparison per level throws away half the tree.",
       "minutes": 5,
+      "tags": [
+        "bst",
+        "binary-search"
+      ],
       "url": "https://bytepatterns.com/learn/trees/bst-insert-and-search"
     },
     {
@@ -1140,6 +1506,10 @@
       "title": "Validate a BST",
       "oneLiner": "Checking the parent is not enough; carry a range down.",
       "minutes": 6,
+      "tags": [
+        "bst",
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/trees/validate-bst"
     },
     {
@@ -1149,6 +1519,11 @@
       "title": "Tree Depth and Balance",
       "oneLiner": "Height decides speed, and balance decides height.",
       "minutes": 5,
+      "tags": [
+        "tree",
+        "dfs",
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/trees/tree-depth-and-balance"
     },
     {
@@ -1158,6 +1533,10 @@
       "title": "Lowest Common Ancestor",
       "oneLiner": "Walk down from the root until the two targets part ways.",
       "minutes": 6,
+      "tags": [
+        "tree",
+        "bst"
+      ],
       "url": "https://bytepatterns.com/learn/trees/lowest-common-ancestor"
     },
     {
@@ -1167,6 +1546,11 @@
       "title": "Level Order Traversal",
       "oneLiner": "A queue turns a tree into one tidy row per depth.",
       "minutes": 5,
+      "tags": [
+        "tree",
+        "bfs",
+        "queue"
+      ],
       "url": "https://bytepatterns.com/learn/trees/level-order-traversal"
     },
     {
@@ -1176,6 +1560,11 @@
       "title": "Diameter of a Tree",
       "oneLiner": "The longest path bends at exactly one node — find that node.",
       "minutes": 6,
+      "tags": [
+        "tree",
+        "dfs",
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/trees/tree-diameter"
     },
     {
@@ -1185,6 +1574,11 @@
       "title": "Path Sum Variants",
       "oneLiner": "Same tree, three questions — and three different things to carry.",
       "minutes": 6,
+      "tags": [
+        "tree",
+        "prefix-sum",
+        "dfs"
+      ],
       "url": "https://bytepatterns.com/learn/trees/path-sum-variants"
     },
     {
@@ -1194,6 +1588,11 @@
       "title": "Serialize a Tree",
       "oneLiner": "Write the gaps down and the shape survives the trip.",
       "minutes": 6,
+      "tags": [
+        "tree",
+        "recursion",
+        "strings"
+      ],
       "url": "https://bytepatterns.com/learn/trees/serialize-and-deserialize"
     },
     {
@@ -1203,6 +1602,11 @@
       "title": "Vertical Order Traversal",
       "oneLiner": "Give every node an x-coordinate and read the tree in columns.",
       "minutes": 6,
+      "tags": [
+        "tree",
+        "bfs",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/trees/vertical-order-traversal"
     },
     {
@@ -1212,6 +1616,10 @@
       "title": "Rebuild From Traversals",
       "oneLiner": "Preorder names the root, inorder says where to cut.",
       "minutes": 6,
+      "tags": [
+        "tree",
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/trees/build-tree-from-traversals"
     },
     {
@@ -1221,6 +1629,11 @@
       "title": "Trie Basics",
       "oneLiner": "Store words by their letters so shared prefixes are stored once.",
       "minutes": 5,
+      "tags": [
+        "trie",
+        "tree",
+        "strings"
+      ],
       "url": "https://bytepatterns.com/learn/tries/trie-basics"
     },
     {
@@ -1230,6 +1643,10 @@
       "title": "Prefix Search",
       "oneLiner": "Walk to the prefix once, then everything below it is the answer.",
       "minutes": 5,
+      "tags": [
+        "trie",
+        "strings"
+      ],
       "url": "https://bytepatterns.com/learn/tries/prefix-search-and-autocomplete"
     },
     {
@@ -1239,6 +1656,11 @@
       "title": "Word Search With a Trie",
       "oneLiner": "One walk over the grid, pruned the moment the path stops being a prefix.",
       "minutes": 6,
+      "tags": [
+        "trie",
+        "backtracking",
+        "matrix"
+      ],
       "url": "https://bytepatterns.com/learn/tries/word-search-with-a-trie"
     },
     {
@@ -1248,6 +1670,10 @@
       "title": "Trie vs Hash Set",
       "oneLiner": "A set answers 'is this word here'. A trie answers 'what starts with this'.",
       "minutes": 4,
+      "tags": [
+        "trie",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/tries/trie-vs-hash-set"
     },
     {
@@ -1257,6 +1683,10 @@
       "title": "Heap Basics",
       "oneLiner": "Not sorted — just guaranteed to know its own winner.",
       "minutes": 5,
+      "tags": [
+        "heap",
+        "tree"
+      ],
       "url": "https://bytepatterns.com/learn/heaps/heap-basics"
     },
     {
@@ -1266,6 +1696,9 @@
       "title": "Heapify and Sift",
       "oneLiner": "One wrong value walks a single path back into place.",
       "minutes": 6,
+      "tags": [
+        "heap"
+      ],
       "url": "https://bytepatterns.com/learn/heaps/heapify-and-sift"
     },
     {
@@ -1275,6 +1708,10 @@
       "title": "Priority Queue",
       "oneLiner": "Serve by urgency, not by who shouted first.",
       "minutes": 5,
+      "tags": [
+        "heap",
+        "queue"
+      ],
       "url": "https://bytepatterns.com/learn/heaps/priority-queue"
     },
     {
@@ -1284,6 +1721,9 @@
       "title": "Top K Elements",
       "oneLiner": "Hold k winners and let the weakest one guard the door.",
       "minutes": 6,
+      "tags": [
+        "heap"
+      ],
       "url": "https://bytepatterns.com/learn/heaps/top-k-elements"
     },
     {
@@ -1293,6 +1733,10 @@
       "title": "K Closest Points",
       "oneLiner": "Keep the k best by always evicting the current worst.",
       "minutes": 6,
+      "tags": [
+        "heap",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/heaps/k-closest-points"
     },
     {
@@ -1302,6 +1746,11 @@
       "title": "Reorganize a String",
       "oneLiner": "Spend the commonest letter first, and hold it back one round.",
       "minutes": 6,
+      "tags": [
+        "heap",
+        "greedy",
+        "strings"
+      ],
       "url": "https://bytepatterns.com/learn/heaps/reorganize-a-string"
     },
     {
@@ -1311,6 +1760,11 @@
       "title": "Task Scheduler",
       "oneLiner": "Same greedy pick, but now the loser has to sit out a cooldown.",
       "minutes": 7,
+      "tags": [
+        "heap",
+        "greedy",
+        "queue"
+      ],
       "url": "https://bytepatterns.com/learn/heaps/task-scheduler"
     },
     {
@@ -1320,6 +1774,9 @@
       "title": "Two Heaps: Running Median",
       "oneLiner": "Two heaps face each other, and the middle sits between their roots.",
       "minutes": 6,
+      "tags": [
+        "heap"
+      ],
       "url": "https://bytepatterns.com/learn/two-heaps-k-way/two-heaps-running-median"
     },
     {
@@ -1329,6 +1786,10 @@
       "title": "K-Way Merge",
       "oneLiner": "One heap of k heads turns k sorted lists into one.",
       "minutes": 6,
+      "tags": [
+        "heap",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/two-heaps-k-way/k-way-merge"
     },
     {
@@ -1338,6 +1799,10 @@
       "title": "Top K in a Stream",
       "oneLiner": "Count once, then let a k-sized heap keep only the winners.",
       "minutes": 6,
+      "tags": [
+        "heap",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/two-heaps-k-way/top-k-frequent-stream"
     },
     {
@@ -1347,6 +1812,11 @@
       "title": "Sliding Window Median",
       "oneLiner": "You cannot dig a value out of a heap — so mark it dead instead.",
       "minutes": 7,
+      "tags": [
+        "heap",
+        "sliding-window",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/two-heaps-k-way/sliding-window-median"
     },
     {
@@ -1356,6 +1826,9 @@
       "title": "Graph Basics",
       "oneLiner": "Things, plus the connections between them.",
       "minutes": 5,
+      "tags": [
+        "graph"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/graph-basics"
     },
     {
@@ -1365,6 +1838,9 @@
       "title": "List vs Matrix",
       "oneLiner": "Store the edges you have, or a cell for every pair you don't.",
       "minutes": 5,
+      "tags": [
+        "graph"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/adjacency-representations"
     },
     {
@@ -1374,6 +1850,11 @@
       "title": "Breadth-First Search",
       "oneLiner": "Sweep outward one ring at a time, using a queue.",
       "minutes": 6,
+      "tags": [
+        "graph",
+        "bfs",
+        "queue"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/breadth-first-search"
     },
     {
@@ -1383,6 +1864,11 @@
       "title": "Depth-First Search",
       "oneLiner": "Commit to one branch until it dead-ends, then back up.",
       "minutes": 5,
+      "tags": [
+        "graph",
+        "dfs",
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/depth-first-search"
     },
     {
@@ -1392,6 +1878,10 @@
       "title": "Connected Components",
       "oneLiner": "Count the islands by starting a fresh sweep on each one.",
       "minutes": 5,
+      "tags": [
+        "graph",
+        "dfs"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/connected-components"
     },
     {
@@ -1401,6 +1891,11 @@
       "title": "Shortest Path, Unweighted",
       "oneLiner": "BFS already found it — store parents to read it back.",
       "minutes": 6,
+      "tags": [
+        "graph",
+        "bfs",
+        "shortest-path"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/shortest-path-unweighted"
     },
     {
@@ -1410,6 +1905,12 @@
       "title": "Dijkstra's Algorithm",
       "oneLiner": "When edges cost different amounts, always settle the nearest first.",
       "minutes": 6,
+      "tags": [
+        "graph",
+        "shortest-path",
+        "heap",
+        "greedy"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/dijkstra-intro"
     },
     {
@@ -1419,6 +1920,10 @@
       "title": "Topological Sort",
       "oneLiner": "Order the steps so nothing runs before what it depends on.",
       "minutes": 6,
+      "tags": [
+        "graph",
+        "topological-sort"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/topological-sort"
     },
     {
@@ -1428,6 +1933,10 @@
       "title": "Bellman-Ford",
       "oneLiner": "Relax every edge, V-1 times, and negative weights stop being a problem.",
       "minutes": 6,
+      "tags": [
+        "graph",
+        "shortest-path"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/bellman-ford"
     },
     {
@@ -1437,6 +1946,12 @@
       "title": "Kruskal's Spanning Tree",
       "oneLiner": "Buy the cheapest cable that joins two pieces you have not joined yet.",
       "minutes": 6,
+      "tags": [
+        "graph",
+        "union-find",
+        "greedy",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/kruskal-mst"
     },
     {
@@ -1446,6 +1961,11 @@
       "title": "Prim's Spanning Tree",
       "oneLiner": "One tree that grows, always by its cheapest way out.",
       "minutes": 6,
+      "tags": [
+        "graph",
+        "heap",
+        "greedy"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/prim-mst"
     },
     {
@@ -1455,6 +1975,10 @@
       "title": "Bipartite Check",
       "oneLiner": "Two colours, no neighbour sharing one — or the split is impossible.",
       "minutes": 5,
+      "tags": [
+        "graph",
+        "bfs"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/bipartite-check"
     },
     {
@@ -1464,6 +1988,10 @@
       "title": "Cycles in a Directed Graph",
       "oneLiner": "Grey means still on the path — meet grey again and you have looped.",
       "minutes": 6,
+      "tags": [
+        "graph",
+        "dfs"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/directed-cycle-colours"
     },
     {
@@ -1473,6 +2001,10 @@
       "title": "Graphs You Never Build",
       "oneLiner": "Generate the neighbours on demand and BFS works the same.",
       "minutes": 6,
+      "tags": [
+        "graph",
+        "bfs"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/implicit-graph-bfs"
     },
     {
@@ -1482,6 +2014,11 @@
       "title": "Multi-Source BFS",
       "oneLiner": "Seed the queue with every source and one sweep answers them all.",
       "minutes": 5,
+      "tags": [
+        "graph",
+        "bfs",
+        "matrix"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/multi-source-bfs"
     },
     {
@@ -1491,6 +2028,10 @@
       "title": "Strongly Connected Parts",
       "oneLiner": "Groups where every node can reach every other — found in two passes.",
       "minutes": 7,
+      "tags": [
+        "graph",
+        "dfs"
+      ],
       "url": "https://bytepatterns.com/learn/graphs/strongly-connected-components"
     },
     {
@@ -1500,6 +2041,10 @@
       "title": "Grid Traversal",
       "oneLiner": "Row first, column second, and always check the edge.",
       "minutes": 4,
+      "tags": [
+        "matrix",
+        "graph"
+      ],
       "url": "https://bytepatterns.com/learn/matrix-grid/grid-traversal-and-neighbours"
     },
     {
@@ -1509,6 +2054,9 @@
       "title": "Spiral Order",
       "oneLiner": "Four walls that close in after every pass.",
       "minutes": 5,
+      "tags": [
+        "matrix"
+      ],
       "url": "https://bytepatterns.com/learn/matrix-grid/spiral-order"
     },
     {
@@ -1518,6 +2066,10 @@
       "title": "Rotate In Place",
       "oneLiner": "Mirror the diagonal, then flip each row.",
       "minutes": 5,
+      "tags": [
+        "matrix",
+        "two-pointers"
+      ],
       "url": "https://bytepatterns.com/learn/matrix-grid/rotate-in-place"
     },
     {
@@ -1527,6 +2079,11 @@
       "title": "Number of Islands",
       "oneLiner": "Count a blob once, then erase it so it cannot count twice.",
       "minutes": 5,
+      "tags": [
+        "matrix",
+        "dfs",
+        "bfs"
+      ],
       "url": "https://bytepatterns.com/learn/matrix-grid/number-of-islands"
     },
     {
@@ -1536,6 +2093,10 @@
       "title": "Flood Fill",
       "oneLiner": "Spread while the colour matches, stop the moment it does not.",
       "minutes": 4,
+      "tags": [
+        "matrix",
+        "dfs"
+      ],
       "url": "https://bytepatterns.com/learn/matrix-grid/flood-fill"
     },
     {
@@ -1545,6 +2106,10 @@
       "title": "Disjoint Sets Basics",
       "oneLiner": "Every group is named by one root, and find walks up to it.",
       "minutes": 5,
+      "tags": [
+        "union-find",
+        "graph"
+      ],
       "url": "https://bytepatterns.com/learn/union-find/disjoint-sets-basics"
     },
     {
@@ -1554,6 +2119,10 @@
       "title": "Path Compression",
       "oneLiner": "You already walked to the root — leave everyone pointing straight at it.",
       "minutes": 5,
+      "tags": [
+        "union-find",
+        "tree"
+      ],
       "url": "https://bytepatterns.com/learn/union-find/path-compression"
     },
     {
@@ -1563,6 +2132,10 @@
       "title": "Union by Rank or Size",
       "oneLiner": "Hang the smaller tree under the bigger one and depth barely grows.",
       "minutes": 5,
+      "tags": [
+        "union-find",
+        "tree"
+      ],
       "url": "https://bytepatterns.com/learn/union-find/union-by-size"
     },
     {
@@ -1572,6 +2145,10 @@
       "title": "Components & Cycles",
       "oneLiner": "Start the counter at n and drop it on every union that actually merges.",
       "minutes": 5,
+      "tags": [
+        "union-find",
+        "graph"
+      ],
       "url": "https://bytepatterns.com/learn/union-find/components-and-cycles"
     },
     {
@@ -1581,6 +2158,10 @@
       "title": "Interval Basics & Sorting",
       "oneLiner": "Sort by start and the pairwise question becomes a left-to-right scan.",
       "minutes": 4,
+      "tags": [
+        "intervals",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/intervals/interval-basics-and-sorting"
     },
     {
@@ -1590,6 +2171,10 @@
       "title": "Merge Intervals",
       "oneLiner": "Hold one block open, stretch it while they touch, close it on a gap.",
       "minutes": 5,
+      "tags": [
+        "intervals",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/intervals/merge-intervals"
     },
     {
@@ -1599,6 +2184,9 @@
       "title": "Insert Interval",
       "oneLiner": "The list is already sorted, so slot the new block in with three passes.",
       "minutes": 5,
+      "tags": [
+        "intervals"
+      ],
       "url": "https://bytepatterns.com/learn/intervals/insert-interval"
     },
     {
@@ -1608,6 +2196,10 @@
       "title": "Meeting Rooms",
       "oneLiner": "Count how many run at once; the high-water mark is the room count.",
       "minutes": 5,
+      "tags": [
+        "intervals",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/intervals/meeting-rooms"
     },
     {
@@ -1617,6 +2209,9 @@
       "title": "Binary and Bitwise Ops",
       "oneLiner": "Every integer is a row of switches you can address.",
       "minutes": 4,
+      "tags": [
+        "bit-manipulation"
+      ],
       "url": "https://bytepatterns.com/learn/bit-manipulation/binary-and-bitwise-ops"
     },
     {
@@ -1626,6 +2221,9 @@
       "title": "XOR Tricks",
       "oneLiner": "Pairs cancel out, and the loner is left standing.",
       "minutes": 4,
+      "tags": [
+        "bit-manipulation"
+      ],
       "url": "https://bytepatterns.com/learn/bit-manipulation/xor-tricks"
     },
     {
@@ -1635,6 +2233,9 @@
       "title": "Counting Set Bits",
       "oneLiner": "Clear the lowest 1 and count how often you can.",
       "minutes": 4,
+      "tags": [
+        "bit-manipulation"
+      ],
       "url": "https://bytepatterns.com/learn/bit-manipulation/counting-set-bits"
     },
     {
@@ -1644,6 +2245,9 @@
       "title": "Masks and Power of Two",
       "oneLiner": "One shifted bit is a key to any position you like.",
       "minutes": 5,
+      "tags": [
+        "bit-manipulation"
+      ],
       "url": "https://bytepatterns.com/learn/bit-manipulation/masks-and-power-of-two"
     },
     {
@@ -1653,6 +2257,10 @@
       "title": "Bitmask as a Set",
       "oneLiner": "An integer is a subset; counting to 2^n lists them all.",
       "minutes": 5,
+      "tags": [
+        "bit-manipulation",
+        "backtracking"
+      ],
       "url": "https://bytepatterns.com/learn/bit-manipulation/bitmask-as-a-set"
     },
     {
@@ -1662,6 +2270,9 @@
       "title": "Modular Arithmetic",
       "oneLiner": "A remainder is a position on a clock, not a leftover.",
       "minutes": 4,
+      "tags": [
+        "math"
+      ],
       "url": "https://bytepatterns.com/learn/math-number-theory/modular-arithmetic"
     },
     {
@@ -1671,6 +2282,10 @@
       "title": "GCD and Euclid",
       "oneLiner": "Replace the pair with the leftover and it shrinks fast.",
       "minutes": 4,
+      "tags": [
+        "math",
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/math-number-theory/gcd-and-euclid"
     },
     {
@@ -1680,6 +2295,9 @@
       "title": "Sieve of Eratosthenes",
       "oneLiner": "Cross out what the primes can reach; the rest are prime.",
       "minutes": 5,
+      "tags": [
+        "math"
+      ],
       "url": "https://bytepatterns.com/learn/math-number-theory/sieve-of-eratosthenes"
     },
     {
@@ -1689,6 +2307,10 @@
       "title": "Fast Exponentiation",
       "oneLiner": "Square your way up instead of multiplying n times.",
       "minutes": 5,
+      "tags": [
+        "math",
+        "bit-manipulation"
+      ],
       "url": "https://bytepatterns.com/learn/math-number-theory/fast-exponentiation"
     },
     {
@@ -1698,6 +2320,10 @@
       "title": "Permutations vs Combinations",
       "oneLiner": "Divide by k! the moment order stops mattering.",
       "minutes": 5,
+      "tags": [
+        "math",
+        "backtracking"
+      ],
       "url": "https://bytepatterns.com/learn/math-number-theory/counting-permutations-combinations"
     },
     {
@@ -1707,6 +2333,11 @@
       "title": "What Is Dynamic Programming?",
       "oneLiner": "Solve each overlapping subproblem once, then reuse the answer.",
       "minutes": 5,
+      "tags": [
+        "dp",
+        "memoization",
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/what-is-dp"
     },
     {
@@ -1716,6 +2347,10 @@
       "title": "Top-Down vs Bottom-Up",
       "oneLiner": "One recurrence, two directions: recurse and cache, or fill a table.",
       "minutes": 5,
+      "tags": [
+        "dp",
+        "memoization"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/top-down-vs-bottom-up"
     },
     {
@@ -1725,6 +2360,9 @@
       "title": "Climbing Stairs",
       "oneLiner": "Ways to reach step n = ways to n-1 plus ways to n-2.",
       "minutes": 4,
+      "tags": [
+        "dp"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/climbing-stairs"
     },
     {
@@ -1734,6 +2372,9 @@
       "title": "House Robber",
       "oneLiner": "Take this one and skip its neighbour, or skip it and keep the best.",
       "minutes": 5,
+      "tags": [
+        "dp"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/house-robber"
     },
     {
@@ -1743,6 +2384,9 @@
       "title": "Coin Change",
       "oneLiner": "Fewest pieces to hit a target, one amount at a time.",
       "minutes": 6,
+      "tags": [
+        "dp"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/coin-change"
     },
     {
@@ -1752,6 +2396,10 @@
       "title": "Longest Common Subsequence",
       "oneLiner": "Match the two ends, or drop a character from one side.",
       "minutes": 6,
+      "tags": [
+        "dp",
+        "strings"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/longest-common-subsequence"
     },
     {
@@ -1761,6 +2409,9 @@
       "title": "0/1 Knapsack",
       "oneLiner": "Each item is all or nothing, so try both and keep the better.",
       "minutes": 6,
+      "tags": [
+        "dp"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/knapsack-01"
     },
     {
@@ -1770,6 +2421,10 @@
       "title": "Edit Distance",
       "oneLiner": "Insert, delete, or replace — count the cheapest route.",
       "minutes": 6,
+      "tags": [
+        "dp",
+        "strings"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/edit-distance"
     },
     {
@@ -1779,6 +2434,9 @@
       "title": "Longest Increasing Subsequence",
       "oneLiner": "Every element asks which smaller one it can extend.",
       "minutes": 6,
+      "tags": [
+        "dp"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/longest-increasing-subsequence"
     },
     {
@@ -1788,6 +2446,10 @@
       "title": "DP on Grids",
       "oneLiner": "Each cell's answer comes from the cells above and to its left.",
       "minutes": 6,
+      "tags": [
+        "dp",
+        "matrix"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/dp-on-grids"
     },
     {
@@ -1797,6 +2459,9 @@
       "title": "Unbounded Knapsack",
       "oneLiner": "Same table, forward loop — and every item can be taken again.",
       "minutes": 6,
+      "tags": [
+        "dp"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/unbounded-knapsack"
     },
     {
@@ -1806,6 +2471,9 @@
       "title": "Counting Ways, Not Coins",
       "oneLiner": "Loop coins on the outside and each combination is counted once.",
       "minutes": 6,
+      "tags": [
+        "dp"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/coin-change-ways"
     },
     {
@@ -1815,6 +2483,9 @@
       "title": "Equal Split",
       "oneLiner": "Can any subset hit exactly half the total? Track reachable sums.",
       "minutes": 6,
+      "tags": [
+        "dp"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/partition-equal-subset"
     },
     {
@@ -1824,6 +2495,9 @@
       "title": "House Robber in a Circle",
       "oneLiner": "First and last are now neighbours, so run the line twice.",
       "minutes": 5,
+      "tags": [
+        "dp"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/house-robber-circle"
     },
     {
@@ -1833,6 +2507,10 @@
       "title": "LIS in O(n log n)",
       "oneLiner": "Keep the smallest possible ending for a chain of each length.",
       "minutes": 7,
+      "tags": [
+        "dp",
+        "binary-search"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/lis-patience-tails"
     },
     {
@@ -1842,6 +2520,9 @@
       "title": "Interval DP",
       "oneLiner": "Answer every short stretch first, then split the long ones.",
       "minutes": 7,
+      "tags": [
+        "dp"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/matrix-chain-order"
     },
     {
@@ -1851,6 +2532,11 @@
       "title": "DP on Trees",
       "oneLiner": "Every node returns two answers: taken, and not taken.",
       "minutes": 7,
+      "tags": [
+        "dp",
+        "tree",
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/dp-on-trees"
     },
     {
@@ -1860,6 +2546,10 @@
       "title": "Word Break",
       "oneLiner": "A prefix is splittable if some earlier cut leaves a real word.",
       "minutes": 6,
+      "tags": [
+        "dp",
+        "strings"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/word-break-dp"
     },
     {
@@ -1869,6 +2559,10 @@
       "title": "Reading the Answer Back",
       "oneLiner": "The table holds the score; walking it backwards holds the answer.",
       "minutes": 6,
+      "tags": [
+        "dp",
+        "strings"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/reading-the-answer-back"
     },
     {
@@ -1878,6 +2572,9 @@
       "title": "DP as a State Machine",
       "oneLiner": "Two running totals, one per state, updated day by day.",
       "minutes": 6,
+      "tags": [
+        "dp"
+      ],
       "url": "https://bytepatterns.com/learn/dynamic-programming/stock-state-machine"
     },
     {
@@ -1887,6 +2584,9 @@
       "title": "What Is System Design",
       "oneLiner": "Choosing which constraint you refuse to break.",
       "minutes": 5,
+      "tags": [
+        "system-design"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/what-is-system-design"
     },
     {
@@ -1896,6 +2596,9 @@
       "title": "Vertical vs Horizontal Scaling",
       "oneLiner": "Buy a bigger machine, or buy more of them.",
       "minutes": 5,
+      "tags": [
+        "distributed"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/vertical-vs-horizontal-scaling"
     },
     {
@@ -1905,6 +2608,10 @@
       "title": "Load Balancing",
       "oneLiner": "One front door, many rooms behind it.",
       "minutes": 5,
+      "tags": [
+        "distributed",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/load-balancing"
     },
     {
@@ -1914,6 +2621,9 @@
       "title": "Caching",
       "oneLiner": "Keep the answer near whoever keeps asking.",
       "minutes": 5,
+      "tags": [
+        "caching"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/caching"
     },
     {
@@ -1923,6 +2633,9 @@
       "title": "Invalidation and Eviction",
       "oneLiner": "Wrong answers age; small caches forget.",
       "minutes": 6,
+      "tags": [
+        "caching"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/cache-invalidation-and-eviction"
     },
     {
@@ -1932,6 +2645,9 @@
       "title": "Content Delivery Networks",
       "oneLiner": "Distance is latency you cannot optimise away.",
       "minutes": 5,
+      "tags": [
+        "caching"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/cdn"
     },
     {
@@ -1941,6 +2657,9 @@
       "title": "Database Replication",
       "oneLiner": "One writer, many readers, a small delay.",
       "minutes": 6,
+      "tags": [
+        "distributed"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/database-replication"
     },
     {
@@ -1950,6 +2669,10 @@
       "title": "Database Sharding",
       "oneLiner": "Split the data itself when one box is full.",
       "minutes": 6,
+      "tags": [
+        "distributed",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/database-sharding"
     },
     {
@@ -1959,6 +2682,9 @@
       "title": "SQL vs NoSQL",
       "oneLiner": "Fixed columns and joins, or flexible documents.",
       "minutes": 6,
+      "tags": [
+        "distributed"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/sql-vs-nosql"
     },
     {
@@ -1968,6 +2694,9 @@
       "title": "Consistency and CAP",
       "oneLiner": "When the network splits, you must pick a side.",
       "minutes": 6,
+      "tags": [
+        "distributed"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/consistency-and-cap"
     },
     {
@@ -1977,6 +2706,10 @@
       "title": "Message Queues",
       "oneLiner": "Hand off the work instead of waiting for it.",
       "minutes": 5,
+      "tags": [
+        "queue",
+        "distributed"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/message-queues"
     },
     {
@@ -1986,6 +2719,9 @@
       "title": "Rate Limiting",
       "oneLiner": "Cap the flow before it caps your service.",
       "minutes": 5,
+      "tags": [
+        "rate-limiting"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/rate-limiting"
     },
     {
@@ -1995,6 +2731,9 @@
       "title": "Designing a REST API",
       "oneLiner": "Address the thing; let the method be the verb.",
       "minutes": 6,
+      "tags": [
+        "system-design"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/api-design-rest"
     },
     {
@@ -2004,6 +2743,9 @@
       "title": "WebSockets and Realtime",
       "oneLiner": "Keep the line open instead of redialling.",
       "minutes": 5,
+      "tags": [
+        "distributed"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/websockets-and-realtime"
     },
     {
@@ -2013,6 +2755,9 @@
       "title": "Observability Basics",
       "oneLiner": "Metrics say something broke; traces say where.",
       "minutes": 5,
+      "tags": [
+        "distributed"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/observability-basics"
     },
     {
@@ -2022,6 +2767,9 @@
       "title": "Consistency Models",
       "oneLiner": "Same data, different promises about what a read may see.",
       "minutes": 6,
+      "tags": [
+        "distributed"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/consistency-models"
     },
     {
@@ -2031,6 +2779,10 @@
       "title": "Tracing a Request",
       "oneLiner": "One request, one tree of spans, one honest answer about the time.",
       "minutes": 6,
+      "tags": [
+        "distributed",
+        "tree"
+      ],
       "url": "https://bytepatterns.com/learn/system-design/tracing-a-request"
     },
     {
@@ -2040,6 +2792,10 @@
       "title": "Design a URL Shortener",
       "oneLiner": "One tiny key, a hundred million long links behind it.",
       "minutes": 6,
+      "tags": [
+        "hashing",
+        "caching"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-a-url-shortener"
     },
     {
@@ -2049,6 +2805,10 @@
       "title": "Design a Rate Limiter",
       "oneLiner": "The algorithm is easy; where the counter lives is the interview.",
       "minutes": 6,
+      "tags": [
+        "rate-limiting",
+        "distributed"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-a-rate-limiter"
     },
     {
@@ -2058,6 +2818,10 @@
       "title": "Design a Chat App",
       "oneLiner": "Finding the socket is harder than sending the message.",
       "minutes": 7,
+      "tags": [
+        "distributed",
+        "queue"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-a-chat-app"
     },
     {
@@ -2067,6 +2831,10 @@
       "title": "Design a News Feed",
       "oneLiner": "Pay at write time, at read time, or a little of both.",
       "minutes": 7,
+      "tags": [
+        "caching",
+        "distributed"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-a-news-feed"
     },
     {
@@ -2076,6 +2844,9 @@
       "title": "Design a Notification System",
       "oneLiner": "One event, three channels, and never the same message twice.",
       "minutes": 6,
+      "tags": [
+        "queue"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-a-notification-system"
     },
     {
@@ -2085,6 +2856,10 @@
       "title": "Design Search Autocomplete",
       "oneLiner": "Not a search — a walk down a path somebody built last night.",
       "minutes": 6,
+      "tags": [
+        "trie",
+        "caching"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-search-autocomplete"
     },
     {
@@ -2094,6 +2869,9 @@
       "title": "Design a File Storage Service",
       "oneLiner": "Upload the paragraph that changed, not the ten gigabytes.",
       "minutes": 7,
+      "tags": [
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-a-file-storage-service"
     },
     {
@@ -2103,6 +2881,9 @@
       "title": "Design Video Streaming",
       "oneLiner": "Transcode once, cut into segments, and let the edge carry it.",
       "minutes": 7,
+      "tags": [
+        "caching"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-video-streaming"
     },
     {
@@ -2112,6 +2893,9 @@
       "title": "Design Ride Matching",
       "oneLiner": "The write rate is the problem; the search is one cell lookup.",
       "minutes": 7,
+      "tags": [
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-ride-matching"
     },
     {
@@ -2121,6 +2905,9 @@
       "title": "Design a Payment Ledger",
       "oneLiner": "Nothing is ever edited — a correction is one more line.",
       "minutes": 7,
+      "tags": [
+        "distributed"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-a-payment-ledger"
     },
     {
@@ -2130,6 +2917,10 @@
       "title": "Design a Job Scheduler",
       "oneLiner": "The worker died mid-job. The ticket goes back on the rail.",
       "minutes": 7,
+      "tags": [
+        "queue",
+        "distributed"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-a-job-scheduler"
     },
     {
@@ -2139,6 +2930,10 @@
       "title": "Design Geo Proximity Search",
       "oneLiner": "Two numbers, one index: fold a map down into a sorted string.",
       "minutes": 7,
+      "tags": [
+        "tree",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-geo-proximity-search"
     },
     {
@@ -2148,6 +2943,9 @@
       "title": "Design E-commerce Inventory",
       "oneLiner": "One unit left, two carts, and only one of them may hear yes.",
       "minutes": 7,
+      "tags": [
+        "concurrency"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-ecommerce-inventory"
     },
     {
@@ -2157,6 +2955,10 @@
       "title": "Design Ad Click Aggregation",
       "oneLiner": "The same click arrives twice, late, and out of order.",
       "minutes": 7,
+      "tags": [
+        "distributed",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-ad-click-aggregation"
     },
     {
@@ -2166,6 +2968,11 @@
       "title": "Design a Distributed Cache",
       "oneLiner": "A ring of machines where losing one moves only its own arc.",
       "minutes": 7,
+      "tags": [
+        "caching",
+        "distributed",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-a-distributed-cache"
     },
     {
@@ -2175,6 +2982,10 @@
       "title": "Design a Key-Value Store",
       "oneLiner": "Three copies, two acks, two reads — the sets have to overlap.",
       "minutes": 7,
+      "tags": [
+        "distributed",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-a-key-value-store"
     },
     {
@@ -2184,6 +2995,11 @@
       "title": "Design a Web Crawler",
       "oneLiner": "A billion pages, one polite knock per host, nothing fetched twice.",
       "minutes": 7,
+      "tags": [
+        "bfs",
+        "queue",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-a-web-crawler"
     },
     {
@@ -2193,6 +3009,9 @@
       "title": "Design a Leaderboard",
       "oneLiner": "Keep it sorted on the way in, and the top hundred is free.",
       "minutes": 6,
+      "tags": [
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-a-leaderboard"
     },
     {
@@ -2202,6 +3021,10 @@
       "title": "Design Hotel Booking",
       "oneLiner": "Four nights or none — a partial stay is not a booking.",
       "minutes": 7,
+      "tags": [
+        "concurrency",
+        "intervals"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-hotel-booking"
     },
     {
@@ -2211,6 +3034,10 @@
       "title": "Design a Collaborative Editor",
       "oneLiner": "Both typing in one paragraph, both landing on the same text.",
       "minutes": 7,
+      "tags": [
+        "distributed",
+        "concurrency"
+      ],
       "url": "https://bytepatterns.com/learn/system-design-cases/design-a-collaborative-editor"
     },
     {
@@ -2220,6 +3047,9 @@
       "title": "What Is Machine Learning",
       "oneLiner": "Learn the rule from examples instead of writing it.",
       "minutes": 4,
+      "tags": [
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/what-is-machine-learning"
     },
     {
@@ -2229,6 +3059,9 @@
       "title": "Training vs Inference",
       "oneLiner": "Learn once, slowly. Answer many times, fast.",
       "minutes": 4,
+      "tags": [
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/training-vs-inference"
     },
     {
@@ -2238,6 +3071,10 @@
       "title": "Embeddings",
       "oneLiner": "Meaning turned into a fixed list of numbers.",
       "minutes": 5,
+      "tags": [
+        "embeddings",
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/embeddings"
     },
     {
@@ -2247,6 +3084,9 @@
       "title": "Cosine Similarity",
       "oneLiner": "Compare direction, ignore magnitude.",
       "minutes": 5,
+      "tags": [
+        "embeddings"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/cosine-similarity"
     },
     {
@@ -2256,6 +3096,10 @@
       "title": "Tokenization",
       "oneLiner": "Models read chunks, not letters or words.",
       "minutes": 5,
+      "tags": [
+        "ml",
+        "strings"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/tokenization"
     },
     {
@@ -2265,6 +3109,10 @@
       "title": "Attention, Intuitively",
       "oneLiner": "Every position decides which others to listen to.",
       "minutes": 5,
+      "tags": [
+        "attention",
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/attention-intuition"
     },
     {
@@ -2274,6 +3122,10 @@
       "title": "Transformers: Big Picture",
       "oneLiner": "A stack of identical blocks refining one sequence.",
       "minutes": 5,
+      "tags": [
+        "attention",
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/transformers-big-picture"
     },
     {
@@ -2283,6 +3135,9 @@
       "title": "What Is an LLM",
       "oneLiner": "A next-token predictor trained on a lot of text.",
       "minutes": 5,
+      "tags": [
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/what-is-an-llm"
     },
     {
@@ -2292,6 +3147,9 @@
       "title": "Temperature and Sampling",
       "oneLiner": "One distribution, many possible answers.",
       "minutes": 5,
+      "tags": [
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/temperature-and-sampling"
     },
     {
@@ -2301,6 +3159,10 @@
       "title": "Context Windows",
       "oneLiner": "A hard limit on what the model can see at once.",
       "minutes": 4,
+      "tags": [
+        "ml",
+        "attention"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/context-windows"
     },
     {
@@ -2310,6 +3172,10 @@
       "title": "Retrieval-Augmented Generation",
       "oneLiner": "Fetch the facts first, then let the model write.",
       "minutes": 5,
+      "tags": [
+        "embeddings",
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/rag-basics"
     },
     {
@@ -2319,6 +3185,9 @@
       "title": "Vector Databases",
       "oneLiner": "Nearest-neighbour search that stays fast at scale.",
       "minutes": 5,
+      "tags": [
+        "embeddings"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/vector-databases"
     },
     {
@@ -2328,6 +3197,9 @@
       "title": "Fine-Tuning vs Prompting",
       "oneLiner": "Change the instructions, or change the weights.",
       "minutes": 5,
+      "tags": [
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/fine-tuning-vs-prompting"
     },
     {
@@ -2337,6 +3209,9 @@
       "title": "Agents and Tools",
       "oneLiner": "A model in a loop that can act and try again.",
       "minutes": 5,
+      "tags": [
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/agents-and-tools"
     },
     {
@@ -2346,6 +3221,9 @@
       "title": "Evaluating LLMs",
       "oneLiner": "If you cannot score it, you cannot improve it.",
       "minutes": 5,
+      "tags": [
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/evaluating-llms"
     },
     {
@@ -2355,6 +3233,10 @@
       "title": "Chunking and Reranking",
       "oneLiner": "Retrieval quality is decided before the model reads a word.",
       "minutes": 5,
+      "tags": [
+        "embeddings",
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/chunking-and-reranking"
     },
     {
@@ -2364,6 +3246,9 @@
       "title": "Adapters and LoRA",
       "oneLiner": "Train a thin correction instead of the whole weight matrix.",
       "minutes": 5,
+      "tags": [
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/adapters-and-lora"
     },
     {
@@ -2373,6 +3258,9 @@
       "title": "Quantization",
       "oneLiner": "Store the weights in fewer bits and buy back memory bandwidth.",
       "minutes": 5,
+      "tags": [
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/quantization"
     },
     {
@@ -2382,6 +3270,9 @@
       "title": "Approximate Neighbours",
       "oneLiner": "Walk a graph of vectors instead of comparing all of them.",
       "minutes": 5,
+      "tags": [
+        "embeddings"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/approximate-nearest-neighbours"
     },
     {
@@ -2391,6 +3282,9 @@
       "title": "LLM as a Judge",
       "oneLiner": "A model can grade answers — and quietly grade the wrong thing.",
       "minutes": 5,
+      "tags": [
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/llm-as-a-judge"
     },
     {
@@ -2400,6 +3294,9 @@
       "title": "The Tool-Use Loop",
       "oneLiner": "The model proposes a call; your code decides whether it runs.",
       "minutes": 5,
+      "tags": [
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/the-tool-use-loop"
     },
     {
@@ -2409,6 +3306,9 @@
       "title": "Guardrails",
       "oneLiner": "Checks around the model, because the model is not the boundary.",
       "minutes": 5,
+      "tags": [
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/guardrails"
     },
     {
@@ -2418,6 +3318,11 @@
       "title": "BPE vs WordPiece",
       "oneLiner": "Two ways to decide which pair of pieces becomes one piece.",
       "minutes": 5,
+      "tags": [
+        "ml",
+        "strings",
+        "greedy"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/bpe-vs-wordpiece"
     },
     {
@@ -2427,6 +3332,11 @@
       "title": "The KV Cache",
       "oneLiner": "Keep the past keys and values so each new token is cheap.",
       "minutes": 5,
+      "tags": [
+        "attention",
+        "memoization",
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/the-kv-cache"
     },
     {
@@ -2436,6 +3346,9 @@
       "title": "Speculative Decoding",
       "oneLiner": "A small model guesses ahead; the big one checks in one pass.",
       "minutes": 5,
+      "tags": [
+        "ml"
+      ],
       "url": "https://bytepatterns.com/learn/ai-ml/speculative-decoding"
     },
     {
@@ -2445,6 +3358,9 @@
       "title": "What Is Low-Level Design",
       "oneLiner": "Below the boxes and arrows sit the classes that do the work.",
       "minutes": 4,
+      "tags": [
+        "oop"
+      ],
       "url": "https://bytepatterns.com/learn/lld/what-is-lld"
     },
     {
@@ -2454,6 +3370,9 @@
       "title": "Encapsulation and Invariants",
       "oneLiner": "Hide the state so the object can never be caught in a bad one.",
       "minutes": 5,
+      "tags": [
+        "oop"
+      ],
       "url": "https://bytepatterns.com/learn/lld/encapsulation-and-invariants"
     },
     {
@@ -2463,6 +3382,9 @@
       "title": "Composition vs Inheritance",
       "oneLiner": "Assemble behaviour from parts instead of freezing it in a family tree.",
       "minutes": 5,
+      "tags": [
+        "oop"
+      ],
       "url": "https://bytepatterns.com/learn/lld/composition-vs-inheritance"
     },
     {
@@ -2472,6 +3394,9 @@
       "title": "Interfaces and Polymorphism",
       "oneLiner": "Call one method name and let each type answer in its own way.",
       "minutes": 5,
+      "tags": [
+        "oop"
+      ],
       "url": "https://bytepatterns.com/learn/lld/interfaces-and-polymorphism"
     },
     {
@@ -2481,6 +3406,9 @@
       "title": "SOLID in One Pass",
       "oneLiner": "Five habits that stop tomorrow's change from touching twenty files.",
       "minutes": 5,
+      "tags": [
+        "oop"
+      ],
       "url": "https://bytepatterns.com/learn/lld/solid-overview"
     },
     {
@@ -2490,6 +3418,9 @@
       "title": "Strategy Pattern",
       "oneLiner": "Put the part that varies in its own object and swap it at runtime.",
       "minutes": 5,
+      "tags": [
+        "oop"
+      ],
       "url": "https://bytepatterns.com/learn/lld/strategy-pattern"
     },
     {
@@ -2499,6 +3430,9 @@
       "title": "Observer Pattern",
       "oneLiner": "One event, many reactions, and the source knows none of them.",
       "minutes": 5,
+      "tags": [
+        "oop"
+      ],
       "url": "https://bytepatterns.com/learn/lld/observer-pattern"
     },
     {
@@ -2508,6 +3442,9 @@
       "title": "Factory Pattern",
       "oneLiner": "Ask for what you want; one place decides which class to build.",
       "minutes": 4,
+      "tags": [
+        "oop"
+      ],
       "url": "https://bytepatterns.com/learn/lld/factory-pattern"
     },
     {
@@ -2517,6 +3454,9 @@
       "title": "State Pattern",
       "oneLiner": "Same method call, different answer, because the object moved on.",
       "minutes": 5,
+      "tags": [
+        "oop"
+      ],
       "url": "https://bytepatterns.com/learn/lld/state-pattern"
     },
     {
@@ -2526,6 +3466,9 @@
       "title": "Designing a Parking Lot",
       "oneLiner": "The classic interview warm-up, answered in objects rather than adjectives.",
       "minutes": 6,
+      "tags": [
+        "oop"
+      ],
       "url": "https://bytepatterns.com/learn/lld/designing-a-parking-lot"
     },
     {
@@ -2535,6 +3478,11 @@
       "title": "Designing a File System",
       "oneLiner": "One contract answered by both a leaf and a whole subtree.",
       "minutes": 6,
+      "tags": [
+        "oop",
+        "tree",
+        "recursion"
+      ],
       "url": "https://bytepatterns.com/learn/lld/designing-a-file-system"
     },
     {
@@ -2544,6 +3492,9 @@
       "title": "Elevator Controller",
       "oneLiner": "The car has a direction, and the direction answers the buttons.",
       "minutes": 6,
+      "tags": [
+        "oop"
+      ],
       "url": "https://bytepatterns.com/learn/lld/elevator-controller"
     },
     {
@@ -2553,6 +3504,12 @@
       "title": "LRU Cache",
       "oneLiner": "A map that can find, a list that can reorder, one object.",
       "minutes": 6,
+      "tags": [
+        "oop",
+        "caching",
+        "linked-list",
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/lld/lru-cache-design"
     },
     {
@@ -2562,6 +3519,9 @@
       "title": "Vending Machine",
       "oneLiner": "Four small objects, each one only answering for its own moment.",
       "minutes": 6,
+      "tags": [
+        "oop"
+      ],
       "url": "https://bytepatterns.com/learn/lld/vending-machine-design"
     },
     {
@@ -2571,6 +3531,10 @@
       "title": "Chess Board Model",
       "oneLiner": "The piece owns its shape; the board owns who is standing where.",
       "minutes": 7,
+      "tags": [
+        "oop",
+        "matrix"
+      ],
       "url": "https://bytepatterns.com/learn/lld/chess-board-model"
     },
     {
@@ -2580,6 +3544,9 @@
       "title": "Threads vs Processes",
       "oneLiner": "Shared memory, or a wall between you.",
       "minutes": 4,
+      "tags": [
+        "concurrency"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/threads-vs-processes"
     },
     {
@@ -2589,6 +3556,9 @@
       "title": "Race Conditions",
       "oneLiner": "Two readers, one write survives.",
       "minutes": 5,
+      "tags": [
+        "concurrency"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/race-conditions"
     },
     {
@@ -2598,6 +3568,9 @@
       "title": "Locks and Mutexes",
       "oneLiner": "One thread inside, everybody else waits.",
       "minutes": 5,
+      "tags": [
+        "concurrency"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/locks-and-mutexes"
     },
     {
@@ -2607,6 +3580,10 @@
       "title": "Deadlock",
       "oneLiner": "Everyone holding what the next one needs.",
       "minutes": 5,
+      "tags": [
+        "concurrency",
+        "graph"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/deadlock"
     },
     {
@@ -2616,6 +3593,10 @@
       "title": "Thread Pools",
       "oneLiner": "Hire the workers once, reuse them all day.",
       "minutes": 4,
+      "tags": [
+        "concurrency",
+        "queue"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/thread-pools"
     },
     {
@@ -2625,6 +3606,10 @@
       "title": "Producer and Consumer",
       "oneLiner": "A bounded belt between the two sides.",
       "minutes": 5,
+      "tags": [
+        "concurrency",
+        "queue"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/producer-consumer"
     },
     {
@@ -2634,6 +3619,10 @@
       "title": "Async and the Event Loop",
       "oneLiner": "One thread, politely taking turns.",
       "minutes": 5,
+      "tags": [
+        "concurrency",
+        "queue"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/async-await-event-loop"
     },
     {
@@ -2643,6 +3632,9 @@
       "title": "Atomic Operations",
       "oneLiner": "Indivisible: nobody sees it half-done.",
       "minutes": 4,
+      "tags": [
+        "concurrency"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/atomic-operations"
     },
     {
@@ -2652,6 +3644,10 @@
       "title": "Semaphores",
       "oneLiner": "Count the permits, not the holders.",
       "minutes": 4,
+      "tags": [
+        "concurrency",
+        "rate-limiting"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/semaphores"
     },
     {
@@ -2661,6 +3657,9 @@
       "title": "Designing Thread-Safe Code",
       "oneLiner": "Don't share, freeze it, or guard it.",
       "minutes": 5,
+      "tags": [
+        "concurrency"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/designing-thread-safe-code"
     },
     {
@@ -2670,6 +3669,11 @@
       "title": "Backpressure",
       "oneLiner": "An unbounded queue is not a buffer, it is a delayed crash.",
       "minutes": 5,
+      "tags": [
+        "concurrency",
+        "queue",
+        "rate-limiting"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/backpressure"
     },
     {
@@ -2679,6 +3683,11 @@
       "title": "Detecting Deadlock",
       "oneLiner": "Draw who waits for whom; a closed ring is the proof.",
       "minutes": 5,
+      "tags": [
+        "concurrency",
+        "graph",
+        "dfs"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/detecting-deadlock"
     },
     {
@@ -2688,6 +3697,9 @@
       "title": "Sizing a Thread Pool",
       "oneLiner": "More threads stop helping the moment the work stops waiting.",
       "minutes": 5,
+      "tags": [
+        "concurrency"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/sizing-a-thread-pool"
     },
     {
@@ -2697,6 +3709,9 @@
       "title": "Blocking the Event Loop",
       "oneLiner": "One thread runs everything, so one rude call stops the world.",
       "minutes": 5,
+      "tags": [
+        "concurrency"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/blocking-the-event-loop"
     },
     {
@@ -2706,6 +3721,9 @@
       "title": "Compare-and-Swap",
       "oneLiner": "Publish the new value only if nobody changed the old one.",
       "minutes": 5,
+      "tags": [
+        "concurrency"
+      ],
       "url": "https://bytepatterns.com/learn/concurrency/compare-and-swap"
     },
     {
@@ -2715,6 +3733,7 @@
       "title": "SELECT Basics",
       "oneLiner": "Name the columns you want; the table hands them back.",
       "minutes": 4,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/sql/select-basics"
     },
     {
@@ -2724,6 +3743,7 @@
       "title": "WHERE and Filtering",
       "oneLiner": "Filter in the database, not in your application loop.",
       "minutes": 4,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/sql/where-and-filtering"
     },
     {
@@ -2733,6 +3753,9 @@
       "title": "ORDER BY and LIMIT",
       "oneLiner": "Sort once in the engine, then take only the slice you show.",
       "minutes": 4,
+      "tags": [
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/sql/order-and-limit"
     },
     {
@@ -2742,6 +3765,9 @@
       "title": "Aggregations & GROUP BY",
       "oneLiner": "Fold many rows into one number per group.",
       "minutes": 5,
+      "tags": [
+        "hashing"
+      ],
       "url": "https://bytepatterns.com/learn/sql/aggregations-group-by"
     },
     {
@@ -2751,6 +3777,7 @@
       "title": "INNER and OUTER JOINs",
       "oneLiner": "Match rows across tables — and decide who survives a miss.",
       "minutes": 6,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/sql/joins-inner-outer"
     },
     {
@@ -2760,6 +3787,9 @@
       "title": "Subqueries",
       "oneLiner": "A query inside a query, answered before the outer one runs.",
       "minutes": 5,
+      "tags": [
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/sql/subqueries"
     },
     {
@@ -2769,6 +3799,10 @@
       "title": "Indexes",
       "oneLiner": "A second, sorted copy of one column that ends the full scan.",
       "minutes": 6,
+      "tags": [
+        "binary-search",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/sql/indexes"
     },
     {
@@ -2778,6 +3812,9 @@
       "title": "Transactions & ACID",
       "oneLiner": "All of the writes land, or none of them do.",
       "minutes": 6,
+      "tags": [
+        "concurrency"
+      ],
       "url": "https://bytepatterns.com/learn/sql/transactions-acid"
     },
     {
@@ -2787,6 +3824,7 @@
       "title": "Query Execution Order",
       "oneLiner": "SQL is written top-down but evaluated in a different order.",
       "minutes": 5,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/sql/query-execution-order"
     },
     {
@@ -2796,6 +3834,9 @@
       "title": "The N+1 Query Problem",
       "oneLiner": "One query for the list, then one more for every single row.",
       "minutes": 5,
+      "tags": [
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/sql/n-plus-one-problem"
     },
     {
@@ -2805,6 +3846,10 @@
       "title": "Window Functions",
       "oneLiner": "Aggregate across rows without collapsing them.",
       "minutes": 6,
+      "tags": [
+        "prefix-sum",
+        "sorting"
+      ],
       "url": "https://bytepatterns.com/learn/sql/window-functions"
     },
     {
@@ -2814,6 +3859,10 @@
       "title": "CTEs and Recursion",
       "oneLiner": "Name a result, then build the next one on top of it.",
       "minutes": 6,
+      "tags": [
+        "recursion",
+        "graph"
+      ],
       "url": "https://bytepatterns.com/learn/sql/ctes-and-recursion"
     },
     {
@@ -2823,6 +3872,10 @@
       "title": "Composite Indexes",
       "oneLiner": "Column order decides which queries the index can serve.",
       "minutes": 6,
+      "tags": [
+        "sorting",
+        "binary-search"
+      ],
       "url": "https://bytepatterns.com/learn/sql/composite-and-covering-indexes"
     },
     {
@@ -2832,6 +3885,9 @@
       "title": "Isolation Levels",
       "oneLiner": "How much of another transaction's mess you are allowed to see.",
       "minutes": 6,
+      "tags": [
+        "concurrency"
+      ],
       "url": "https://bytepatterns.com/learn/sql/isolation-levels"
     },
     {
@@ -2841,6 +3897,9 @@
       "title": "Reading a Query Plan",
       "oneLiner": "Stop guessing why it is slow — ask the engine what it did.",
       "minutes": 6,
+      "tags": [
+        "complexity"
+      ],
       "url": "https://bytepatterns.com/learn/sql/reading-a-query-plan"
     },
     {
@@ -2850,6 +3909,7 @@
       "title": "Why Behavioral Matters",
       "oneLiner": "The round that separates two equally good coders.",
       "minutes": 4,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/behavioral/why-behavioral-matters"
     },
     {
@@ -2859,6 +3919,7 @@
       "title": "The STAR Method",
       "oneLiner": "Four blocks that make a story scoreable.",
       "minutes": 5,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/behavioral/star-method"
     },
     {
@@ -2868,6 +3929,7 @@
       "title": "Conflict Stories",
       "oneLiner": "Disagree hard, keep the relationship.",
       "minutes": 5,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/behavioral/conflict-stories"
     },
     {
@@ -2877,6 +3939,7 @@
       "title": "Failure Stories",
       "oneLiner": "Own it, cost it, then show what changed.",
       "minutes": 5,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/behavioral/failure-stories"
     },
     {
@@ -2886,6 +3949,7 @@
       "title": "Leadership and Ownership",
       "oneLiner": "Authority optional; follow-through is not.",
       "minutes": 5,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/behavioral/leadership-and-ownership"
     },
     {
@@ -2895,6 +3959,7 @@
       "title": "Questions to Ask",
       "oneLiner": "Your questions are part of the interview.",
       "minutes": 4,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/behavioral/questions-to-ask"
     },
     {
@@ -2904,6 +3969,7 @@
       "title": "Negotiation Basics",
       "oneLiner": "Know your number before the call starts.",
       "minutes": 5,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/behavioral/negotiation-basics"
     },
     {
@@ -2913,6 +3979,7 @@
       "title": "Red Flags and Antipatterns",
       "oneLiner": "The habits that sink otherwise good candidates.",
       "minutes": 4,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/behavioral/red-flags-and-antipatterns"
     },
     {
@@ -2922,6 +3989,7 @@
       "title": "Cross-Team Conflict",
       "oneLiner": "Nobody is wrong; two teams are graded on different numbers.",
       "minutes": 5,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/behavioral/cross-team-conflict"
     },
     {
@@ -2931,6 +3999,7 @@
       "title": "The Outage Story",
       "oneLiner": "What you did in the first ten minutes, and what you changed after.",
       "minutes": 5,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/behavioral/the-outage-story"
     },
     {
@@ -2940,6 +4009,7 @@
       "title": "Influence Without Authority",
       "oneLiner": "You cannot tell anyone to do it, and it happened anyway.",
       "minutes": 5,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/behavioral/influence-without-authority"
     },
     {
@@ -2949,6 +4019,7 @@
       "title": "Why This Team",
       "oneLiner": "An answer that could be about anyone is an answer about nobody.",
       "minutes": 5,
+      "tags": [],
       "url": "https://bytepatterns.com/learn/behavioral/why-this-team"
     }
   ],

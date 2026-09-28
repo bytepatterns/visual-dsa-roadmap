@@ -55,6 +55,7 @@ This repository is the map. It is regenerated from the site's content, so the nu
   - [Behavioral](#behavioral)
 - [AI & ML](#ai)
   - [AI & ML](#ai-ml)
+- [Browse by topic](#browse-by-topic)
 - [Practice problems](#practice-problems)
 
 ## Foundations
@@ -753,6 +754,455 @@ _From embeddings to agents — see how modern AI actually works._ · 25 lessons 
 | 23 | [BPE vs WordPiece](https://bytepatterns.com/learn/ai-ml/bpe-vs-wordpiece?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Two ways to decide which pair of pieces becomes one piece. | 5 |
 | 24 | [The KV Cache](https://bytepatterns.com/learn/ai-ml/the-kv-cache?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Keep the past keys and values so each new token is cheap. | 5 |
 | 25 | [Speculative Decoding](https://bytepatterns.com/learn/ai-ml/speculative-decoding?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | A small model guesses ahead; the big one checks in one pass. | 5 |
+
+## Browse by topic
+
+<a id="browse-by-topic"></a>
+
+The same lessons, grouped by the idea they use instead of the module they sit in. A lesson that uses several ideas is listed under each.
+
+[Two pointers](#topic-two-pointers) (22) · [Sliding window](#topic-sliding-window) (5) · [Prefix sum](#topic-prefix-sum) (6) · [Binary search](#topic-binary-search) (11) · [Sorting](#topic-sorting) (29) · [Hashing](#topic-hashing) (27) · [Stack](#topic-stack) (8) · [Monotonic stack](#topic-monotonic-stack) (3) · [Queue](#topic-queue) (17) · [Heap](#topic-heap) (15) · [Tree](#topic-tree) (23) · [BST](#topic-bst) (4) · [Trie](#topic-trie) (5) · [Graph](#topic-graph) (22) · [BFS](#topic-bfs) (9) · [DFS](#topic-dfs) (13) · [Topological sort](#topic-topological-sort) (1) · [Shortest path](#topic-shortest-path) (3) · [Union-find](#topic-union-find) (5) · [Dynamic programming](#topic-dp) (22) · [Memoization](#topic-memoization) (5) · [Recursion](#topic-recursion) (25) · [Backtracking](#topic-backtracking) (9) · [Greedy](#topic-greedy) (14) · [Intervals](#topic-intervals) (6) · [Bit manipulation](#topic-bit-manipulation) (6) · [Matrix](#topic-matrix) (13) · [Linked list](#topic-linked-list) (11) · [Strings](#topic-strings) (23) · [Math](#topic-math) (5) · [System design](#topic-system-design) (2) · [Caching](#topic-caching) (10) · [Rate limiting](#topic-rate-limiting) (4) · [Distributed](#topic-distributed) (20) · [Machine learning](#topic-ml) (22) · [Embeddings](#topic-embeddings) (6) · [Attention](#topic-attention) (4) · [Complexity](#topic-complexity) (18) · [OOP](#topic-oop) (15) · [Concurrency](#topic-concurrency) (20)
+
+### Two pointers
+
+<a id="topic-two-pointers"></a>
+
+22 lessons
+
+- **Arrays:** [Two Pointers](https://bytepatterns.com/learn/arrays/two-pointers?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Sliding Window](https://bytepatterns.com/learn/arrays/sliding-window?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [In-Place Reversal](https://bytepatterns.com/learn/arrays/in-place-reversal?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Move Zeroes](https://bytepatterns.com/learn/arrays/move-zeroes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Container With Most Water](https://bytepatterns.com/learn/arrays/container-with-most-water?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Merge Sorted Arrays](https://bytepatterns.com/learn/arrays/merge-sorted-arrays?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Dutch National Flag](https://bytepatterns.com/learn/arrays/dutch-national-flag?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Rotate an Array](https://bytepatterns.com/learn/arrays/rotate-array?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Strings:** [Valid Palindrome](https://bytepatterns.com/learn/strings/valid-palindrome?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Reverse Words](https://bytepatterns.com/learn/strings/reverse-words?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Longest Palindromic Substring](https://bytepatterns.com/learn/strings/longest-palindromic-substring?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [String Matching Intuition](https://bytepatterns.com/learn/strings/string-matching-intuition?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Z-Algorithm Intuition](https://bytepatterns.com/learn/strings/z-algorithm?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [String Compression](https://bytepatterns.com/learn/strings/string-compression?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Searching:** [Search a 2D Matrix](https://bytepatterns.com/learn/searching/search-2d-matrix?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Sorting:** [Merge Sort](https://bytepatterns.com/learn/sorting/merge-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Quick Sort](https://bytepatterns.com/learn/sorting/quick-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Linked Lists:** [Fast and Slow Pointers](https://bytepatterns.com/learn/linked-lists/fast-and-slow-pointers?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Detect a Cycle](https://bytepatterns.com/learn/linked-lists/detect-cycle?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Find the Cycle Start](https://bytepatterns.com/learn/linked-lists/find-the-cycle-start?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Merge Two Sorted Lists](https://bytepatterns.com/learn/linked-lists/merge-two-sorted-lists?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Matrix & Grid:** [Rotate In Place](https://bytepatterns.com/learn/matrix-grid/rotate-in-place?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Sliding window
+
+<a id="topic-sliding-window"></a>
+
+5 lessons
+
+- **Arrays:** [Sliding Window](https://bytepatterns.com/learn/arrays/sliding-window?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Strings:** [Longest Unique Substring](https://bytepatterns.com/learn/strings/longest-substring-without-repeats?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Rabin-Karp Rolling Hash](https://bytepatterns.com/learn/strings/rabin-karp-rolling-hash?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Stacks & Queues:** [Sliding Window Maximum](https://bytepatterns.com/learn/stacks-queues/sliding-window-maximum?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Two Heaps & K-Way Merge:** [Sliding Window Median](https://bytepatterns.com/learn/two-heaps-k-way/sliding-window-median?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Prefix sum
+
+<a id="topic-prefix-sum"></a>
+
+6 lessons
+
+- **Arrays:** [Prefix Sums](https://bytepatterns.com/learn/arrays/prefix-sums?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Product Except Self](https://bytepatterns.com/learn/arrays/product-except-self?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Hash Tables:** [Subarray Sums With a Map](https://bytepatterns.com/learn/hash-tables/subarray-sum-map?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Greedy:** [Gas Station](https://bytepatterns.com/learn/greedy/gas-station?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Trees & BST:** [Path Sum Variants](https://bytepatterns.com/learn/trees/path-sum-variants?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **SQL:** [Window Functions](https://bytepatterns.com/learn/sql/window-functions?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Binary search
+
+<a id="topic-binary-search"></a>
+
+11 lessons
+
+- **Big-O:** [O(log n) and Halving](https://bytepatterns.com/learn/big-o/ologn-halving?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Searching:** [Binary Search](https://bytepatterns.com/learn/searching/binary-search?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Binary Search Variants](https://bytepatterns.com/learn/searching/binary-search-variants?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Search in Rotated Array](https://bytepatterns.com/learn/searching/search-in-rotated-array?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Binary Search on Answer](https://bytepatterns.com/learn/searching/binary-search-on-answer?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Find a Peak](https://bytepatterns.com/learn/searching/find-peak-element?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Kth Smallest in a Matrix](https://bytepatterns.com/learn/searching/kth-smallest-matrix?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Trees & BST:** [BST Insert and Search](https://bytepatterns.com/learn/trees/bst-insert-and-search?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Dynamic Programming:** [LIS in O(n log n)](https://bytepatterns.com/learn/dynamic-programming/lis-patience-tails?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **SQL:** [Indexes](https://bytepatterns.com/learn/sql/indexes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Composite Indexes](https://bytepatterns.com/learn/sql/composite-and-covering-indexes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Sorting
+
+<a id="topic-sorting"></a>
+
+29 lessons
+
+- **Arrays:** [Cyclic Sort](https://bytepatterns.com/learn/arrays/cyclic-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Merge Sorted Arrays](https://bytepatterns.com/learn/arrays/merge-sorted-arrays?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Dutch National Flag](https://bytepatterns.com/learn/arrays/dutch-national-flag?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Sorting:** [Sorting Basics](https://bytepatterns.com/learn/sorting/sorting-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Bubble Sort](https://bytepatterns.com/learn/sorting/bubble-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Selection Sort](https://bytepatterns.com/learn/sorting/selection-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Insertion Sort](https://bytepatterns.com/learn/sorting/insertion-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Merge Sort](https://bytepatterns.com/learn/sorting/merge-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Quick Sort](https://bytepatterns.com/learn/sorting/quick-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Counting Sort](https://bytepatterns.com/learn/sorting/counting-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Which Sort When?](https://bytepatterns.com/learn/sorting/which-sort-when?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Heap Sort](https://bytepatterns.com/learn/sorting/heap-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Radix Sort](https://bytepatterns.com/learn/sorting/radix-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Hash Tables:** [Group Anagrams](https://bytepatterns.com/learn/hash-tables/group-anagrams?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Top K Without a Heap](https://bytepatterns.com/learn/hash-tables/top-k-buckets?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Greedy:** [What Makes Greedy Work](https://bytepatterns.com/learn/greedy/what-makes-greedy-work?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Interval Scheduling](https://bytepatterns.com/learn/greedy/interval-scheduling?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Heaps:** [K Closest Points](https://bytepatterns.com/learn/heaps/k-closest-points?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Two Heaps & K-Way Merge:** [K-Way Merge](https://bytepatterns.com/learn/two-heaps-k-way/k-way-merge?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Graphs:** [Kruskal's Spanning Tree](https://bytepatterns.com/learn/graphs/kruskal-mst?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Intervals:** [Interval Basics & Sorting](https://bytepatterns.com/learn/intervals/interval-basics-and-sorting?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Merge Intervals](https://bytepatterns.com/learn/intervals/merge-intervals?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Meeting Rooms](https://bytepatterns.com/learn/intervals/meeting-rooms?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design Cases:** [Design Geo Proximity Search](https://bytepatterns.com/learn/system-design-cases/design-geo-proximity-search?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Leaderboard](https://bytepatterns.com/learn/system-design-cases/design-a-leaderboard?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **SQL:** [ORDER BY and LIMIT](https://bytepatterns.com/learn/sql/order-and-limit?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Indexes](https://bytepatterns.com/learn/sql/indexes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Window Functions](https://bytepatterns.com/learn/sql/window-functions?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Composite Indexes](https://bytepatterns.com/learn/sql/composite-and-covering-indexes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Hashing
+
+<a id="topic-hashing"></a>
+
+27 lessons
+
+- **Strings:** [Longest Unique Substring](https://bytepatterns.com/learn/strings/longest-substring-without-repeats?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Rabin-Karp Rolling Hash](https://bytepatterns.com/learn/strings/rabin-karp-rolling-hash?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Sorting:** [Counting Sort](https://bytepatterns.com/learn/sorting/counting-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Linked Lists:** [Copy a List With Random Links](https://bytepatterns.com/learn/linked-lists/copy-list-with-random-pointer?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Hash Tables:** [Hash Table Basics](https://bytepatterns.com/learn/hash-tables/hash-table-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Two Sum](https://bytepatterns.com/learn/hash-tables/two-sum?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Frequency Counting](https://bytepatterns.com/learn/hash-tables/frequency-counting?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Group Anagrams](https://bytepatterns.com/learn/hash-tables/group-anagrams?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [When Hashing Fails](https://bytepatterns.com/learn/hash-tables/when-hashing-fails?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Subarray Sums With a Map](https://bytepatterns.com/learn/hash-tables/subarray-sum-map?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Top K Without a Heap](https://bytepatterns.com/learn/hash-tables/top-k-buckets?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [LFU: Frequency Buckets](https://bytepatterns.com/learn/hash-tables/lfu-frequency-buckets?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Trees & BST:** [Vertical Order Traversal](https://bytepatterns.com/learn/trees/vertical-order-traversal?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Tries:** [Trie vs Hash Set](https://bytepatterns.com/learn/tries/trie-vs-hash-set?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Two Heaps & K-Way Merge:** [Top K in a Stream](https://bytepatterns.com/learn/two-heaps-k-way/top-k-frequent-stream?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Sliding Window Median](https://bytepatterns.com/learn/two-heaps-k-way/sliding-window-median?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design:** [Load Balancing](https://bytepatterns.com/learn/system-design/load-balancing?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Database Sharding](https://bytepatterns.com/learn/system-design/database-sharding?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design Cases:** [Design a URL Shortener](https://bytepatterns.com/learn/system-design-cases/design-a-url-shortener?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a File Storage Service](https://bytepatterns.com/learn/system-design-cases/design-a-file-storage-service?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design Ride Matching](https://bytepatterns.com/learn/system-design-cases/design-ride-matching?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design Ad Click Aggregation](https://bytepatterns.com/learn/system-design-cases/design-ad-click-aggregation?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Distributed Cache](https://bytepatterns.com/learn/system-design-cases/design-a-distributed-cache?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Key-Value Store](https://bytepatterns.com/learn/system-design-cases/design-a-key-value-store?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Web Crawler](https://bytepatterns.com/learn/system-design-cases/design-a-web-crawler?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Low-Level Design:** [LRU Cache](https://bytepatterns.com/learn/lld/lru-cache-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **SQL:** [Aggregations & GROUP BY](https://bytepatterns.com/learn/sql/aggregations-group-by?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Stack
+
+<a id="topic-stack"></a>
+
+8 lessons
+
+- **Stacks & Queues:** [Stack Basics](https://bytepatterns.com/learn/stacks-queues/stack-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Valid Parentheses](https://bytepatterns.com/learn/stacks-queues/valid-parentheses?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Queue From Two Stacks](https://bytepatterns.com/learn/stacks-queues/queue-with-two-stacks?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Monotonic Stack](https://bytepatterns.com/learn/stacks-queues/monotonic-stack?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Min Stack](https://bytepatterns.com/learn/stacks-queues/min-stack?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Largest Rectangle](https://bytepatterns.com/learn/stacks-queues/largest-rectangle?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Recursion:** [The Call Stack](https://bytepatterns.com/learn/recursion/call-stack-visualized?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Your Own Call Stack](https://bytepatterns.com/learn/recursion/your-own-call-stack?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Monotonic stack
+
+<a id="topic-monotonic-stack"></a>
+
+3 lessons
+
+- **Stacks & Queues:** [Monotonic Stack](https://bytepatterns.com/learn/stacks-queues/monotonic-stack?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Sliding Window Maximum](https://bytepatterns.com/learn/stacks-queues/sliding-window-maximum?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Largest Rectangle](https://bytepatterns.com/learn/stacks-queues/largest-rectangle?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Queue
+
+<a id="topic-queue"></a>
+
+17 lessons
+
+- **Stacks & Queues:** [Queue Basics](https://bytepatterns.com/learn/stacks-queues/queue-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Queue From Two Stacks](https://bytepatterns.com/learn/stacks-queues/queue-with-two-stacks?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Sliding Window Maximum](https://bytepatterns.com/learn/stacks-queues/sliding-window-maximum?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Circular Queue](https://bytepatterns.com/learn/stacks-queues/circular-queue?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Trees & BST:** [Level Order Traversal](https://bytepatterns.com/learn/trees/level-order-traversal?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Heaps:** [Priority Queue](https://bytepatterns.com/learn/heaps/priority-queue?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Task Scheduler](https://bytepatterns.com/learn/heaps/task-scheduler?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Graphs:** [Breadth-First Search](https://bytepatterns.com/learn/graphs/breadth-first-search?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design:** [Message Queues](https://bytepatterns.com/learn/system-design/message-queues?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design Cases:** [Design a Chat App](https://bytepatterns.com/learn/system-design-cases/design-a-chat-app?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Notification System](https://bytepatterns.com/learn/system-design-cases/design-a-notification-system?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Job Scheduler](https://bytepatterns.com/learn/system-design-cases/design-a-job-scheduler?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Web Crawler](https://bytepatterns.com/learn/system-design-cases/design-a-web-crawler?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Concurrency:** [Thread Pools](https://bytepatterns.com/learn/concurrency/thread-pools?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Producer and Consumer](https://bytepatterns.com/learn/concurrency/producer-consumer?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Async and the Event Loop](https://bytepatterns.com/learn/concurrency/async-await-event-loop?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Backpressure](https://bytepatterns.com/learn/concurrency/backpressure?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Heap
+
+<a id="topic-heap"></a>
+
+15 lessons
+
+- **Sorting:** [Heap Sort](https://bytepatterns.com/learn/sorting/heap-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Greedy:** [Huffman Intuition](https://bytepatterns.com/learn/greedy/huffman-intuition?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Heaps:** [Heap Basics](https://bytepatterns.com/learn/heaps/heap-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Heapify and Sift](https://bytepatterns.com/learn/heaps/heapify-and-sift?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Priority Queue](https://bytepatterns.com/learn/heaps/priority-queue?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Top K Elements](https://bytepatterns.com/learn/heaps/top-k-elements?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [K Closest Points](https://bytepatterns.com/learn/heaps/k-closest-points?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Reorganize a String](https://bytepatterns.com/learn/heaps/reorganize-a-string?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Task Scheduler](https://bytepatterns.com/learn/heaps/task-scheduler?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Two Heaps & K-Way Merge:** [Two Heaps: Running Median](https://bytepatterns.com/learn/two-heaps-k-way/two-heaps-running-median?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [K-Way Merge](https://bytepatterns.com/learn/two-heaps-k-way/k-way-merge?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Top K in a Stream](https://bytepatterns.com/learn/two-heaps-k-way/top-k-frequent-stream?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Sliding Window Median](https://bytepatterns.com/learn/two-heaps-k-way/sliding-window-median?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Graphs:** [Dijkstra's Algorithm](https://bytepatterns.com/learn/graphs/dijkstra-intro?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Prim's Spanning Tree](https://bytepatterns.com/learn/graphs/prim-mst?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Tree
+
+<a id="topic-tree"></a>
+
+23 lessons
+
+- **Recursion:** [Return Up or Pass Down](https://bytepatterns.com/learn/recursion/return-up-or-pass-down?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Your Own Call Stack](https://bytepatterns.com/learn/recursion/your-own-call-stack?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Greedy:** [Huffman Intuition](https://bytepatterns.com/learn/greedy/huffman-intuition?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Trees & BST:** [Tree Basics](https://bytepatterns.com/learn/trees/tree-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Binary Trees](https://bytepatterns.com/learn/trees/binary-trees?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Tree Traversals](https://bytepatterns.com/learn/trees/tree-traversals?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [BST Basics](https://bytepatterns.com/learn/trees/bst-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Tree Depth and Balance](https://bytepatterns.com/learn/trees/tree-depth-and-balance?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Lowest Common Ancestor](https://bytepatterns.com/learn/trees/lowest-common-ancestor?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Level Order Traversal](https://bytepatterns.com/learn/trees/level-order-traversal?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Diameter of a Tree](https://bytepatterns.com/learn/trees/tree-diameter?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Path Sum Variants](https://bytepatterns.com/learn/trees/path-sum-variants?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Serialize a Tree](https://bytepatterns.com/learn/trees/serialize-and-deserialize?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Vertical Order Traversal](https://bytepatterns.com/learn/trees/vertical-order-traversal?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Rebuild From Traversals](https://bytepatterns.com/learn/trees/build-tree-from-traversals?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Tries:** [Trie Basics](https://bytepatterns.com/learn/tries/trie-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Heaps:** [Heap Basics](https://bytepatterns.com/learn/heaps/heap-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Union-Find:** [Path Compression](https://bytepatterns.com/learn/union-find/path-compression?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Union by Rank or Size](https://bytepatterns.com/learn/union-find/union-by-size?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Dynamic Programming:** [DP on Trees](https://bytepatterns.com/learn/dynamic-programming/dp-on-trees?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design:** [Tracing a Request](https://bytepatterns.com/learn/system-design/tracing-a-request?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design Cases:** [Design Geo Proximity Search](https://bytepatterns.com/learn/system-design-cases/design-geo-proximity-search?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Low-Level Design:** [Designing a File System](https://bytepatterns.com/learn/lld/designing-a-file-system?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### BST
+
+<a id="topic-bst"></a>
+
+4 lessons
+
+- **Trees & BST:** [BST Basics](https://bytepatterns.com/learn/trees/bst-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [BST Insert and Search](https://bytepatterns.com/learn/trees/bst-insert-and-search?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Validate a BST](https://bytepatterns.com/learn/trees/validate-bst?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Lowest Common Ancestor](https://bytepatterns.com/learn/trees/lowest-common-ancestor?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Trie
+
+<a id="topic-trie"></a>
+
+5 lessons
+
+- **Tries:** [Trie Basics](https://bytepatterns.com/learn/tries/trie-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Prefix Search](https://bytepatterns.com/learn/tries/prefix-search-and-autocomplete?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Word Search With a Trie](https://bytepatterns.com/learn/tries/word-search-with-a-trie?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Trie vs Hash Set](https://bytepatterns.com/learn/tries/trie-vs-hash-set?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design Cases:** [Design Search Autocomplete](https://bytepatterns.com/learn/system-design-cases/design-search-autocomplete?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Graph
+
+<a id="topic-graph"></a>
+
+22 lessons
+
+- **Graphs:** [Graph Basics](https://bytepatterns.com/learn/graphs/graph-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [List vs Matrix](https://bytepatterns.com/learn/graphs/adjacency-representations?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Breadth-First Search](https://bytepatterns.com/learn/graphs/breadth-first-search?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Depth-First Search](https://bytepatterns.com/learn/graphs/depth-first-search?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Connected Components](https://bytepatterns.com/learn/graphs/connected-components?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Shortest Path, Unweighted](https://bytepatterns.com/learn/graphs/shortest-path-unweighted?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Dijkstra's Algorithm](https://bytepatterns.com/learn/graphs/dijkstra-intro?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Topological Sort](https://bytepatterns.com/learn/graphs/topological-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Bellman-Ford](https://bytepatterns.com/learn/graphs/bellman-ford?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Kruskal's Spanning Tree](https://bytepatterns.com/learn/graphs/kruskal-mst?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Prim's Spanning Tree](https://bytepatterns.com/learn/graphs/prim-mst?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Bipartite Check](https://bytepatterns.com/learn/graphs/bipartite-check?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Cycles in a Directed Graph](https://bytepatterns.com/learn/graphs/directed-cycle-colours?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Graphs You Never Build](https://bytepatterns.com/learn/graphs/implicit-graph-bfs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Multi-Source BFS](https://bytepatterns.com/learn/graphs/multi-source-bfs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Strongly Connected Parts](https://bytepatterns.com/learn/graphs/strongly-connected-components?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Matrix & Grid:** [Grid Traversal](https://bytepatterns.com/learn/matrix-grid/grid-traversal-and-neighbours?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Union-Find:** [Disjoint Sets Basics](https://bytepatterns.com/learn/union-find/disjoint-sets-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Components & Cycles](https://bytepatterns.com/learn/union-find/components-and-cycles?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Concurrency:** [Deadlock](https://bytepatterns.com/learn/concurrency/deadlock?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Detecting Deadlock](https://bytepatterns.com/learn/concurrency/detecting-deadlock?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **SQL:** [CTEs and Recursion](https://bytepatterns.com/learn/sql/ctes-and-recursion?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### BFS
+
+<a id="topic-bfs"></a>
+
+9 lessons
+
+- **Trees & BST:** [Level Order Traversal](https://bytepatterns.com/learn/trees/level-order-traversal?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Vertical Order Traversal](https://bytepatterns.com/learn/trees/vertical-order-traversal?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Graphs:** [Breadth-First Search](https://bytepatterns.com/learn/graphs/breadth-first-search?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Shortest Path, Unweighted](https://bytepatterns.com/learn/graphs/shortest-path-unweighted?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Bipartite Check](https://bytepatterns.com/learn/graphs/bipartite-check?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Graphs You Never Build](https://bytepatterns.com/learn/graphs/implicit-graph-bfs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Multi-Source BFS](https://bytepatterns.com/learn/graphs/multi-source-bfs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Matrix & Grid:** [Number of Islands](https://bytepatterns.com/learn/matrix-grid/number-of-islands?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design Cases:** [Design a Web Crawler](https://bytepatterns.com/learn/system-design-cases/design-a-web-crawler?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### DFS
+
+<a id="topic-dfs"></a>
+
+13 lessons
+
+- **Backtracking:** [The Decision Tree](https://bytepatterns.com/learn/backtracking/the-decision-tree?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Word Search & Pruning](https://bytepatterns.com/learn/backtracking/word-search-and-pruning?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Trees & BST:** [Tree Traversals](https://bytepatterns.com/learn/trees/tree-traversals?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Tree Depth and Balance](https://bytepatterns.com/learn/trees/tree-depth-and-balance?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Diameter of a Tree](https://bytepatterns.com/learn/trees/tree-diameter?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Path Sum Variants](https://bytepatterns.com/learn/trees/path-sum-variants?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Graphs:** [Depth-First Search](https://bytepatterns.com/learn/graphs/depth-first-search?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Connected Components](https://bytepatterns.com/learn/graphs/connected-components?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Cycles in a Directed Graph](https://bytepatterns.com/learn/graphs/directed-cycle-colours?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Strongly Connected Parts](https://bytepatterns.com/learn/graphs/strongly-connected-components?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Matrix & Grid:** [Number of Islands](https://bytepatterns.com/learn/matrix-grid/number-of-islands?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Flood Fill](https://bytepatterns.com/learn/matrix-grid/flood-fill?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Concurrency:** [Detecting Deadlock](https://bytepatterns.com/learn/concurrency/detecting-deadlock?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Topological sort
+
+<a id="topic-topological-sort"></a>
+
+1 lesson
+
+- **Graphs:** [Topological Sort](https://bytepatterns.com/learn/graphs/topological-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Shortest path
+
+<a id="topic-shortest-path"></a>
+
+3 lessons
+
+- **Graphs:** [Shortest Path, Unweighted](https://bytepatterns.com/learn/graphs/shortest-path-unweighted?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Dijkstra's Algorithm](https://bytepatterns.com/learn/graphs/dijkstra-intro?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Bellman-Ford](https://bytepatterns.com/learn/graphs/bellman-ford?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Union-find
+
+<a id="topic-union-find"></a>
+
+5 lessons
+
+- **Graphs:** [Kruskal's Spanning Tree](https://bytepatterns.com/learn/graphs/kruskal-mst?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Union-Find:** [Disjoint Sets Basics](https://bytepatterns.com/learn/union-find/disjoint-sets-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Path Compression](https://bytepatterns.com/learn/union-find/path-compression?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Union by Rank or Size](https://bytepatterns.com/learn/union-find/union-by-size?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Components & Cycles](https://bytepatterns.com/learn/union-find/components-and-cycles?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Dynamic programming
+
+<a id="topic-dp"></a>
+
+22 lessons
+
+- **Arrays:** [Kadane's Algorithm](https://bytepatterns.com/learn/arrays/kadanes-algorithm?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Recursion:** [Memoization](https://bytepatterns.com/learn/recursion/memoization-intro?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Dynamic Programming:** [What Is Dynamic Programming?](https://bytepatterns.com/learn/dynamic-programming/what-is-dp?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Top-Down vs Bottom-Up](https://bytepatterns.com/learn/dynamic-programming/top-down-vs-bottom-up?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Climbing Stairs](https://bytepatterns.com/learn/dynamic-programming/climbing-stairs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [House Robber](https://bytepatterns.com/learn/dynamic-programming/house-robber?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Coin Change](https://bytepatterns.com/learn/dynamic-programming/coin-change?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Longest Common Subsequence](https://bytepatterns.com/learn/dynamic-programming/longest-common-subsequence?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [0/1 Knapsack](https://bytepatterns.com/learn/dynamic-programming/knapsack-01?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Edit Distance](https://bytepatterns.com/learn/dynamic-programming/edit-distance?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Longest Increasing Subsequence](https://bytepatterns.com/learn/dynamic-programming/longest-increasing-subsequence?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [DP on Grids](https://bytepatterns.com/learn/dynamic-programming/dp-on-grids?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Unbounded Knapsack](https://bytepatterns.com/learn/dynamic-programming/unbounded-knapsack?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Counting Ways, Not Coins](https://bytepatterns.com/learn/dynamic-programming/coin-change-ways?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Equal Split](https://bytepatterns.com/learn/dynamic-programming/partition-equal-subset?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [House Robber in a Circle](https://bytepatterns.com/learn/dynamic-programming/house-robber-circle?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [LIS in O(n log n)](https://bytepatterns.com/learn/dynamic-programming/lis-patience-tails?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Interval DP](https://bytepatterns.com/learn/dynamic-programming/matrix-chain-order?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [DP on Trees](https://bytepatterns.com/learn/dynamic-programming/dp-on-trees?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Word Break](https://bytepatterns.com/learn/dynamic-programming/word-break-dp?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Reading the Answer Back](https://bytepatterns.com/learn/dynamic-programming/reading-the-answer-back?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [DP as a State Machine](https://bytepatterns.com/learn/dynamic-programming/stock-state-machine?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Memoization
+
+<a id="topic-memoization"></a>
+
+5 lessons
+
+- **Recursion:** [Factorial and Fibonacci](https://bytepatterns.com/learn/recursion/factorial-and-fibonacci?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Memoization](https://bytepatterns.com/learn/recursion/memoization-intro?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Dynamic Programming:** [What Is Dynamic Programming?](https://bytepatterns.com/learn/dynamic-programming/what-is-dp?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Top-Down vs Bottom-Up](https://bytepatterns.com/learn/dynamic-programming/top-down-vs-bottom-up?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **AI & ML:** [The KV Cache](https://bytepatterns.com/learn/ai-ml/the-kv-cache?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Recursion
+
+<a id="topic-recursion"></a>
+
+25 lessons
+
+- **Sorting:** [Merge Sort](https://bytepatterns.com/learn/sorting/merge-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Quick Sort](https://bytepatterns.com/learn/sorting/quick-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Recursion:** [Recursion Basics](https://bytepatterns.com/learn/recursion/recursion-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [The Call Stack](https://bytepatterns.com/learn/recursion/call-stack-visualized?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Factorial and Fibonacci](https://bytepatterns.com/learn/recursion/factorial-and-fibonacci?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Memoization](https://bytepatterns.com/learn/recursion/memoization-intro?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Backtracking](https://bytepatterns.com/learn/recursion/backtracking-intro?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Return Up or Pass Down](https://bytepatterns.com/learn/recursion/return-up-or-pass-down?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Tail Calls and Loops](https://bytepatterns.com/learn/recursion/tail-recursion?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Your Own Call Stack](https://bytepatterns.com/learn/recursion/your-own-call-stack?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Backtracking:** [The Decision Tree](https://bytepatterns.com/learn/backtracking/the-decision-tree?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Subsets](https://bytepatterns.com/learn/backtracking/subsets?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Permutations](https://bytepatterns.com/learn/backtracking/permutations?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Trees & BST:** [Tree Traversals](https://bytepatterns.com/learn/trees/tree-traversals?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Validate a BST](https://bytepatterns.com/learn/trees/validate-bst?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Tree Depth and Balance](https://bytepatterns.com/learn/trees/tree-depth-and-balance?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Diameter of a Tree](https://bytepatterns.com/learn/trees/tree-diameter?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Serialize a Tree](https://bytepatterns.com/learn/trees/serialize-and-deserialize?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Rebuild From Traversals](https://bytepatterns.com/learn/trees/build-tree-from-traversals?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Graphs:** [Depth-First Search](https://bytepatterns.com/learn/graphs/depth-first-search?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Math & Number Theory:** [GCD and Euclid](https://bytepatterns.com/learn/math-number-theory/gcd-and-euclid?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Dynamic Programming:** [What Is Dynamic Programming?](https://bytepatterns.com/learn/dynamic-programming/what-is-dp?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [DP on Trees](https://bytepatterns.com/learn/dynamic-programming/dp-on-trees?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Low-Level Design:** [Designing a File System](https://bytepatterns.com/learn/lld/designing-a-file-system?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **SQL:** [CTEs and Recursion](https://bytepatterns.com/learn/sql/ctes-and-recursion?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Backtracking
+
+<a id="topic-backtracking"></a>
+
+9 lessons
+
+- **Recursion:** [Backtracking](https://bytepatterns.com/learn/recursion/backtracking-intro?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Backtracking:** [The Decision Tree](https://bytepatterns.com/learn/backtracking/the-decision-tree?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Subsets](https://bytepatterns.com/learn/backtracking/subsets?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Permutations](https://bytepatterns.com/learn/backtracking/permutations?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [N-Queens](https://bytepatterns.com/learn/backtracking/n-queens?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Word Search & Pruning](https://bytepatterns.com/learn/backtracking/word-search-and-pruning?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Tries:** [Word Search With a Trie](https://bytepatterns.com/learn/tries/word-search-with-a-trie?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Bit Manipulation:** [Bitmask as a Set](https://bytepatterns.com/learn/bit-manipulation/bitmask-as-a-set?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Math & Number Theory:** [Permutations vs Combinations](https://bytepatterns.com/learn/math-number-theory/counting-permutations-combinations?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Greedy
+
+<a id="topic-greedy"></a>
+
+14 lessons
+
+- **Arrays:** [Container With Most Water](https://bytepatterns.com/learn/arrays/container-with-most-water?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Kadane's Algorithm](https://bytepatterns.com/learn/arrays/kadanes-algorithm?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Searching:** [Binary Search on Answer](https://bytepatterns.com/learn/searching/binary-search-on-answer?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Greedy:** [What Makes Greedy Work](https://bytepatterns.com/learn/greedy/what-makes-greedy-work?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Interval Scheduling](https://bytepatterns.com/learn/greedy/interval-scheduling?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Jump Game](https://bytepatterns.com/learn/greedy/jump-game?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Gas Station](https://bytepatterns.com/learn/greedy/gas-station?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Huffman Intuition](https://bytepatterns.com/learn/greedy/huffman-intuition?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Heaps:** [Reorganize a String](https://bytepatterns.com/learn/heaps/reorganize-a-string?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Task Scheduler](https://bytepatterns.com/learn/heaps/task-scheduler?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Graphs:** [Dijkstra's Algorithm](https://bytepatterns.com/learn/graphs/dijkstra-intro?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Kruskal's Spanning Tree](https://bytepatterns.com/learn/graphs/kruskal-mst?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Prim's Spanning Tree](https://bytepatterns.com/learn/graphs/prim-mst?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **AI & ML:** [BPE vs WordPiece](https://bytepatterns.com/learn/ai-ml/bpe-vs-wordpiece?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Intervals
+
+<a id="topic-intervals"></a>
+
+6 lessons
+
+- **Greedy:** [Interval Scheduling](https://bytepatterns.com/learn/greedy/interval-scheduling?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Intervals:** [Interval Basics & Sorting](https://bytepatterns.com/learn/intervals/interval-basics-and-sorting?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Merge Intervals](https://bytepatterns.com/learn/intervals/merge-intervals?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Insert Interval](https://bytepatterns.com/learn/intervals/insert-interval?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Meeting Rooms](https://bytepatterns.com/learn/intervals/meeting-rooms?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design Cases:** [Design Hotel Booking](https://bytepatterns.com/learn/system-design-cases/design-hotel-booking?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Bit manipulation
+
+<a id="topic-bit-manipulation"></a>
+
+6 lessons
+
+- **Bit Manipulation:** [Binary and Bitwise Ops](https://bytepatterns.com/learn/bit-manipulation/binary-and-bitwise-ops?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [XOR Tricks](https://bytepatterns.com/learn/bit-manipulation/xor-tricks?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Counting Set Bits](https://bytepatterns.com/learn/bit-manipulation/counting-set-bits?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Masks and Power of Two](https://bytepatterns.com/learn/bit-manipulation/masks-and-power-of-two?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Bitmask as a Set](https://bytepatterns.com/learn/bit-manipulation/bitmask-as-a-set?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Math & Number Theory:** [Fast Exponentiation](https://bytepatterns.com/learn/math-number-theory/fast-exponentiation?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Matrix
+
+<a id="topic-matrix"></a>
+
+13 lessons
+
+- **Searching:** [Search a 2D Matrix](https://bytepatterns.com/learn/searching/search-2d-matrix?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Kth Smallest in a Matrix](https://bytepatterns.com/learn/searching/kth-smallest-matrix?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Backtracking:** [N-Queens](https://bytepatterns.com/learn/backtracking/n-queens?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Word Search & Pruning](https://bytepatterns.com/learn/backtracking/word-search-and-pruning?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Tries:** [Word Search With a Trie](https://bytepatterns.com/learn/tries/word-search-with-a-trie?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Graphs:** [Multi-Source BFS](https://bytepatterns.com/learn/graphs/multi-source-bfs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Matrix & Grid:** [Grid Traversal](https://bytepatterns.com/learn/matrix-grid/grid-traversal-and-neighbours?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Spiral Order](https://bytepatterns.com/learn/matrix-grid/spiral-order?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Rotate In Place](https://bytepatterns.com/learn/matrix-grid/rotate-in-place?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Number of Islands](https://bytepatterns.com/learn/matrix-grid/number-of-islands?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Flood Fill](https://bytepatterns.com/learn/matrix-grid/flood-fill?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Dynamic Programming:** [DP on Grids](https://bytepatterns.com/learn/dynamic-programming/dp-on-grids?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Low-Level Design:** [Chess Board Model](https://bytepatterns.com/learn/lld/chess-board-model?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Linked list
+
+<a id="topic-linked-list"></a>
+
+11 lessons
+
+- **Linked Lists:** [Singly Linked List Basics](https://bytepatterns.com/learn/linked-lists/singly-linked-list-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Traversal and Search](https://bytepatterns.com/learn/linked-lists/traversal-and-search?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Insert and Delete](https://bytepatterns.com/learn/linked-lists/insert-and-delete?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Reverse a Linked List](https://bytepatterns.com/learn/linked-lists/reverse-linked-list?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Fast and Slow Pointers](https://bytepatterns.com/learn/linked-lists/fast-and-slow-pointers?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Detect a Cycle](https://bytepatterns.com/learn/linked-lists/detect-cycle?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Find the Cycle Start](https://bytepatterns.com/learn/linked-lists/find-the-cycle-start?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Merge Two Sorted Lists](https://bytepatterns.com/learn/linked-lists/merge-two-sorted-lists?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Copy a List With Random Links](https://bytepatterns.com/learn/linked-lists/copy-list-with-random-pointer?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Doubly Linked Lists](https://bytepatterns.com/learn/linked-lists/doubly-linked-lists?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Low-Level Design:** [LRU Cache](https://bytepatterns.com/learn/lld/lru-cache-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Strings
+
+<a id="topic-strings"></a>
+
+23 lessons
+
+- **Strings:** [String Basics](https://bytepatterns.com/learn/strings/string-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Valid Palindrome](https://bytepatterns.com/learn/strings/valid-palindrome?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Reverse Words](https://bytepatterns.com/learn/strings/reverse-words?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Longest Unique Substring](https://bytepatterns.com/learn/strings/longest-substring-without-repeats?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Longest Palindromic Substring](https://bytepatterns.com/learn/strings/longest-palindromic-substring?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Rabin-Karp Rolling Hash](https://bytepatterns.com/learn/strings/rabin-karp-rolling-hash?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [String Matching Intuition](https://bytepatterns.com/learn/strings/string-matching-intuition?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Build the KMP Table](https://bytepatterns.com/learn/strings/kmp-failure-table?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Z-Algorithm Intuition](https://bytepatterns.com/learn/strings/z-algorithm?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [String Compression](https://bytepatterns.com/learn/strings/string-compression?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Encode and Decode Strings](https://bytepatterns.com/learn/strings/encode-decode-strings?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Stacks & Queues:** [Valid Parentheses](https://bytepatterns.com/learn/stacks-queues/valid-parentheses?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Hash Tables:** [Group Anagrams](https://bytepatterns.com/learn/hash-tables/group-anagrams?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Trees & BST:** [Serialize a Tree](https://bytepatterns.com/learn/trees/serialize-and-deserialize?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Tries:** [Trie Basics](https://bytepatterns.com/learn/tries/trie-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Prefix Search](https://bytepatterns.com/learn/tries/prefix-search-and-autocomplete?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Heaps:** [Reorganize a String](https://bytepatterns.com/learn/heaps/reorganize-a-string?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Dynamic Programming:** [Longest Common Subsequence](https://bytepatterns.com/learn/dynamic-programming/longest-common-subsequence?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Edit Distance](https://bytepatterns.com/learn/dynamic-programming/edit-distance?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Word Break](https://bytepatterns.com/learn/dynamic-programming/word-break-dp?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Reading the Answer Back](https://bytepatterns.com/learn/dynamic-programming/reading-the-answer-back?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **AI & ML:** [Tokenization](https://bytepatterns.com/learn/ai-ml/tokenization?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [BPE vs WordPiece](https://bytepatterns.com/learn/ai-ml/bpe-vs-wordpiece?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Math
+
+<a id="topic-math"></a>
+
+5 lessons
+
+- **Math & Number Theory:** [Modular Arithmetic](https://bytepatterns.com/learn/math-number-theory/modular-arithmetic?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [GCD and Euclid](https://bytepatterns.com/learn/math-number-theory/gcd-and-euclid?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Sieve of Eratosthenes](https://bytepatterns.com/learn/math-number-theory/sieve-of-eratosthenes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Fast Exponentiation](https://bytepatterns.com/learn/math-number-theory/fast-exponentiation?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Permutations vs Combinations](https://bytepatterns.com/learn/math-number-theory/counting-permutations-combinations?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### System design
+
+<a id="topic-system-design"></a>
+
+2 lessons
+
+- **System Design:** [What Is System Design](https://bytepatterns.com/learn/system-design/what-is-system-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Designing a REST API](https://bytepatterns.com/learn/system-design/api-design-rest?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Caching
+
+<a id="topic-caching"></a>
+
+10 lessons
+
+- **Hash Tables:** [LFU: Frequency Buckets](https://bytepatterns.com/learn/hash-tables/lfu-frequency-buckets?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design:** [Caching](https://bytepatterns.com/learn/system-design/caching?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Invalidation and Eviction](https://bytepatterns.com/learn/system-design/cache-invalidation-and-eviction?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Content Delivery Networks](https://bytepatterns.com/learn/system-design/cdn?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design Cases:** [Design a URL Shortener](https://bytepatterns.com/learn/system-design-cases/design-a-url-shortener?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a News Feed](https://bytepatterns.com/learn/system-design-cases/design-a-news-feed?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design Search Autocomplete](https://bytepatterns.com/learn/system-design-cases/design-search-autocomplete?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design Video Streaming](https://bytepatterns.com/learn/system-design-cases/design-video-streaming?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Distributed Cache](https://bytepatterns.com/learn/system-design-cases/design-a-distributed-cache?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Low-Level Design:** [LRU Cache](https://bytepatterns.com/learn/lld/lru-cache-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Rate limiting
+
+<a id="topic-rate-limiting"></a>
+
+4 lessons
+
+- **System Design:** [Rate Limiting](https://bytepatterns.com/learn/system-design/rate-limiting?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design Cases:** [Design a Rate Limiter](https://bytepatterns.com/learn/system-design-cases/design-a-rate-limiter?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Concurrency:** [Semaphores](https://bytepatterns.com/learn/concurrency/semaphores?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Backpressure](https://bytepatterns.com/learn/concurrency/backpressure?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Distributed
+
+<a id="topic-distributed"></a>
+
+20 lessons
+
+- **System Design:** [Vertical vs Horizontal Scaling](https://bytepatterns.com/learn/system-design/vertical-vs-horizontal-scaling?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Load Balancing](https://bytepatterns.com/learn/system-design/load-balancing?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Database Replication](https://bytepatterns.com/learn/system-design/database-replication?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Database Sharding](https://bytepatterns.com/learn/system-design/database-sharding?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [SQL vs NoSQL](https://bytepatterns.com/learn/system-design/sql-vs-nosql?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Consistency and CAP](https://bytepatterns.com/learn/system-design/consistency-and-cap?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Message Queues](https://bytepatterns.com/learn/system-design/message-queues?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [WebSockets and Realtime](https://bytepatterns.com/learn/system-design/websockets-and-realtime?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Observability Basics](https://bytepatterns.com/learn/system-design/observability-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Consistency Models](https://bytepatterns.com/learn/system-design/consistency-models?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Tracing a Request](https://bytepatterns.com/learn/system-design/tracing-a-request?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **System Design Cases:** [Design a Rate Limiter](https://bytepatterns.com/learn/system-design-cases/design-a-rate-limiter?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Chat App](https://bytepatterns.com/learn/system-design-cases/design-a-chat-app?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a News Feed](https://bytepatterns.com/learn/system-design-cases/design-a-news-feed?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Payment Ledger](https://bytepatterns.com/learn/system-design-cases/design-a-payment-ledger?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Job Scheduler](https://bytepatterns.com/learn/system-design-cases/design-a-job-scheduler?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design Ad Click Aggregation](https://bytepatterns.com/learn/system-design-cases/design-ad-click-aggregation?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Distributed Cache](https://bytepatterns.com/learn/system-design-cases/design-a-distributed-cache?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Key-Value Store](https://bytepatterns.com/learn/system-design-cases/design-a-key-value-store?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Collaborative Editor](https://bytepatterns.com/learn/system-design-cases/design-a-collaborative-editor?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Machine learning
+
+<a id="topic-ml"></a>
+
+22 lessons
+
+- **AI & ML:** [What Is Machine Learning](https://bytepatterns.com/learn/ai-ml/what-is-machine-learning?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Training vs Inference](https://bytepatterns.com/learn/ai-ml/training-vs-inference?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Embeddings](https://bytepatterns.com/learn/ai-ml/embeddings?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Tokenization](https://bytepatterns.com/learn/ai-ml/tokenization?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Attention, Intuitively](https://bytepatterns.com/learn/ai-ml/attention-intuition?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Transformers: Big Picture](https://bytepatterns.com/learn/ai-ml/transformers-big-picture?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [What Is an LLM](https://bytepatterns.com/learn/ai-ml/what-is-an-llm?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Temperature and Sampling](https://bytepatterns.com/learn/ai-ml/temperature-and-sampling?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Context Windows](https://bytepatterns.com/learn/ai-ml/context-windows?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Retrieval-Augmented Generation](https://bytepatterns.com/learn/ai-ml/rag-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Fine-Tuning vs Prompting](https://bytepatterns.com/learn/ai-ml/fine-tuning-vs-prompting?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Agents and Tools](https://bytepatterns.com/learn/ai-ml/agents-and-tools?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Evaluating LLMs](https://bytepatterns.com/learn/ai-ml/evaluating-llms?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Chunking and Reranking](https://bytepatterns.com/learn/ai-ml/chunking-and-reranking?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Adapters and LoRA](https://bytepatterns.com/learn/ai-ml/adapters-and-lora?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Quantization](https://bytepatterns.com/learn/ai-ml/quantization?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [LLM as a Judge](https://bytepatterns.com/learn/ai-ml/llm-as-a-judge?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [The Tool-Use Loop](https://bytepatterns.com/learn/ai-ml/the-tool-use-loop?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Guardrails](https://bytepatterns.com/learn/ai-ml/guardrails?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [BPE vs WordPiece](https://bytepatterns.com/learn/ai-ml/bpe-vs-wordpiece?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [The KV Cache](https://bytepatterns.com/learn/ai-ml/the-kv-cache?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Speculative Decoding](https://bytepatterns.com/learn/ai-ml/speculative-decoding?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Embeddings
+
+<a id="topic-embeddings"></a>
+
+6 lessons
+
+- **AI & ML:** [Embeddings](https://bytepatterns.com/learn/ai-ml/embeddings?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Cosine Similarity](https://bytepatterns.com/learn/ai-ml/cosine-similarity?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Retrieval-Augmented Generation](https://bytepatterns.com/learn/ai-ml/rag-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Vector Databases](https://bytepatterns.com/learn/ai-ml/vector-databases?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Chunking and Reranking](https://bytepatterns.com/learn/ai-ml/chunking-and-reranking?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Approximate Neighbours](https://bytepatterns.com/learn/ai-ml/approximate-nearest-neighbours?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Attention
+
+<a id="topic-attention"></a>
+
+4 lessons
+
+- **AI & ML:** [Attention, Intuitively](https://bytepatterns.com/learn/ai-ml/attention-intuition?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Transformers: Big Picture](https://bytepatterns.com/learn/ai-ml/transformers-big-picture?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Context Windows](https://bytepatterns.com/learn/ai-ml/context-windows?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [The KV Cache](https://bytepatterns.com/learn/ai-ml/the-kv-cache?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Complexity
+
+<a id="topic-complexity"></a>
+
+18 lessons
+
+- **Big-O:** [What Is Big-O?](https://bytepatterns.com/learn/big-o/what-is-big-o?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [O(1) and O(n)](https://bytepatterns.com/learn/big-o/o1-and-on?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [O(n²) and Nested Loops](https://bytepatterns.com/learn/big-o/on2-and-nested-loops?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [O(log n) and Halving](https://bytepatterns.com/learn/big-o/ologn-halving?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Comparing Complexities](https://bytepatterns.com/learn/big-o/comparing-complexities?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Arrays:** [Array Basics](https://bytepatterns.com/learn/arrays/array-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Strings:** [String Basics](https://bytepatterns.com/learn/strings/string-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Searching:** [Linear Search](https://bytepatterns.com/learn/searching/linear-search?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Sorting:** [Sorting Basics](https://bytepatterns.com/learn/sorting/sorting-basics?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Bubble Sort](https://bytepatterns.com/learn/sorting/bubble-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Selection Sort](https://bytepatterns.com/learn/sorting/selection-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Insertion Sort](https://bytepatterns.com/learn/sorting/insertion-sort?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Which Sort When?](https://bytepatterns.com/learn/sorting/which-sort-when?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Hash Tables:** [When Hashing Fails](https://bytepatterns.com/learn/hash-tables/when-hashing-fails?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Recursion:** [Factorial and Fibonacci](https://bytepatterns.com/learn/recursion/factorial-and-fibonacci?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **SQL:** [Subqueries](https://bytepatterns.com/learn/sql/subqueries?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [The N+1 Query Problem](https://bytepatterns.com/learn/sql/n-plus-one-problem?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Reading a Query Plan](https://bytepatterns.com/learn/sql/reading-a-query-plan?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### OOP
+
+<a id="topic-oop"></a>
+
+15 lessons
+
+- **Low-Level Design:** [What Is Low-Level Design](https://bytepatterns.com/learn/lld/what-is-lld?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Encapsulation and Invariants](https://bytepatterns.com/learn/lld/encapsulation-and-invariants?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Composition vs Inheritance](https://bytepatterns.com/learn/lld/composition-vs-inheritance?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Interfaces and Polymorphism](https://bytepatterns.com/learn/lld/interfaces-and-polymorphism?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [SOLID in One Pass](https://bytepatterns.com/learn/lld/solid-overview?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Strategy Pattern](https://bytepatterns.com/learn/lld/strategy-pattern?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Observer Pattern](https://bytepatterns.com/learn/lld/observer-pattern?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Factory Pattern](https://bytepatterns.com/learn/lld/factory-pattern?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [State Pattern](https://bytepatterns.com/learn/lld/state-pattern?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Designing a Parking Lot](https://bytepatterns.com/learn/lld/designing-a-parking-lot?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Designing a File System](https://bytepatterns.com/learn/lld/designing-a-file-system?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Elevator Controller](https://bytepatterns.com/learn/lld/elevator-controller?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [LRU Cache](https://bytepatterns.com/learn/lld/lru-cache-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Vending Machine](https://bytepatterns.com/learn/lld/vending-machine-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Chess Board Model](https://bytepatterns.com/learn/lld/chess-board-model?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+
+### Concurrency
+
+<a id="topic-concurrency"></a>
+
+20 lessons
+
+- **System Design Cases:** [Design E-commerce Inventory](https://bytepatterns.com/learn/system-design-cases/design-ecommerce-inventory?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design Hotel Booking](https://bytepatterns.com/learn/system-design-cases/design-hotel-booking?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Design a Collaborative Editor](https://bytepatterns.com/learn/system-design-cases/design-a-collaborative-editor?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **Concurrency:** [Threads vs Processes](https://bytepatterns.com/learn/concurrency/threads-vs-processes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Race Conditions](https://bytepatterns.com/learn/concurrency/race-conditions?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Locks and Mutexes](https://bytepatterns.com/learn/concurrency/locks-and-mutexes?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Deadlock](https://bytepatterns.com/learn/concurrency/deadlock?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Thread Pools](https://bytepatterns.com/learn/concurrency/thread-pools?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Producer and Consumer](https://bytepatterns.com/learn/concurrency/producer-consumer?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Async and the Event Loop](https://bytepatterns.com/learn/concurrency/async-await-event-loop?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Atomic Operations](https://bytepatterns.com/learn/concurrency/atomic-operations?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Semaphores](https://bytepatterns.com/learn/concurrency/semaphores?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Designing Thread-Safe Code](https://bytepatterns.com/learn/concurrency/designing-thread-safe-code?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Backpressure](https://bytepatterns.com/learn/concurrency/backpressure?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Detecting Deadlock](https://bytepatterns.com/learn/concurrency/detecting-deadlock?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Sizing a Thread Pool](https://bytepatterns.com/learn/concurrency/sizing-a-thread-pool?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Blocking the Event Loop](https://bytepatterns.com/learn/concurrency/blocking-the-event-loop?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Compare-and-Swap](https://bytepatterns.com/learn/concurrency/compare-and-swap?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- **SQL:** [Transactions & ACID](https://bytepatterns.com/learn/sql/transactions-acid?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Isolation Levels](https://bytepatterns.com/learn/sql/isolation-levels?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
 
 ## Practice problems
 
