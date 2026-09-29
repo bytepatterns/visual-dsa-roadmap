@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28",
+  "generated": "2026-09-29",
   "site": "https://bytepatterns.com",
   "phases": [
     {
@@ -48,11 +48,12 @@
     {
       "id": "systems",
       "title": "Systems",
-      "blurb": "What happens once one machine is not enough — and once one thread is not either. Then the same ideas as AWS services.",
+      "blurb": "What happens once one machine is not enough — and once one thread is not either. Then the same ideas as AWS services and as a Kubernetes cluster.",
       "modules": [
         "system-design",
         "system-design-cases",
         "aws",
+        "kubernetes",
         "concurrency",
         "sql"
       ]
@@ -255,6 +256,12 @@
       "title": "AWS for Interviews",
       "blurb": "IAM, S3, queues, VPCs and caches — the AWS round, drawn as requests moving through boxes.",
       "order": 30
+    },
+    {
+      "id": "kubernetes",
+      "title": "Docker & Kubernetes for Interviews",
+      "blurb": "Images, Pods, Services and rollouts — the container round, drawn as replicas moving through a cluster.",
+      "order": 31
     }
   ],
   "lessons": [
@@ -4184,6 +4191,158 @@
         "caching"
       ],
       "url": "https://bytepatterns.com/learn/aws/design-a-system-on-aws"
+    },
+    {
+      "module": "kubernetes",
+      "id": "k8s-containers-vs-vms",
+      "order": 1,
+      "title": "Containers vs VMs",
+      "oneLiner": "A VM brings its own kernel. A container is a fenced-off process on yours.",
+      "minutes": 6,
+      "tags": [
+        "system-design"
+      ],
+      "url": "https://bytepatterns.com/learn/kubernetes/containers-vs-vms"
+    },
+    {
+      "module": "kubernetes",
+      "id": "k8s-images-and-layers",
+      "order": 2,
+      "title": "Images, Layers & Multi-Stage Builds",
+      "oneLiner": "Order the Dockerfile by how often each line changes, and ship only the output.",
+      "minutes": 7,
+      "tags": [
+        "caching",
+        "system-design"
+      ],
+      "url": "https://bytepatterns.com/learn/kubernetes/images-and-layers"
+    },
+    {
+      "module": "kubernetes",
+      "id": "k8s-networking-and-volumes",
+      "order": 3,
+      "title": "Ports, Networks & Volumes",
+      "oneLiner": "Private names, one published port, and data that outlives the container.",
+      "minutes": 6,
+      "tags": [
+        "system-design"
+      ],
+      "url": "https://bytepatterns.com/learn/kubernetes/networking-and-volumes"
+    },
+    {
+      "module": "kubernetes",
+      "id": "k8s-docker-compose",
+      "order": 4,
+      "title": "Docker Compose for Local Dev",
+      "oneLiner": "One file, one command, a whole app — as long as it fits on one Docker host.",
+      "minutes": 6,
+      "tags": [
+        "system-design"
+      ],
+      "url": "https://bytepatterns.com/learn/kubernetes/docker-compose"
+    },
+    {
+      "module": "kubernetes",
+      "id": "k8s-pods-replicasets-deployments",
+      "order": 5,
+      "title": "Pods, ReplicaSets & Deployments",
+      "oneLiner": "Declare how many and which version; three controllers keep reality matching it.",
+      "minutes": 7,
+      "tags": [
+        "system-design",
+        "distributed"
+      ],
+      "url": "https://bytepatterns.com/learn/kubernetes/pods-replicasets-deployments"
+    },
+    {
+      "module": "kubernetes",
+      "id": "k8s-scheduling-and-rolling-updates",
+      "order": 6,
+      "title": "Scheduling & Rolling Updates",
+      "oneLiner": "Where a Pod lands, and how v1 becomes v2 without a gap in service.",
+      "minutes": 7,
+      "tags": [
+        "distributed",
+        "system-design"
+      ],
+      "url": "https://bytepatterns.com/learn/kubernetes/scheduling-and-rolling-updates"
+    },
+    {
+      "module": "kubernetes",
+      "id": "k8s-services-and-ingress",
+      "order": 7,
+      "title": "Services & Ingress",
+      "oneLiner": "A stable name in front of Pods that come and go, and one front door for HTTP.",
+      "minutes": 7,
+      "tags": [
+        "system-design",
+        "distributed"
+      ],
+      "url": "https://bytepatterns.com/learn/kubernetes/services-and-ingress"
+    },
+    {
+      "module": "kubernetes",
+      "id": "k8s-configmaps-and-secrets",
+      "order": 8,
+      "title": "ConfigMaps, Secrets & Env",
+      "oneLiner": "One image everywhere; the settings and the passwords live beside it, not in it.",
+      "minutes": 6,
+      "tags": [
+        "system-design"
+      ],
+      "url": "https://bytepatterns.com/learn/kubernetes/configmaps-and-secrets"
+    },
+    {
+      "module": "kubernetes",
+      "id": "k8s-probes-and-self-healing",
+      "order": 9,
+      "title": "Probes & Self-Healing",
+      "oneLiner": "Three questions the kubelet keeps asking: started? ready? still alive?",
+      "minutes": 6,
+      "tags": [
+        "distributed",
+        "system-design"
+      ],
+      "url": "https://bytepatterns.com/learn/kubernetes/probes-and-self-healing"
+    },
+    {
+      "module": "kubernetes",
+      "id": "k8s-requests-limits-and-hpa",
+      "order": 10,
+      "title": "Requests, Limits & HPA",
+      "oneLiner": "Reserve what a Pod needs, cap what it takes, and scale out when it runs hot.",
+      "minutes": 7,
+      "tags": [
+        "system-design",
+        "distributed"
+      ],
+      "url": "https://bytepatterns.com/learn/kubernetes/requests-limits-and-hpa"
+    },
+    {
+      "module": "kubernetes",
+      "id": "k8s-persistent-volumes-and-statefulsets",
+      "order": 11,
+      "title": "Storage: PV, PVC & StatefulSet",
+      "oneLiner": "Replicas with names that stick and disks that follow them.",
+      "minutes": 7,
+      "tags": [
+        "distributed",
+        "system-design"
+      ],
+      "url": "https://bytepatterns.com/learn/kubernetes/persistent-volumes-and-statefulsets"
+    },
+    {
+      "module": "kubernetes",
+      "id": "k8s-design-a-deployment",
+      "order": 12,
+      "title": "Design a Deployment on Kubernetes",
+      "oneLiner": "Walk the request path, then name the failure each piece is there for.",
+      "minutes": 8,
+      "tags": [
+        "system-design",
+        "distributed"
+      ],
+      "url": "https://bytepatterns.com/learn/kubernetes/design-a-deployment-on-kubernetes"
     }
   ],
   "problems": [
@@ -4292,6 +4451,59 @@
       "url": "https://bytepatterns.com/practice/arrays/spiral-grid-walk"
     },
     {
+      "topic": "arrays",
+      "id": "push-target-values-back",
+      "order": 9,
+      "title": "Push Target Values Back",
+      "difficulty": "easy",
+      "patterns": [
+        "two-pointers",
+        "write-pointer"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/arrays/push-target-values-back"
+    },
+    {
+      "topic": "arrays",
+      "id": "sums-divisible-by-k",
+      "order": 10,
+      "title": "Subarray Sums Divisible by K",
+      "difficulty": "medium",
+      "patterns": [
+        "prefix-sums",
+        "hash-map",
+        "modular-arithmetic"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/arrays/sums-divisible-by-k"
+    },
+    {
+      "topic": "arrays",
+      "id": "smallest-absent-positive",
+      "order": 11,
+      "title": "Smallest Absent Positive",
+      "difficulty": "hard",
+      "patterns": [
+        "cyclic-sort",
+        "index-as-home"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/arrays/smallest-absent-positive"
+    },
+    {
+      "topic": "arrays",
+      "id": "water-held-between-bars",
+      "order": 12,
+      "title": "Water Held Between Bars",
+      "difficulty": "hard",
+      "patterns": [
+        "two-pointers",
+        "running-maximum"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/arrays/water-held-between-bars"
+    },
+    {
       "topic": "strings",
       "id": "longest-shared-prefix",
       "order": 1,
@@ -4383,6 +4595,45 @@
       "url": "https://bytepatterns.com/practice/strings/repeated-dna-sequences"
     },
     {
+      "topic": "strings",
+      "id": "palindrome-after-one-deletion",
+      "order": 8,
+      "title": "Palindrome After One Deletion",
+      "difficulty": "easy",
+      "patterns": [
+        "two-pointers",
+        "greedy"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/strings/palindrome-after-one-deletion"
+    },
+    {
+      "topic": "strings",
+      "id": "reverse-the-word-order",
+      "order": 9,
+      "title": "Reverse the Word Order",
+      "difficulty": "easy",
+      "patterns": [
+        "two-pointers",
+        "word-split"
+      ],
+      "minutes": 10,
+      "url": "https://bytepatterns.com/practice/strings/reverse-the-word-order"
+    },
+    {
+      "topic": "strings",
+      "id": "shortest-palindrome-by-prepending",
+      "order": 10,
+      "title": "Shortest Palindrome by Prepending",
+      "difficulty": "hard",
+      "patterns": [
+        "kmp",
+        "palindrome"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/strings/shortest-palindrome-by-prepending"
+    },
+    {
       "topic": "searching",
       "id": "integer-square-root",
       "order": 1,
@@ -4448,6 +4699,32 @@
       "url": "https://bytepatterns.com/practice/searching/minimum-daily-capacity"
     },
     {
+      "topic": "searching",
+      "id": "nearest-two-words",
+      "order": 6,
+      "title": "Nearest Two Words",
+      "difficulty": "easy",
+      "patterns": [
+        "single-pass",
+        "linear-scan"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/searching/nearest-two-words"
+    },
+    {
+      "topic": "searching",
+      "id": "count-the-rotations",
+      "order": 7,
+      "title": "Count the Rotations",
+      "difficulty": "medium",
+      "patterns": [
+        "binary-search",
+        "boundary-search"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/searching/count-the-rotations"
+    },
+    {
       "topic": "sorting",
       "id": "out-of-place-count",
       "order": 1,
@@ -4511,6 +4788,32 @@
       ],
       "minutes": 40,
       "url": "https://bytepatterns.com/practice/sorting/maximum-gap-buckets"
+    },
+    {
+      "topic": "sorting",
+      "id": "insertion-sort-shift-count",
+      "order": 6,
+      "title": "Insertion Sort Shift Count",
+      "difficulty": "easy",
+      "patterns": [
+        "insertion-sort",
+        "stable-sort"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/sorting/insertion-sort-shift-count"
+    },
+    {
+      "topic": "sorting",
+      "id": "sort-a-linked-chain",
+      "order": 7,
+      "title": "Sort a Linked Chain",
+      "difficulty": "medium",
+      "patterns": [
+        "divide-and-conquer",
+        "fast-slow-pointers"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/sorting/sort-a-linked-chain"
     },
     {
       "topic": "linked-lists",
@@ -4927,6 +5230,20 @@
       "url": "https://bytepatterns.com/practice/backtracking/count-queen-placements"
     },
     {
+      "topic": "backtracking",
+      "id": "distinct-arrangements",
+      "order": 7,
+      "title": "Distinct Arrangements",
+      "difficulty": "medium",
+      "patterns": [
+        "backtracking",
+        "pruning",
+        "sorting"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/backtracking/distinct-arrangements"
+    },
+    {
       "topic": "greedy",
       "id": "fewest-removals-to-unclash",
       "order": 1,
@@ -5112,6 +5429,32 @@
       "url": "https://bytepatterns.com/practice/trees/rebuild-from-two-walks"
     },
     {
+      "topic": "trees",
+      "id": "closest-key-in-a-bst",
+      "order": 8,
+      "title": "Closest Key in a BST",
+      "difficulty": "easy",
+      "patterns": [
+        "bst",
+        "search-path"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/trees/closest-key-in-a-bst"
+    },
+    {
+      "topic": "trees",
+      "id": "distance-between-bst-keys",
+      "order": 9,
+      "title": "Distance Between Two BST Keys",
+      "difficulty": "medium",
+      "patterns": [
+        "bst",
+        "lowest-common-ancestor"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/trees/distance-between-bst-keys"
+    },
+    {
       "topic": "tries",
       "id": "wildcard-word-search",
       "order": 1,
@@ -5280,6 +5623,19 @@
       ],
       "minutes": 15,
       "url": "https://bytepatterns.com/practice/heaps/min-heap-array-check"
+    },
+    {
+      "topic": "heaps",
+      "id": "sort-a-nearly-sorted-list",
+      "order": 8,
+      "title": "Sort a Nearly Sorted List",
+      "difficulty": "medium",
+      "patterns": [
+        "min-heap",
+        "k-sorted"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/heaps/sort-a-nearly-sorted-list"
     },
     {
       "topic": "two-heaps-k-way",
@@ -5522,6 +5878,20 @@
       "url": "https://bytepatterns.com/practice/graphs/rising-tide-crossing"
     },
     {
+      "topic": "graphs",
+      "id": "nodes-clear-of-cycles",
+      "order": 12,
+      "title": "Nodes Clear of Cycles",
+      "difficulty": "medium",
+      "patterns": [
+        "dfs",
+        "graph-colouring",
+        "cycle-detection"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/graphs/nodes-clear-of-cycles"
+    },
+    {
       "topic": "matrix-grid",
       "id": "island-perimeter-walk",
       "order": 1,
@@ -5611,6 +5981,20 @@
       ],
       "minutes": 30,
       "url": "https://bytepatterns.com/practice/matrix-grid/landlocked-islands"
+    },
+    {
+      "topic": "matrix-grid",
+      "id": "shortest-clear-grid-path",
+      "order": 8,
+      "title": "Shortest Clear Grid Path",
+      "difficulty": "medium",
+      "patterns": [
+        "bfs",
+        "grid-traversal",
+        "shortest-path"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/matrix-grid/shortest-clear-grid-path"
     },
     {
       "topic": "union-find",
@@ -5887,6 +6271,19 @@
       "url": "https://bytepatterns.com/practice/bit-manipulation/every-subset-by-bitmask"
     },
     {
+      "topic": "bit-manipulation",
+      "id": "sort-by-equal-bit-swaps",
+      "order": 9,
+      "title": "Sort by Equal-Bit Swaps",
+      "difficulty": "medium",
+      "patterns": [
+        "popcount",
+        "adjacent-swaps"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/bit-manipulation/sort-by-equal-bit-swaps"
+    },
+    {
       "topic": "math-number-theory",
       "id": "factorial-trailing-zeros",
       "order": 1,
@@ -6146,6 +6543,32 @@
       ],
       "minutes": 50,
       "url": "https://bytepatterns.com/practice/dynamic-programming/cheapest-stick-cuts"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "ways-to-pay-an-amount",
+      "order": 15,
+      "title": "Ways to Pay an Amount",
+      "difficulty": "medium",
+      "patterns": [
+        "unbounded-knapsack",
+        "bottom-up-dp"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/ways-to-pay-an-amount"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "build-a-shortest-supersequence",
+      "order": 16,
+      "title": "Build a Shortest Supersequence",
+      "difficulty": "hard",
+      "patterns": [
+        "string-dp",
+        "subsequence-dp"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/build-a-shortest-supersequence"
     }
   ]
 }
