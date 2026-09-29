@@ -4504,6 +4504,32 @@
       "url": "https://bytepatterns.com/practice/arrays/water-held-between-bars"
     },
     {
+      "topic": "arrays",
+      "id": "squares-of-a-sorted-list",
+      "order": 13,
+      "title": "Squares of a Sorted List",
+      "difficulty": "easy",
+      "patterns": [
+        "two-pointers",
+        "merge-from-back"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/arrays/squares-of-a-sorted-list"
+    },
+    {
+      "topic": "arrays",
+      "id": "reverse-every-k-block",
+      "order": 14,
+      "title": "Reverse Every K Block",
+      "difficulty": "easy",
+      "patterns": [
+        "in-place-reversal",
+        "two-pointers"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/arrays/reverse-every-k-block"
+    },
+    {
       "topic": "strings",
       "id": "longest-shared-prefix",
       "order": 1,
@@ -4632,6 +4658,45 @@
       ],
       "minutes": 40,
       "url": "https://bytepatterns.com/practice/strings/shortest-palindrome-by-prepending"
+    },
+    {
+      "topic": "strings",
+      "id": "count-palindromic-substrings",
+      "order": 11,
+      "title": "Count Palindromic Substrings",
+      "difficulty": "medium",
+      "patterns": [
+        "expand-around-center",
+        "palindrome"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/strings/count-palindromic-substrings"
+    },
+    {
+      "topic": "strings",
+      "id": "smallest-repeating-unit",
+      "order": 12,
+      "title": "Smallest Repeating Unit",
+      "difficulty": "medium",
+      "patterns": [
+        "kmp",
+        "string-period"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/strings/smallest-repeating-unit"
+    },
+    {
+      "topic": "strings",
+      "id": "how-often-each-prefix-appears",
+      "order": 13,
+      "title": "How Often Each Prefix Appears",
+      "difficulty": "hard",
+      "patterns": [
+        "z-algorithm",
+        "suffix-sums"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/strings/how-often-each-prefix-appears"
     },
     {
       "topic": "searching",
@@ -4816,6 +4881,32 @@
       "url": "https://bytepatterns.com/practice/sorting/sort-a-linked-chain"
     },
     {
+      "topic": "sorting",
+      "id": "fewest-swaps-to-sort",
+      "order": 8,
+      "title": "Fewest Swaps to Sort",
+      "difficulty": "medium",
+      "patterns": [
+        "cycle-decomposition",
+        "selection-sort"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/sorting/fewest-swaps-to-sort"
+    },
+    {
+      "topic": "sorting",
+      "id": "kth-smallest-by-partitioning",
+      "order": 9,
+      "title": "Kth Smallest by Partitioning",
+      "difficulty": "medium",
+      "patterns": [
+        "quickselect",
+        "three-way-partition"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/sorting/kth-smallest-by-partitioning"
+    },
+    {
       "topic": "linked-lists",
       "id": "merge-sorted-chains",
       "order": 1,
@@ -4996,6 +5087,45 @@
       "url": "https://bytepatterns.com/practice/stacks-queues/largest-bar-rectangle"
     },
     {
+      "topic": "stacks-queues",
+      "id": "requests-in-the-last-window",
+      "order": 6,
+      "title": "Requests in the Last Window",
+      "difficulty": "easy",
+      "patterns": [
+        "queue",
+        "sliding-window"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/stacks-queues/requests-in-the-last-window"
+    },
+    {
+      "topic": "stacks-queues",
+      "id": "two-stack-queue-operations",
+      "order": 7,
+      "title": "Two-Stack Queue Operations",
+      "difficulty": "easy",
+      "patterns": [
+        "two-stacks",
+        "amortized"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/stacks-queues/two-stack-queue-operations"
+    },
+    {
+      "topic": "stacks-queues",
+      "id": "ring-buffer-deque",
+      "order": 8,
+      "title": "Ring Buffer Deque",
+      "difficulty": "medium",
+      "patterns": [
+        "circular-buffer",
+        "design"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/stacks-queues/ring-buffer-deque"
+    },
+    {
       "topic": "hash-tables",
       "id": "repeated-value-check",
       "order": 1,
@@ -5150,6 +5280,19 @@
       ],
       "minutes": 30,
       "url": "https://bytepatterns.com/practice/recursion/every-way-to-bracket"
+    },
+    {
+      "topic": "recursion",
+      "id": "kth-smallest-bst-key-iteratively",
+      "order": 7,
+      "title": "Kth Smallest BST Key, Iteratively",
+      "difficulty": "medium",
+      "patterns": [
+        "explicit-stack",
+        "inorder"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/recursion/kth-smallest-bst-key-iteratively"
     },
     {
       "topic": "backtracking",
@@ -5453,6 +5596,45 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/trees/distance-between-bst-keys"
+    },
+    {
+      "topic": "trees",
+      "id": "shallowest-leaf-depth",
+      "order": 10,
+      "title": "Shallowest Leaf Depth",
+      "difficulty": "easy",
+      "patterns": [
+        "bfs",
+        "level-order"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/trees/shallowest-leaf-depth"
+    },
+    {
+      "topic": "trees",
+      "id": "flatten-a-tree-into-a-chain",
+      "order": 11,
+      "title": "Flatten a Tree Into a Chain",
+      "difficulty": "medium",
+      "patterns": [
+        "preorder",
+        "explicit-stack"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/trees/flatten-a-tree-into-a-chain"
+    },
+    {
+      "topic": "trees",
+      "id": "top-view-of-a-tree",
+      "order": 12,
+      "title": "Top View of a Tree",
+      "difficulty": "medium",
+      "patterns": [
+        "bfs",
+        "column-index"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/trees/top-view-of-a-tree"
     },
     {
       "topic": "tries",
@@ -5890,6 +6072,32 @@
       ],
       "minutes": 30,
       "url": "https://bytepatterns.com/practice/graphs/nodes-clear-of-cycles"
+    },
+    {
+      "topic": "graphs",
+      "id": "mutual-follow-pairs",
+      "order": 13,
+      "title": "Mutual Follow Pairs",
+      "difficulty": "easy",
+      "patterns": [
+        "adjacency-set",
+        "directed-graph"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/graphs/mutual-follow-pairs"
+    },
+    {
+      "topic": "graphs",
+      "id": "water-every-house",
+      "order": 14,
+      "title": "Water Every House",
+      "difficulty": "hard",
+      "patterns": [
+        "prim",
+        "virtual-node"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/graphs/water-every-house"
     },
     {
       "topic": "matrix-grid",
@@ -6569,6 +6777,58 @@
       ],
       "minutes": 45,
       "url": "https://bytepatterns.com/practice/dynamic-programming/build-a-shortest-supersequence"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "longest-palindromic-subsequence",
+      "order": 17,
+      "title": "Longest Palindromic Subsequence",
+      "difficulty": "medium",
+      "patterns": [
+        "lcs",
+        "2d-dp"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/longest-palindromic-subsequence"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "signs-that-hit-a-target",
+      "order": 18,
+      "title": "Signs That Hit a Target",
+      "difficulty": "medium",
+      "patterns": [
+        "0-1-knapsack",
+        "subset-count"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/signs-that-hit-a-target"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "fewest-watchers-on-a-tree",
+      "order": 19,
+      "title": "Fewest Watchers on a Tree",
+      "difficulty": "hard",
+      "patterns": [
+        "tree-dp",
+        "state-machine"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/fewest-watchers-on-a-tree"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "pie-slices-with-two-friends",
+      "order": 20,
+      "title": "Pie Slices With Two Friends",
+      "difficulty": "hard",
+      "patterns": [
+        "circular-dp",
+        "exact-count-dp"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/pie-slices-with-two-friends"
     }
   ]
 }
