@@ -4855,6 +4855,19 @@
       "url": "https://bytepatterns.com/practice/searching/search-a-list-of-unknown-length"
     },
     {
+      "topic": "searching",
+      "id": "kth-number-missing-from-a-list",
+      "order": 9,
+      "title": "Kth Number Missing From a List",
+      "difficulty": "easy",
+      "patterns": [
+        "binary-search",
+        "counting"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/searching/kth-number-missing-from-a-list"
+    },
+    {
       "topic": "sorting",
       "id": "out-of-place-count",
       "order": 1,
@@ -5466,6 +5479,19 @@
       "url": "https://bytepatterns.com/practice/recursion/halve-or-subtract-steps"
     },
     {
+      "topic": "recursion",
+      "id": "look-and-say-term",
+      "order": 9,
+      "title": "Look and Say Term",
+      "difficulty": "easy",
+      "patterns": [
+        "recursion",
+        "run-length"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/recursion/look-and-say-term"
+    },
+    {
       "topic": "backtracking",
       "id": "phone-keypad-words",
       "order": 1,
@@ -5556,6 +5582,32 @@
       ],
       "minutes": 30,
       "url": "https://bytepatterns.com/practice/backtracking/distinct-arrangements"
+    },
+    {
+      "topic": "backtracking",
+      "id": "dotted-addresses-from-digits",
+      "order": 8,
+      "title": "Dotted Addresses From Digits",
+      "difficulty": "medium",
+      "patterns": [
+        "backtracking",
+        "pruning"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/backtracking/dotted-addresses-from-digits"
+    },
+    {
+      "topic": "backtracking",
+      "id": "fill-a-sudoku-grid",
+      "order": 9,
+      "title": "Fill a Sudoku Grid",
+      "difficulty": "hard",
+      "patterns": [
+        "backtracking",
+        "constraint-sets"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/backtracking/fill-a-sudoku-grid"
     },
     {
       "topic": "greedy",
@@ -5649,6 +5701,33 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/greedy/cheapest-rope-joining"
+    },
+    {
+      "topic": "greedy",
+      "id": "split-candidates-between-two-cities",
+      "order": 8,
+      "title": "Split Candidates Between Two Cities",
+      "difficulty": "easy",
+      "patterns": [
+        "greedy",
+        "sort-by-difference"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/greedy/split-candidates-between-two-cities"
+    },
+    {
+      "topic": "greedy",
+      "id": "most-events-you-can-attend",
+      "order": 9,
+      "title": "Most Events You Can Attend",
+      "difficulty": "medium",
+      "patterns": [
+        "greedy",
+        "min-heap",
+        "earliest-deadline"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/greedy/most-events-you-can-attend"
     },
     {
       "topic": "trees",
@@ -5914,6 +5993,46 @@
       "url": "https://bytepatterns.com/practice/tries/dictionary-words-in-grid"
     },
     {
+      "topic": "tries",
+      "id": "longest-word-built-letter-by-letter",
+      "order": 7,
+      "title": "Longest Word Built Letter by Letter",
+      "difficulty": "medium",
+      "patterns": [
+        "trie",
+        "dfs"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/tries/longest-word-built-letter-by-letter"
+    },
+    {
+      "topic": "tries",
+      "id": "sum-of-values-by-prefix",
+      "order": 8,
+      "title": "Sum of Values by Prefix",
+      "difficulty": "easy",
+      "patterns": [
+        "trie",
+        "design"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/tries/sum-of-values-by-prefix"
+    },
+    {
+      "topic": "tries",
+      "id": "word-endings-in-a-letter-stream",
+      "order": 9,
+      "title": "Word Endings in a Letter Stream",
+      "difficulty": "hard",
+      "patterns": [
+        "trie",
+        "reversed-trie",
+        "stream"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/tries/word-endings-in-a-letter-stream"
+    },
+    {
       "topic": "heaps",
       "id": "kth-largest-value",
       "order": 1,
@@ -6018,6 +6137,19 @@
       "url": "https://bytepatterns.com/practice/heaps/sort-a-nearly-sorted-list"
     },
     {
+      "topic": "heaps",
+      "id": "how-far-bricks-and-ladders-go",
+      "order": 9,
+      "title": "How Far Bricks and Ladders Go",
+      "difficulty": "medium",
+      "patterns": [
+        "min-heap",
+        "greedy"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/heaps/how-far-bricks-and-ladders-go"
+    },
+    {
       "topic": "two-heaps-k-way",
       "id": "kth-smallest-in-sorted-matrix",
       "order": 1,
@@ -6109,6 +6241,32 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/two-heaps-k-way/k-most-frequent-values"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "next-span-to-the-right",
+      "order": 8,
+      "title": "Next Span to the Right",
+      "difficulty": "medium",
+      "patterns": [
+        "two-heaps",
+        "max-heap"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/next-span-to-the-right"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "kth-smallest-prime-fraction",
+      "order": 9,
+      "title": "Kth Smallest Prime Fraction",
+      "difficulty": "medium",
+      "patterns": [
+        "k-way-merge",
+        "min-heap"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/kth-smallest-prime-fraction"
     },
     {
       "topic": "graphs",
@@ -6507,6 +6665,45 @@
       "url": "https://bytepatterns.com/practice/union-find/stones-sharing-a-line"
     },
     {
+      "topic": "union-find",
+      "id": "earliest-moment-all-connected",
+      "order": 7,
+      "title": "Earliest Moment All Connected",
+      "difficulty": "medium",
+      "patterns": [
+        "union-find",
+        "sort-by-time"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/union-find/earliest-moment-all-connected"
+    },
+    {
+      "topic": "union-find",
+      "id": "smallest-equivalent-string",
+      "order": 8,
+      "title": "Smallest Equivalent String",
+      "difficulty": "medium",
+      "patterns": [
+        "union-find",
+        "strings"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/union-find/smallest-equivalent-string"
+    },
+    {
+      "topic": "union-find",
+      "id": "spare-roads-for-two-travellers",
+      "order": 9,
+      "title": "Spare Roads for Two Travellers",
+      "difficulty": "hard",
+      "patterns": [
+        "union-find",
+        "greedy"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/union-find/spare-roads-for-two-travellers"
+    },
+    {
       "topic": "intervals",
       "id": "non-overlapping-removals",
       "order": 1,
@@ -6597,6 +6794,32 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/intervals/insert-and-merge-span"
+    },
+    {
+      "topic": "intervals",
+      "id": "overlap-of-two-span-lists",
+      "order": 8,
+      "title": "Overlap of Two Span Lists",
+      "difficulty": "medium",
+      "patterns": [
+        "intervals",
+        "two-pointers"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/intervals/overlap-of-two-span-lists"
+    },
+    {
+      "topic": "intervals",
+      "id": "drop-spans-covered-by-others",
+      "order": 9,
+      "title": "Drop Spans Covered by Others",
+      "difficulty": "medium",
+      "patterns": [
+        "intervals",
+        "sort-by-start"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/intervals/drop-spans-covered-by-others"
     },
     {
       "topic": "bit-manipulation",
@@ -6805,6 +7028,45 @@
       ],
       "minutes": 30,
       "url": "https://bytepatterns.com/practice/math-number-theory/choose-k-modulo-prime"
+    },
+    {
+      "topic": "math-number-theory",
+      "id": "lcm-of-a-list",
+      "order": 7,
+      "title": "Least Common Multiple of a List",
+      "difficulty": "easy",
+      "patterns": [
+        "gcd",
+        "lcm"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/math-number-theory/lcm-of-a-list"
+    },
+    {
+      "topic": "math-number-theory",
+      "id": "fraction-as-a-repeating-decimal",
+      "order": 8,
+      "title": "Fraction as a Repeating Decimal",
+      "difficulty": "medium",
+      "patterns": [
+        "long-division",
+        "hash-map"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/math-number-theory/fraction-as-a-repeating-decimal"
+    },
+    {
+      "topic": "math-number-theory",
+      "id": "primes-in-a-wide-range",
+      "order": 9,
+      "title": "Primes in a Wide Range",
+      "difficulty": "hard",
+      "patterns": [
+        "segmented-sieve",
+        "sieve"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/math-number-theory/primes-in-a-wide-range"
     },
     {
       "topic": "dynamic-programming",
