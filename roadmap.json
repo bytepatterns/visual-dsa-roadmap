@@ -4530,6 +4530,45 @@
       "url": "https://bytepatterns.com/practice/arrays/reverse-every-k-block"
     },
     {
+      "topic": "arrays",
+      "id": "balance-point-index",
+      "order": 15,
+      "title": "Balance Point Index",
+      "difficulty": "easy",
+      "patterns": [
+        "prefix-sums",
+        "running-sum"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/arrays/balance-point-index"
+    },
+    {
+      "topic": "arrays",
+      "id": "longest-window-within-budget",
+      "order": 16,
+      "title": "Longest Window Within Budget",
+      "difficulty": "medium",
+      "patterns": [
+        "sliding-window",
+        "two-pointers"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/arrays/longest-window-within-budget"
+    },
+    {
+      "topic": "arrays",
+      "id": "taller-than-everything-after",
+      "order": 17,
+      "title": "Taller Than Everything After",
+      "difficulty": "easy",
+      "patterns": [
+        "running-maximum",
+        "linear-scan"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/arrays/taller-than-everything-after"
+    },
+    {
       "topic": "strings",
       "id": "longest-shared-prefix",
       "order": 1,
@@ -4699,6 +4738,19 @@
       "url": "https://bytepatterns.com/practice/strings/how-often-each-prefix-appears"
     },
     {
+      "topic": "strings",
+      "id": "pack-a-word-list",
+      "order": 14,
+      "title": "Pack a Word List Into One String",
+      "difficulty": "easy",
+      "patterns": [
+        "length-prefix",
+        "string-parsing"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/strings/pack-a-word-list"
+    },
+    {
       "topic": "searching",
       "id": "integer-square-root",
       "order": 1,
@@ -4788,6 +4840,19 @@
       ],
       "minutes": 20,
       "url": "https://bytepatterns.com/practice/searching/count-the-rotations"
+    },
+    {
+      "topic": "searching",
+      "id": "search-a-list-of-unknown-length",
+      "order": 8,
+      "title": "Search a List of Unknown Length",
+      "difficulty": "medium",
+      "patterns": [
+        "binary-search",
+        "exponential-search"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/searching/search-a-list-of-unknown-length"
     },
     {
       "topic": "sorting",
@@ -4907,6 +4972,33 @@
       "url": "https://bytepatterns.com/practice/sorting/kth-smallest-by-partitioning"
     },
     {
+      "topic": "sorting",
+      "id": "pairs-below-a-budget",
+      "order": 10,
+      "title": "Pairs Below a Budget",
+      "difficulty": "easy",
+      "patterns": [
+        "sorting",
+        "two-pointers"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/sorting/pairs-below-a-budget"
+    },
+    {
+      "topic": "sorting",
+      "id": "order-after-k-digit-passes",
+      "order": 11,
+      "title": "Order After K Digit Passes",
+      "difficulty": "medium",
+      "patterns": [
+        "radix-sort",
+        "stable-sort",
+        "bucket-sort"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/sorting/order-after-k-digit-passes"
+    },
+    {
       "topic": "linked-lists",
       "id": "merge-sorted-chains",
       "order": 1,
@@ -5022,6 +5114,19 @@
       ],
       "minutes": 30,
       "url": "https://bytepatterns.com/practice/linked-lists/loop-entry-node"
+    },
+    {
+      "topic": "linked-lists",
+      "id": "clone-a-chain-with-jump-links",
+      "order": 10,
+      "title": "Clone a Chain With Jump Links",
+      "difficulty": "medium",
+      "patterns": [
+        "pointer-relinking",
+        "in-place"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/linked-lists/clone-a-chain-with-jump-links"
     },
     {
       "topic": "stacks-queues",
@@ -5204,6 +5309,59 @@
       "url": "https://bytepatterns.com/practice/hash-tables/four-list-zero-tuples"
     },
     {
+      "topic": "hash-tables",
+      "id": "closest-repeat-distance",
+      "order": 7,
+      "title": "Closest Repeat Distance",
+      "difficulty": "easy",
+      "patterns": [
+        "hash-map",
+        "single-pass"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/hash-tables/closest-repeat-distance"
+    },
+    {
+      "topic": "hash-tables",
+      "id": "where-linear-probing-lands",
+      "order": 8,
+      "title": "Where Linear Probing Lands",
+      "difficulty": "medium",
+      "patterns": [
+        "open-addressing",
+        "union-find"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/hash-tables/where-linear-probing-lands"
+    },
+    {
+      "topic": "hash-tables",
+      "id": "sort-letters-by-frequency",
+      "order": 9,
+      "title": "Sort Letters by Frequency",
+      "difficulty": "medium",
+      "patterns": [
+        "bucket-sort",
+        "counting"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/hash-tables/sort-letters-by-frequency"
+    },
+    {
+      "topic": "hash-tables",
+      "id": "least-frequently-used-cache",
+      "order": 10,
+      "title": "Least Frequently Used Cache",
+      "difficulty": "hard",
+      "patterns": [
+        "design",
+        "hash-map",
+        "frequency-buckets"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/hash-tables/least-frequently-used-cache"
+    },
+    {
       "topic": "recursion",
       "id": "flatten-nested-counts",
       "order": 1,
@@ -5293,6 +5451,19 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/recursion/kth-smallest-bst-key-iteratively"
+    },
+    {
+      "topic": "recursion",
+      "id": "halve-or-subtract-steps",
+      "order": 8,
+      "title": "Halve or Subtract One Steps",
+      "difficulty": "easy",
+      "patterns": [
+        "tail-recursion",
+        "bit-counting"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/recursion/halve-or-subtract-steps"
     },
     {
       "topic": "backtracking",
@@ -5635,6 +5806,33 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/trees/top-view-of-a-tree"
+    },
+    {
+      "topic": "trees",
+      "id": "largest-bst-inside-a-tree",
+      "order": 13,
+      "title": "Largest BST Inside a Tree",
+      "difficulty": "medium",
+      "patterns": [
+        "post-order",
+        "bst"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/trees/largest-bst-inside-a-tree"
+    },
+    {
+      "topic": "trees",
+      "id": "compact-bst-serialization",
+      "order": 14,
+      "title": "Compact BST Serialization",
+      "difficulty": "medium",
+      "patterns": [
+        "preorder",
+        "monotonic-stack",
+        "bst"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/trees/compact-bst-serialization"
     },
     {
       "topic": "tries",
@@ -6100,6 +6298,19 @@
       "url": "https://bytepatterns.com/practice/graphs/water-every-house"
     },
     {
+      "topic": "graphs",
+      "id": "fewest-roads-to-link-every-town",
+      "order": 15,
+      "title": "Fewest Roads to Link Every Town",
+      "difficulty": "hard",
+      "patterns": [
+        "strongly-connected-components",
+        "directed-graph"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/graphs/fewest-roads-to-link-every-town"
+    },
+    {
       "topic": "matrix-grid",
       "id": "island-perimeter-walk",
       "order": 1,
@@ -6203,6 +6414,19 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/matrix-grid/shortest-clear-grid-path"
+    },
+    {
+      "topic": "matrix-grid",
+      "id": "largest-all-ones-rectangle",
+      "order": 9,
+      "title": "Largest All-Ones Rectangle",
+      "difficulty": "hard",
+      "patterns": [
+        "monotonic-stack",
+        "grid-scan"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/matrix-grid/largest-all-ones-rectangle"
     },
     {
       "topic": "union-find",
@@ -6490,6 +6714,19 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/bit-manipulation/sort-by-equal-bit-swaps"
+    },
+    {
+      "topic": "bit-manipulation",
+      "id": "shortest-walk-through-every-node",
+      "order": 10,
+      "title": "Shortest Walk Through Every Node",
+      "difficulty": "hard",
+      "patterns": [
+        "bitmask",
+        "bfs"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/bit-manipulation/shortest-walk-through-every-node"
     },
     {
       "topic": "math-number-theory",
@@ -6829,6 +7066,32 @@
       ],
       "minutes": 45,
       "url": "https://bytepatterns.com/practice/dynamic-programming/pie-slices-with-two-friends"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "best-value-van-load",
+      "order": 21,
+      "title": "Best Value Van Load",
+      "difficulty": "medium",
+      "patterns": [
+        "unbounded-knapsack",
+        "bottom-up-dp"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/best-value-van-load"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "closest-two-team-split",
+      "order": 22,
+      "title": "Closest Two-Team Split",
+      "difficulty": "medium",
+      "patterns": [
+        "0-1-knapsack",
+        "subset-sum"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/closest-two-team-split"
     }
   ]
 }
