@@ -4569,6 +4569,46 @@
       "url": "https://bytepatterns.com/practice/arrays/taller-than-everything-after"
     },
     {
+      "topic": "arrays",
+      "id": "three-values-summing-to-zero",
+      "order": 18,
+      "title": "Three Values Summing to Zero",
+      "difficulty": "medium",
+      "patterns": [
+        "two-pointers",
+        "sort-first",
+        "skip-duplicates"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/arrays/three-values-summing-to-zero"
+    },
+    {
+      "topic": "arrays",
+      "id": "next-larger-arrangement",
+      "order": 19,
+      "title": "Next Larger Arrangement",
+      "difficulty": "medium",
+      "patterns": [
+        "in-place-reversal",
+        "suffix-scan"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/arrays/next-larger-arrangement"
+    },
+    {
+      "topic": "arrays",
+      "id": "largest-product-subarray",
+      "order": 20,
+      "title": "Largest Product Subarray",
+      "difficulty": "medium",
+      "patterns": [
+        "kadane",
+        "running-min-max"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/arrays/largest-product-subarray"
+    },
+    {
       "topic": "strings",
       "id": "longest-shared-prefix",
       "order": 1,
@@ -4749,6 +4789,32 @@
       ],
       "minutes": 20,
       "url": "https://bytepatterns.com/practice/strings/pack-a-word-list"
+    },
+    {
+      "topic": "strings",
+      "id": "anagram-positions-in-a-text",
+      "order": 15,
+      "title": "Anagram Positions in a Text",
+      "difficulty": "medium",
+      "patterns": [
+        "fixed-sliding-window",
+        "frequency-count"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/strings/anagram-positions-in-a-text"
+    },
+    {
+      "topic": "strings",
+      "id": "roman-numeral-to-integer",
+      "order": 16,
+      "title": "Roman Numeral to Integer",
+      "difficulty": "easy",
+      "patterns": [
+        "string-scan",
+        "lookup-table"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/strings/roman-numeral-to-integer"
     },
     {
       "topic": "searching",
@@ -5093,6 +5159,32 @@
       "url": "https://bytepatterns.com/practice/sorting/sort-by-another-lists-order"
     },
     {
+      "topic": "sorting",
+      "id": "pancake-flips-to-sort",
+      "order": 14,
+      "title": "Pancake Flips to Sort",
+      "difficulty": "medium",
+      "patterns": [
+        "selection-sort",
+        "prefix-reversal"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/sorting/pancake-flips-to-sort"
+    },
+    {
+      "topic": "sorting",
+      "id": "pairs-with-the-smallest-gap",
+      "order": 15,
+      "title": "Pairs With the Smallest Gap",
+      "difficulty": "easy",
+      "patterns": [
+        "sort-first",
+        "adjacent-scan"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/sorting/pairs-with-the-smallest-gap"
+    },
+    {
       "topic": "linked-lists",
       "id": "merge-sorted-chains",
       "order": 1,
@@ -5248,6 +5340,32 @@
       ],
       "minutes": 35,
       "url": "https://bytepatterns.com/practice/linked-lists/least-recently-used-cache"
+    },
+    {
+      "topic": "linked-lists",
+      "id": "reverse-nodes-in-groups-of-k",
+      "order": 13,
+      "title": "Reverse Nodes in Groups of K",
+      "difficulty": "hard",
+      "patterns": [
+        "in-place-reversal",
+        "dummy-head"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/linked-lists/reverse-nodes-in-groups-of-k"
+    },
+    {
+      "topic": "linked-lists",
+      "id": "where-two-chains-merge",
+      "order": 14,
+      "title": "Where Two Chains Merge",
+      "difficulty": "easy",
+      "patterns": [
+        "two-pointers",
+        "list-traversal"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/linked-lists/where-two-chains-merge"
     },
     {
       "topic": "stacks-queues",
@@ -5599,6 +5717,33 @@
       ],
       "minutes": 15,
       "url": "https://bytepatterns.com/practice/hash-tables/count-pairs-with-a-given-gap"
+    },
+    {
+      "topic": "hash-tables",
+      "id": "ransom-note-from-a-magazine",
+      "order": 13,
+      "title": "Ransom Note From a Magazine",
+      "difficulty": "easy",
+      "patterns": [
+        "frequency-count",
+        "hash-map"
+      ],
+      "minutes": 10,
+      "url": "https://bytepatterns.com/practice/hash-tables/ransom-note-from-a-magazine"
+    },
+    {
+      "topic": "hash-tables",
+      "id": "group-words-by-letter-shift",
+      "order": 14,
+      "title": "Group Words by Letter Shift",
+      "difficulty": "medium",
+      "patterns": [
+        "canonical-key",
+        "hash-map",
+        "grouping"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/hash-tables/group-words-by-letter-shift"
     },
     {
       "topic": "recursion",
@@ -6314,6 +6459,46 @@
       ],
       "minutes": 30,
       "url": "https://bytepatterns.com/practice/trees/compact-bst-serialization"
+    },
+    {
+      "topic": "trees",
+      "id": "mirror-a-binary-tree",
+      "order": 15,
+      "title": "Mirror a Binary Tree",
+      "difficulty": "easy",
+      "patterns": [
+        "recursion",
+        "tree-traversal"
+      ],
+      "minutes": 10,
+      "url": "https://bytepatterns.com/practice/trees/mirror-a-binary-tree"
+    },
+    {
+      "topic": "trees",
+      "id": "best-path-sum-between-any-nodes",
+      "order": 16,
+      "title": "Best Path Sum Between Any Nodes",
+      "difficulty": "hard",
+      "patterns": [
+        "post-order",
+        "tree-dp",
+        "global-best"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/trees/best-path-sum-between-any-nodes"
+    },
+    {
+      "topic": "trees",
+      "id": "height-balanced-tree-check",
+      "order": 17,
+      "title": "Height-Balanced Tree Check",
+      "difficulty": "easy",
+      "patterns": [
+        "post-order",
+        "early-exit"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/trees/height-balanced-tree-check"
     },
     {
       "topic": "tries",
@@ -7070,6 +7255,32 @@
       "url": "https://bytepatterns.com/practice/graphs/shortest-paths-with-rebate-roads"
     },
     {
+      "topic": "graphs",
+      "id": "alien-alphabet-order",
+      "order": 20,
+      "title": "Alien Alphabet Order",
+      "difficulty": "hard",
+      "patterns": [
+        "topological-sort",
+        "graph-from-constraints"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/graphs/alien-alphabet-order"
+    },
+    {
+      "topic": "graphs",
+      "id": "open-every-locked-room",
+      "order": 21,
+      "title": "Open Every Locked Room",
+      "difficulty": "easy",
+      "patterns": [
+        "dfs",
+        "reachability"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/graphs/open-every-locked-room"
+    },
+    {
       "topic": "matrix-grid",
       "id": "island-perimeter-walk",
       "order": 1,
@@ -7728,6 +7939,32 @@
       "url": "https://bytepatterns.com/practice/bit-manipulation/bitwise-and-across-a-range"
     },
     {
+      "topic": "bit-manipulation",
+      "id": "word-pairs-with-no-shared-letters",
+      "order": 13,
+      "title": "Word Pairs With No Shared Letters",
+      "difficulty": "medium",
+      "patterns": [
+        "bitmask",
+        "set-as-integer"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/bit-manipulation/word-pairs-with-no-shared-letters"
+    },
+    {
+      "topic": "bit-manipulation",
+      "id": "total-bit-differences-across-pairs",
+      "order": 14,
+      "title": "Total Bit Differences Across Pairs",
+      "difficulty": "medium",
+      "patterns": [
+        "bit-counting",
+        "per-bit-contribution"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/bit-manipulation/total-bit-differences-across-pairs"
+    },
+    {
       "topic": "math-number-theory",
       "id": "factorial-trailing-zeros",
       "order": 1,
@@ -7882,6 +8119,19 @@
       ],
       "minutes": 20,
       "url": "https://bytepatterns.com/practice/math-number-theory/song-pairs-filling-whole-minutes"
+    },
+    {
+      "topic": "math-number-theory",
+      "id": "power-with-a-huge-exponent",
+      "order": 13,
+      "title": "Power With a Huge Exponent",
+      "difficulty": "medium",
+      "patterns": [
+        "fast-exponentiation",
+        "modular-arithmetic"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/math-number-theory/power-with-a-huge-exponent"
     },
     {
       "topic": "dynamic-programming",
@@ -8221,6 +8471,19 @@
       ],
       "minutes": 20,
       "url": "https://bytepatterns.com/practice/dynamic-programming/fewest-deletions-to-match-two-words"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "interleave-two-strings",
+      "order": 27,
+      "title": "Interleave Two Strings",
+      "difficulty": "medium",
+      "patterns": [
+        "two-string-dp",
+        "rolling-row"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/interleave-two-strings"
     },
     {
       "topic": "sql",
