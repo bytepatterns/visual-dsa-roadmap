@@ -4895,6 +4895,33 @@
       "url": "https://bytepatterns.com/practice/searching/next-letter-after-the-target"
     },
     {
+      "topic": "searching",
+      "id": "target-in-a-rotated-sorted-list",
+      "order": 12,
+      "title": "Target in a Rotated Sorted List",
+      "difficulty": "medium",
+      "patterns": [
+        "binary-search",
+        "rotated-array"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/searching/target-in-a-rotated-sorted-list"
+    },
+    {
+      "topic": "searching",
+      "id": "kth-smallest-pair-distance",
+      "order": 13,
+      "title": "Kth Smallest Pair Distance",
+      "difficulty": "hard",
+      "patterns": [
+        "binary-search-on-answer",
+        "two-pointers",
+        "sorting"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/searching/kth-smallest-pair-distance"
+    },
+    {
       "topic": "sorting",
       "id": "out-of-place-count",
       "order": 1,
@@ -5391,6 +5418,32 @@
       "url": "https://bytepatterns.com/practice/stacks-queues/prices-after-the-next-discount"
     },
     {
+      "topic": "stacks-queues",
+      "id": "simplify-a-unix-path",
+      "order": 14,
+      "title": "Simplify a Unix Path",
+      "difficulty": "medium",
+      "patterns": [
+        "stack",
+        "string-parsing"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/stacks-queues/simplify-a-unix-path"
+    },
+    {
+      "topic": "stacks-queues",
+      "id": "shortest-run-summing-to-at-least-k",
+      "order": 15,
+      "title": "Shortest Run Summing to at Least K",
+      "difficulty": "hard",
+      "patterns": [
+        "monotonic-deque",
+        "prefix-sum"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/stacks-queues/shortest-run-summing-to-at-least-k"
+    },
+    {
       "topic": "hash-tables",
       "id": "repeated-value-check",
       "order": 1,
@@ -5705,6 +5758,33 @@
       "url": "https://bytepatterns.com/practice/recursion/scrambled-string-check"
     },
     {
+      "topic": "recursion",
+      "id": "last-friend-standing-in-a-circle",
+      "order": 13,
+      "title": "Last Friend Standing in a Circle",
+      "difficulty": "medium",
+      "patterns": [
+        "recursion",
+        "josephus",
+        "recurrence"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/recursion/last-friend-standing-in-a-circle"
+    },
+    {
+      "topic": "recursion",
+      "id": "palindrome-check-ignoring-punctuation",
+      "order": 14,
+      "title": "Palindrome Check Ignoring Punctuation",
+      "difficulty": "easy",
+      "patterns": [
+        "tail-recursion",
+        "two-pointers"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/recursion/palindrome-check-ignoring-punctuation"
+    },
+    {
       "topic": "backtracking",
       "id": "phone-keypad-words",
       "order": 1,
@@ -5848,6 +5928,34 @@
       ],
       "minutes": 15,
       "url": "https://bytepatterns.com/practice/backtracking/binary-strings-with-no-adjacent-ones"
+    },
+    {
+      "topic": "backtracking",
+      "id": "trace-a-word-through-a-letter-grid",
+      "order": 12,
+      "title": "Trace a Word Through a Letter Grid",
+      "difficulty": "medium",
+      "patterns": [
+        "backtracking",
+        "grid-dfs",
+        "pruning"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/backtracking/trace-a-word-through-a-letter-grid"
+    },
+    {
+      "topic": "backtracking",
+      "id": "choose-k-of-the-first-n-numbers",
+      "order": 13,
+      "title": "Choose K of the First N Numbers",
+      "difficulty": "easy",
+      "patterns": [
+        "backtracking",
+        "combinations",
+        "pruning"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/backtracking/choose-k-of-the-first-n-numbers"
     },
     {
       "topic": "greedy",
@@ -6009,6 +6117,19 @@
       ],
       "minutes": 20,
       "url": "https://bytepatterns.com/practice/greedy/longest-chain-of-pairs"
+    },
+    {
+      "topic": "greedy",
+      "id": "can-the-last-index-be-reached",
+      "order": 13,
+      "title": "Can the Last Index Be Reached",
+      "difficulty": "easy",
+      "patterns": [
+        "greedy",
+        "farthest-reach"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/greedy/can-the-last-index-be-reached"
     },
     {
       "topic": "trees",
@@ -6509,6 +6630,19 @@
       "url": "https://bytepatterns.com/practice/heaps/closest-k-values-to-a-target"
     },
     {
+      "topic": "heaps",
+      "id": "heapify-a-list-in-place",
+      "order": 13,
+      "title": "Heapify a List in Place",
+      "difficulty": "easy",
+      "patterns": [
+        "heapify",
+        "sift-down"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/heaps/heapify-a-list-in-place"
+    },
+    {
       "topic": "two-heaps-k-way",
       "id": "kth-smallest-in-sorted-matrix",
       "order": 1,
@@ -6653,6 +6787,34 @@
       ],
       "minutes": 15,
       "url": "https://bytepatterns.com/practice/two-heaps-k-way/bid-ask-spread-after-each-quote"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "k-most-frequent-words",
+      "order": 12,
+      "title": "K Most Frequent Words",
+      "difficulty": "medium",
+      "patterns": [
+        "top-k",
+        "min-heap",
+        "hash-map"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/k-most-frequent-words"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "kth-largest-in-a-score-stream",
+      "order": 13,
+      "title": "Kth Largest in a Score Stream",
+      "difficulty": "easy",
+      "patterns": [
+        "min-heap",
+        "top-k",
+        "data-stream"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/kth-largest-in-a-score-stream"
     },
     {
       "topic": "graphs",
@@ -7065,6 +7227,20 @@
       "url": "https://bytepatterns.com/practice/matrix-grid/cells-draining-to-both-coasts"
     },
     {
+      "topic": "matrix-grid",
+      "id": "largest-island-area",
+      "order": 13,
+      "title": "Largest Island Area",
+      "difficulty": "easy",
+      "patterns": [
+        "flood-fill",
+        "dfs",
+        "grid-traversal"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/matrix-grid/largest-island-area"
+    },
+    {
       "topic": "union-find",
       "id": "count-provinces",
       "order": 1,
@@ -7366,6 +7542,33 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/intervals/fewest-shots-to-burst-every-balloon"
+    },
+    {
+      "topic": "intervals",
+      "id": "rooms-needed-for-every-meeting",
+      "order": 12,
+      "title": "Rooms Needed for Every Meeting",
+      "difficulty": "medium",
+      "patterns": [
+        "min-heap",
+        "sweep-line",
+        "sorting"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/intervals/rooms-needed-for-every-meeting"
+    },
+    {
+      "topic": "intervals",
+      "id": "cut-a-span-out-of-sorted-spans",
+      "order": 13,
+      "title": "Cut a Span Out of Sorted Spans",
+      "difficulty": "easy",
+      "patterns": [
+        "interval-overlap",
+        "single-pass"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/intervals/cut-a-span-out-of-sorted-spans"
     },
     {
       "topic": "bit-manipulation",
@@ -8152,6 +8355,76 @@
       ],
       "minutes": 35,
       "url": "https://bytepatterns.com/practice/sql/collapse-a-status-log-into-runs"
+    },
+    {
+      "topic": "sql",
+      "id": "same-reading-three-times-in-a-row",
+      "order": 11,
+      "title": "Same Reading Three Times in a Row",
+      "difficulty": "medium",
+      "patterns": [
+        "self-join",
+        "consecutive-rows",
+        "distinct"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/sql/same-reading-three-times-in-a-row"
+    },
+    {
+      "topic": "sql",
+      "id": "highest-paid-in-every-department",
+      "order": 12,
+      "title": "Highest Paid in Every Department",
+      "difficulty": "medium",
+      "patterns": [
+        "correlated-subquery",
+        "max",
+        "ties"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/sql/highest-paid-in-every-department"
+    },
+    {
+      "topic": "sql",
+      "id": "customers-who-bought-every-product",
+      "order": 13,
+      "title": "Customers Who Bought Every Product",
+      "difficulty": "medium",
+      "patterns": [
+        "group-by",
+        "having",
+        "count-distinct"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/sql/customers-who-bought-every-product"
+    },
+    {
+      "topic": "sql",
+      "id": "users-retained-month-over-month",
+      "order": 14,
+      "title": "Users Retained Month Over Month",
+      "difficulty": "hard",
+      "patterns": [
+        "cte",
+        "self-join",
+        "retention"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/sql/users-retained-month-over-month"
+    },
+    {
+      "topic": "sql",
+      "id": "quarterly-sales-as-columns",
+      "order": 15,
+      "title": "Quarterly Sales as Columns",
+      "difficulty": "easy",
+      "patterns": [
+        "pivot",
+        "case-when",
+        "group-by"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/sql/quarterly-sales-as-columns"
     }
   ]
 }
