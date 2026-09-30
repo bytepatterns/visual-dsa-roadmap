@@ -8486,6 +8486,271 @@
       "url": "https://bytepatterns.com/practice/dynamic-programming/interleave-two-strings"
     },
     {
+      "topic": "system-design",
+      "id": "token-bucket-rate-limiter",
+      "order": 1,
+      "title": "Token Bucket Rate Limiter",
+      "difficulty": "easy",
+      "patterns": [
+        "token-bucket",
+        "integer-math"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/system-design/token-bucket-rate-limiter"
+    },
+    {
+      "topic": "system-design",
+      "id": "read-quorum-for-a-write-quorum",
+      "order": 2,
+      "title": "Read Quorum for a Write Quorum",
+      "difficulty": "easy",
+      "patterns": [
+        "quorum",
+        "pigeonhole"
+      ],
+      "minutes": 10,
+      "url": "https://bytepatterns.com/practice/system-design/read-quorum-for-a-write-quorum"
+    },
+    {
+      "topic": "system-design",
+      "id": "consistent-hashing-ring",
+      "order": 3,
+      "title": "Consistent Hashing Ring",
+      "difficulty": "medium",
+      "patterns": [
+        "consistent-hashing",
+        "virtual-nodes",
+        "bisect"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/system-design/consistent-hashing-ring"
+    },
+    {
+      "topic": "system-design",
+      "id": "bloom-filter-sizing",
+      "order": 4,
+      "title": "Bloom Filter Sizing",
+      "difficulty": "medium",
+      "patterns": [
+        "bloom-filter",
+        "double-hashing"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/system-design/bloom-filter-sizing"
+    },
+    {
+      "topic": "system-design",
+      "id": "least-connections-load-balancer",
+      "order": 5,
+      "title": "Least-Connections Load Balancer",
+      "difficulty": "medium",
+      "patterns": [
+        "least-connections",
+        "min-heap",
+        "event-simulation"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/system-design/least-connections-load-balancer"
+    },
+    {
+      "topic": "ai-ml",
+      "id": "softmax-with-temperature",
+      "order": 1,
+      "title": "Softmax With Temperature",
+      "difficulty": "easy",
+      "patterns": [
+        "softmax",
+        "numerical-stability"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/ai-ml/softmax-with-temperature"
+    },
+    {
+      "topic": "ai-ml",
+      "id": "kv-cache-memory-budget",
+      "order": 2,
+      "title": "KV Cache Memory Budget",
+      "difficulty": "easy",
+      "patterns": [
+        "capacity-math",
+        "memory-estimate"
+      ],
+      "minutes": 10,
+      "url": "https://bytepatterns.com/practice/ai-ml/kv-cache-memory-budget"
+    },
+    {
+      "topic": "ai-ml",
+      "id": "nearest-documents-by-cosine",
+      "order": 3,
+      "title": "Nearest Documents by Cosine",
+      "difficulty": "medium",
+      "patterns": [
+        "vector-math",
+        "partial-sort"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/ai-ml/nearest-documents-by-cosine"
+    },
+    {
+      "topic": "ai-ml",
+      "id": "trim-a-chat-to-fit-the-context",
+      "order": 4,
+      "title": "Trim a Chat to Fit the Context",
+      "difficulty": "medium",
+      "patterns": [
+        "token-budget",
+        "newest-first"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/ai-ml/trim-a-chat-to-fit-the-context"
+    },
+    {
+      "topic": "ai-ml",
+      "id": "learn-byte-pair-merges",
+      "order": 5,
+      "title": "Learn Byte Pair Merges",
+      "difficulty": "hard",
+      "patterns": [
+        "byte-pair-encoding",
+        "pair-counting"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/ai-ml/learn-byte-pair-merges"
+    },
+    {
+      "topic": "lld",
+      "id": "parking-lot-fee-calculator",
+      "order": 1,
+      "title": "Parking Lot Fee Calculator",
+      "difficulty": "easy",
+      "patterns": [
+        "class-design",
+        "pricing-rules"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/lld/parking-lot-fee-calculator"
+    },
+    {
+      "topic": "lld",
+      "id": "coin-vending-machine",
+      "order": 2,
+      "title": "Coin Vending Machine",
+      "difficulty": "easy",
+      "patterns": [
+        "class-design",
+        "state-machine"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/lld/coin-vending-machine"
+    },
+    {
+      "topic": "lld",
+      "id": "lru-cache-with-expiry",
+      "order": 3,
+      "title": "LRU Cache With Expiry",
+      "difficulty": "medium",
+      "patterns": [
+        "ordered-dict",
+        "lazy-expiry",
+        "min-heap"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/lld/lru-cache-with-expiry"
+    },
+    {
+      "topic": "lld",
+      "id": "event-bus-with-topic-wildcards",
+      "order": 4,
+      "title": "Event Bus With Topic Wildcards",
+      "difficulty": "medium",
+      "patterns": [
+        "observer",
+        "topic-matching"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/lld/event-bus-with-topic-wildcards"
+    },
+    {
+      "topic": "lld",
+      "id": "in-memory-file-system",
+      "order": 5,
+      "title": "In-Memory File System",
+      "difficulty": "hard",
+      "patterns": [
+        "class-design",
+        "path-walk",
+        "invariants"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/lld/in-memory-file-system"
+    },
+    {
+      "topic": "concurrency",
+      "id": "lost-updates-in-a-shared-counter",
+      "order": 1,
+      "title": "Lost Updates in a Shared Counter",
+      "difficulty": "easy",
+      "patterns": [
+        "race-condition",
+        "step-simulation"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/concurrency/lost-updates-in-a-shared-counter"
+    },
+    {
+      "topic": "concurrency",
+      "id": "thread-pool-size-for-a-workload",
+      "order": 2,
+      "title": "Thread Pool Size for a Workload",
+      "difficulty": "easy",
+      "patterns": [
+        "capacity-math",
+        "integer-ceiling"
+      ],
+      "minutes": 10,
+      "url": "https://bytepatterns.com/practice/concurrency/thread-pool-size-for-a-workload"
+    },
+    {
+      "topic": "concurrency",
+      "id": "deadlocked-threads-in-a-wait-graph",
+      "order": 3,
+      "title": "Deadlocked Threads in a Wait Graph",
+      "difficulty": "medium",
+      "patterns": [
+        "wait-for-graph",
+        "cycle-detection"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/concurrency/deadlocked-threads-in-a-wait-graph"
+    },
+    {
+      "topic": "concurrency",
+      "id": "start-times-behind-a-semaphore",
+      "order": 4,
+      "title": "Start Times Behind a Semaphore",
+      "difficulty": "medium",
+      "patterns": [
+        "min-heap",
+        "event-simulation"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/concurrency/start-times-behind-a-semaphore"
+    },
+    {
+      "topic": "concurrency",
+      "id": "bounded-buffer-hand-offs",
+      "order": 5,
+      "title": "Bounded Buffer Hand-Offs",
+      "difficulty": "hard",
+      "patterns": [
+        "bounded-queue",
+        "event-simulation",
+        "fifo-fairness"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/concurrency/bounded-buffer-hand-offs"
+    },
+    {
       "topic": "sql",
       "id": "second-highest-salary",
       "order": 1,

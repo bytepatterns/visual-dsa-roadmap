@@ -7,7 +7,7 @@ This repository is the map. It is regenerated from the site's content, so the nu
 | | |
 |---|---|
 | Lessons | **324** across **31** modules (~29 hours) |
-| Practice problems | **330** (113 easy · 165 medium · 52 hard) |
+| Practice problems | **350** (121 easy · 174 medium · 55 hard) |
 | Cost | Free. No account needed to read a lesson. |
 | Machine-readable | [`roadmap.json`](roadmap.json) — every lesson and problem with its URL |
 
@@ -577,6 +577,8 @@ _Scale, cache, shard — and know what each choice costs you._ · 17 lessons · 
 | 16 | [Consistency Models](https://bytepatterns.com/learn/system-design/consistency-models?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Same data, different promises about what a read may see. | 6 |
 | 17 | [Tracing a Request](https://bytepatterns.com/learn/system-design/tracing-a-request?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | One request, one tree of spans, one honest answer about the time. | 6 |
 
+Practice: [Token Bucket Rate Limiter](https://bytepatterns.com/practice/system-design/token-bucket-rate-limiter?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Read Quorum for a Write Quorum](https://bytepatterns.com/practice/system-design/read-quorum-for-a-write-quorum?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Consistent Hashing Ring](https://bytepatterns.com/practice/system-design/consistent-hashing-ring?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Bloom Filter Sizing](https://bytepatterns.com/practice/system-design/bloom-filter-sizing?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Least-Connections Load Balancer](https://bytepatterns.com/practice/system-design/least-connections-load-balancer?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium)
+
 ### System Design Cases
 
 <a id="system-design-cases"></a>
@@ -680,6 +682,8 @@ _Threads, locks and races — watch the interleavings that bite._ · 15 lessons 
 | 14 | [Blocking the Event Loop](https://bytepatterns.com/learn/concurrency/blocking-the-event-loop?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | One thread runs everything, so one rude call stops the world. | 5 |
 | 15 | [Compare-and-Swap](https://bytepatterns.com/learn/concurrency/compare-and-swap?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Publish the new value only if nobody changed the old one. | 5 |
 
+Practice: [Lost Updates in a Shared Counter](https://bytepatterns.com/practice/concurrency/lost-updates-in-a-shared-counter?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Thread Pool Size for a Workload](https://bytepatterns.com/practice/concurrency/thread-pool-size-for-a-workload?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Deadlocked Threads in a Wait Graph](https://bytepatterns.com/practice/concurrency/deadlocked-threads-in-a-wait-graph?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Start Times Behind a Semaphore](https://bytepatterns.com/practice/concurrency/start-times-behind-a-semaphore?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Bounded Buffer Hand-Offs](https://bytepatterns.com/practice/concurrency/bounded-buffer-hand-offs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (hard)
+
 ### SQL
 
 <a id="sql"></a>
@@ -739,6 +743,8 @@ _Objects, interfaces and patterns that survive the follow-up question._ · 15 le
 | 13 | [LRU Cache](https://bytepatterns.com/learn/lld/lru-cache-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | A map that can find, a list that can reorder, one object. | 6 |
 | 14 | [Vending Machine](https://bytepatterns.com/learn/lld/vending-machine-design?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Four small objects, each one only answering for its own moment. | 6 |
 | 15 | [Chess Board Model](https://bytepatterns.com/learn/lld/chess-board-model?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | The piece owns its shape; the board owns who is standing where. | 7 |
+
+Practice: [Parking Lot Fee Calculator](https://bytepatterns.com/practice/lld/parking-lot-fee-calculator?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Coin Vending Machine](https://bytepatterns.com/practice/lld/coin-vending-machine?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [LRU Cache With Expiry](https://bytepatterns.com/practice/lld/lru-cache-with-expiry?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Event Bus With Topic Wildcards](https://bytepatterns.com/practice/lld/event-bus-with-topic-wildcards?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [In-Memory File System](https://bytepatterns.com/practice/lld/in-memory-file-system?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (hard)
 
 ### Behavioral
 
@@ -804,6 +810,8 @@ _From embeddings to agents — see how modern AI actually works._ · 25 lessons 
 | 23 | [BPE vs WordPiece](https://bytepatterns.com/learn/ai-ml/bpe-vs-wordpiece?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Two ways to decide which pair of pieces becomes one piece. | 5 |
 | 24 | [The KV Cache](https://bytepatterns.com/learn/ai-ml/the-kv-cache?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | Keep the past keys and values so each new token is cheap. | 5 |
 | 25 | [Speculative Decoding](https://bytepatterns.com/learn/ai-ml/speculative-decoding?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | A small model guesses ahead; the big one checks in one pass. | 5 |
+
+Practice: [Softmax With Temperature](https://bytepatterns.com/practice/ai-ml/softmax-with-temperature?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [KV Cache Memory Budget](https://bytepatterns.com/practice/ai-ml/kv-cache-memory-budget?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (easy) · [Nearest Documents by Cosine](https://bytepatterns.com/practice/ai-ml/nearest-documents-by-cosine?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Trim a Chat to Fit the Context](https://bytepatterns.com/practice/ai-ml/trim-a-chat-to-fit-the-context?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (medium) · [Learn Byte Pair Merges](https://bytepatterns.com/practice/ai-ml/learn-byte-pair-merges?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) (hard)
 
 ## Browse by topic
 
@@ -1586,6 +1594,26 @@ Original problems, each tied to the lesson that teaches its pattern. Company tag
 | Dynamic Programming | [Cheapest Path Across a Grid](https://bytepatterns.com/practice/dynamic-programming/cheapest-path-across-a-grid?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | easy | `grid-dp` `2d-dp` | 20 |
 | Dynamic Programming | [Fewest Deletions to Match Two Words](https://bytepatterns.com/practice/dynamic-programming/fewest-deletions-to-match-two-words?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | easy | `lcs` `string-dp` | 20 |
 | Dynamic Programming | [Interleave Two Strings](https://bytepatterns.com/practice/dynamic-programming/interleave-two-strings?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | medium | `two-string-dp` `rolling-row` | 30 |
+| System Design | [Token Bucket Rate Limiter](https://bytepatterns.com/practice/system-design/token-bucket-rate-limiter?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | easy | `token-bucket` `integer-math` | 15 |
+| System Design | [Read Quorum for a Write Quorum](https://bytepatterns.com/practice/system-design/read-quorum-for-a-write-quorum?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | easy | `quorum` `pigeonhole` | 10 |
+| System Design | [Consistent Hashing Ring](https://bytepatterns.com/practice/system-design/consistent-hashing-ring?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | medium | `consistent-hashing` `virtual-nodes` `bisect` | 25 |
+| System Design | [Bloom Filter Sizing](https://bytepatterns.com/practice/system-design/bloom-filter-sizing?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | medium | `bloom-filter` `double-hashing` | 25 |
+| System Design | [Least-Connections Load Balancer](https://bytepatterns.com/practice/system-design/least-connections-load-balancer?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | medium | `least-connections` `min-heap` `event-simulation` | 25 |
+| AI & ML | [Softmax With Temperature](https://bytepatterns.com/practice/ai-ml/softmax-with-temperature?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | easy | `softmax` `numerical-stability` | 15 |
+| AI & ML | [KV Cache Memory Budget](https://bytepatterns.com/practice/ai-ml/kv-cache-memory-budget?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | easy | `capacity-math` `memory-estimate` | 10 |
+| AI & ML | [Nearest Documents by Cosine](https://bytepatterns.com/practice/ai-ml/nearest-documents-by-cosine?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | medium | `vector-math` `partial-sort` | 20 |
+| AI & ML | [Trim a Chat to Fit the Context](https://bytepatterns.com/practice/ai-ml/trim-a-chat-to-fit-the-context?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | medium | `token-budget` `newest-first` | 20 |
+| AI & ML | [Learn Byte Pair Merges](https://bytepatterns.com/practice/ai-ml/learn-byte-pair-merges?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | hard | `byte-pair-encoding` `pair-counting` | 35 |
+| Low-Level Design | [Parking Lot Fee Calculator](https://bytepatterns.com/practice/lld/parking-lot-fee-calculator?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | easy | `class-design` `pricing-rules` | 15 |
+| Low-Level Design | [Coin Vending Machine](https://bytepatterns.com/practice/lld/coin-vending-machine?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | easy | `class-design` `state-machine` | 15 |
+| Low-Level Design | [LRU Cache With Expiry](https://bytepatterns.com/practice/lld/lru-cache-with-expiry?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | medium | `ordered-dict` `lazy-expiry` `min-heap` | 30 |
+| Low-Level Design | [Event Bus With Topic Wildcards](https://bytepatterns.com/practice/lld/event-bus-with-topic-wildcards?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | medium | `observer` `topic-matching` | 25 |
+| Low-Level Design | [In-Memory File System](https://bytepatterns.com/practice/lld/in-memory-file-system?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | hard | `class-design` `path-walk` `invariants` | 35 |
+| Concurrency | [Lost Updates in a Shared Counter](https://bytepatterns.com/practice/concurrency/lost-updates-in-a-shared-counter?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | easy | `race-condition` `step-simulation` | 15 |
+| Concurrency | [Thread Pool Size for a Workload](https://bytepatterns.com/practice/concurrency/thread-pool-size-for-a-workload?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | easy | `capacity-math` `integer-ceiling` | 10 |
+| Concurrency | [Deadlocked Threads in a Wait Graph](https://bytepatterns.com/practice/concurrency/deadlocked-threads-in-a-wait-graph?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | medium | `wait-for-graph` `cycle-detection` | 25 |
+| Concurrency | [Start Times Behind a Semaphore](https://bytepatterns.com/practice/concurrency/start-times-behind-a-semaphore?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | medium | `min-heap` `event-simulation` | 20 |
+| Concurrency | [Bounded Buffer Hand-Offs](https://bytepatterns.com/practice/concurrency/bounded-buffer-hand-offs?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | hard | `bounded-queue` `event-simulation` `fifo-fairness` | 35 |
 | SQL | [Second Highest Salary](https://bytepatterns.com/practice/sql/second-highest-salary?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | easy | `scalar-subquery` `aggregate` | 10 |
 | SQL | [Emails Used More Than Once](https://bytepatterns.com/practice/sql/emails-used-more-than-once?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | easy | `group-by` `having` | 10 |
 | SQL | [Customers Who Never Ordered](https://bytepatterns.com/practice/sql/customers-who-never-ordered?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) | easy | `left-join` `anti-join` | 15 |
