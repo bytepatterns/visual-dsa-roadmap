@@ -6103,6 +6103,20 @@
       "url": "https://bytepatterns.com/practice/backtracking/choose-k-of-the-first-n-numbers"
     },
     {
+      "topic": "backtracking",
+      "id": "digit-orderings-under-a-limit",
+      "order": 14,
+      "title": "Digit Orderings Under a Limit",
+      "difficulty": "easy",
+      "patterns": [
+        "backtracking",
+        "permutations",
+        "pruning"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/backtracking/digit-orderings-under-a-limit"
+    },
+    {
       "topic": "greedy",
       "id": "fewest-removals-to-unclash",
       "order": 1,
@@ -6828,6 +6842,20 @@
       "url": "https://bytepatterns.com/practice/heaps/heapify-a-list-in-place"
     },
     {
+      "topic": "heaps",
+      "id": "spread-letters-at-least-k-apart",
+      "order": 14,
+      "title": "Spread Letters at Least K Apart",
+      "difficulty": "medium",
+      "patterns": [
+        "max-heap",
+        "greedy",
+        "cooldown-queue"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/heaps/spread-letters-at-least-k-apart"
+    },
+    {
       "topic": "two-heaps-k-way",
       "id": "kth-smallest-in-sorted-matrix",
       "order": 1,
@@ -7000,6 +7028,20 @@
       ],
       "minutes": 15,
       "url": "https://bytepatterns.com/practice/two-heaps-k-way/kth-largest-in-a-score-stream"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "cheapest-way-to-level-each-window",
+      "order": 14,
+      "title": "Cheapest Way to Level Each Window",
+      "difficulty": "hard",
+      "patterns": [
+        "two-heaps",
+        "sliding-window",
+        "lazy-deletion"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/cheapest-way-to-level-each-window"
     },
     {
       "topic": "graphs",
@@ -7450,6 +7492,19 @@
       ],
       "minutes": 15,
       "url": "https://bytepatterns.com/practice/matrix-grid/largest-island-area"
+    },
+    {
+      "topic": "matrix-grid",
+      "id": "fill-a-grid-in-spiral-order",
+      "order": 14,
+      "title": "Fill a Grid in Spiral Order",
+      "difficulty": "easy",
+      "patterns": [
+        "matrix-traversal",
+        "direction-turning"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/matrix-grid/fill-a-grid-in-spiral-order"
     },
     {
       "topic": "union-find",
@@ -8553,6 +8608,98 @@
       "url": "https://bytepatterns.com/practice/system-design/least-connections-load-balancer"
     },
     {
+      "topic": "system-design",
+      "id": "latency-percentiles-by-nearest-rank",
+      "order": 6,
+      "title": "Latency Percentiles by Nearest Rank",
+      "difficulty": "easy",
+      "patterns": [
+        "percentiles",
+        "sorting"
+      ],
+      "minutes": 10,
+      "url": "https://bytepatterns.com/practice/system-design/latency-percentiles-by-nearest-rank"
+    },
+    {
+      "topic": "system-design",
+      "id": "visibility-timeouts-in-a-message-queue",
+      "order": 7,
+      "title": "Visibility Timeouts in a Message Queue",
+      "difficulty": "medium",
+      "patterns": [
+        "message-queue",
+        "event-simulation"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/system-design/visibility-timeouts-in-a-message-queue"
+    },
+    {
+      "topic": "system-design",
+      "id": "critical-path-through-a-trace",
+      "order": 8,
+      "title": "Critical Path Through a Trace",
+      "difficulty": "medium",
+      "patterns": [
+        "distributed-tracing",
+        "interval-union",
+        "tree-walk"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/system-design/critical-path-through-a-trace"
+    },
+    {
+      "topic": "system-design-cases",
+      "id": "url-shortener-capacity-estimate",
+      "order": 1,
+      "title": "URL Shortener Capacity Estimate",
+      "difficulty": "easy",
+      "patterns": [
+        "capacity-estimation",
+        "back-of-the-envelope"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/system-design-cases/url-shortener-capacity-estimate"
+    },
+    {
+      "topic": "system-design-cases",
+      "id": "feed-fan-out-cost",
+      "order": 2,
+      "title": "Feed Fan-Out Cost",
+      "difficulty": "medium",
+      "patterns": [
+        "fan-out",
+        "cost-model"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/system-design-cases/feed-fan-out-cost"
+    },
+    {
+      "topic": "system-design-cases",
+      "id": "rate-limit-tiers-for-an-api-gateway",
+      "order": 3,
+      "title": "Rate-Limit Tiers for an API Gateway",
+      "difficulty": "medium",
+      "patterns": [
+        "rate-limiting",
+        "sliding-window-log"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/system-design-cases/rate-limit-tiers-for-an-api-gateway"
+    },
+    {
+      "topic": "system-design-cases",
+      "id": "cache-hit-ratio-for-a-news-feed",
+      "order": 4,
+      "title": "Cache Hit Ratio for a News Feed",
+      "difficulty": "easy",
+      "patterns": [
+        "lru-cache",
+        "hit-ratio"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/system-design-cases/cache-hit-ratio-for-a-news-feed"
+    },
+    {
       "topic": "ai-ml",
       "id": "softmax-with-temperature",
       "order": 1,
@@ -8616,6 +8763,46 @@
       ],
       "minutes": 35,
       "url": "https://bytepatterns.com/practice/ai-ml/learn-byte-pair-merges"
+    },
+    {
+      "topic": "ai-ml",
+      "id": "int8-quantization-round-trip",
+      "order": 6,
+      "title": "Int8 Quantization Round Trip",
+      "difficulty": "easy",
+      "patterns": [
+        "quantization",
+        "scale-and-round"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/ai-ml/int8-quantization-round-trip"
+    },
+    {
+      "topic": "ai-ml",
+      "id": "target-passes-in-speculative-decoding",
+      "order": 7,
+      "title": "Target Passes in Speculative Decoding",
+      "difficulty": "medium",
+      "patterns": [
+        "speculative-decoding",
+        "draft-and-verify"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/ai-ml/target-passes-in-speculative-decoding"
+    },
+    {
+      "topic": "ai-ml",
+      "id": "inverted-file-search-recall",
+      "order": 8,
+      "title": "Inverted-File Search Recall",
+      "difficulty": "hard",
+      "patterns": [
+        "vector-search",
+        "inverted-file-index",
+        "recall-at-k"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/ai-ml/inverted-file-search-recall"
     },
     {
       "topic": "lld",
@@ -8685,6 +8872,46 @@
       "url": "https://bytepatterns.com/practice/lld/in-memory-file-system"
     },
     {
+      "topic": "lld",
+      "id": "best-discount-strategy-at-checkout",
+      "order": 6,
+      "title": "Best Discount Strategy at Checkout",
+      "difficulty": "easy",
+      "patterns": [
+        "strategy-pattern",
+        "class-design"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/lld/best-discount-strategy-at-checkout"
+    },
+    {
+      "topic": "lld",
+      "id": "elevator-stops-in-sweep-order",
+      "order": 7,
+      "title": "Elevator Stops in Sweep Order",
+      "difficulty": "medium",
+      "patterns": [
+        "elevator-sweep",
+        "event-simulation"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/lld/elevator-stops-in-sweep-order"
+    },
+    {
+      "topic": "lld",
+      "id": "legal-moves-that-keep-the-king-safe",
+      "order": 8,
+      "title": "Legal Moves That Keep the King Safe",
+      "difficulty": "hard",
+      "patterns": [
+        "board-model",
+        "move-generation",
+        "check-detection"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/lld/legal-moves-that-keep-the-king-safe"
+    },
+    {
       "topic": "concurrency",
       "id": "lost-updates-in-a-shared-counter",
       "order": 1,
@@ -8749,6 +8976,47 @@
       ],
       "minutes": 35,
       "url": "https://bytepatterns.com/practice/concurrency/bounded-buffer-hand-offs"
+    },
+    {
+      "topic": "concurrency",
+      "id": "retries-in-a-compare-and-swap-loop",
+      "order": 6,
+      "title": "Retries in a Compare-and-Swap Loop",
+      "difficulty": "easy",
+      "patterns": [
+        "compare-and-swap",
+        "step-simulation"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/concurrency/retries-in-a-compare-and-swap-loop"
+    },
+    {
+      "topic": "concurrency",
+      "id": "finish-times-on-a-single-event-loop",
+      "order": 7,
+      "title": "Finish Times on a Single Event Loop",
+      "difficulty": "medium",
+      "patterns": [
+        "event-loop",
+        "min-heap",
+        "event-simulation"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/concurrency/finish-times-on-a-single-event-loop"
+    },
+    {
+      "topic": "concurrency",
+      "id": "lock-order-that-prevents-deadlock",
+      "order": 8,
+      "title": "Lock Order That Prevents Deadlock",
+      "difficulty": "medium",
+      "patterns": [
+        "lock-ordering",
+        "topological-sort",
+        "min-heap"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/concurrency/lock-order-that-prevents-deadlock"
     },
     {
       "topic": "sql",
