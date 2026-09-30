@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "site": "https://bytepatterns.com",
   "phases": [
     {
@@ -4868,6 +4868,20 @@
       "url": "https://bytepatterns.com/practice/searching/kth-number-missing-from-a-list"
     },
     {
+      "topic": "searching",
+      "id": "value-at-a-point-in-time",
+      "order": 10,
+      "title": "Value at a Point in Time",
+      "difficulty": "medium",
+      "patterns": [
+        "binary-search",
+        "upper-bound",
+        "versioned-store"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/searching/value-at-a-point-in-time"
+    },
+    {
       "topic": "sorting",
       "id": "out-of-place-count",
       "order": 1,
@@ -5012,6 +5026,33 @@
       "url": "https://bytepatterns.com/practice/sorting/order-after-k-digit-passes"
     },
     {
+      "topic": "sorting",
+      "id": "count-out-of-order-pairs",
+      "order": 12,
+      "title": "Count Out-of-Order Pairs",
+      "difficulty": "hard",
+      "patterns": [
+        "merge-sort",
+        "divide-and-conquer",
+        "inversion-count"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/sorting/count-out-of-order-pairs"
+    },
+    {
+      "topic": "sorting",
+      "id": "sort-by-another-lists-order",
+      "order": 13,
+      "title": "Sort by Another List's Order",
+      "difficulty": "easy",
+      "patterns": [
+        "counting-sort",
+        "custom-order"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/sorting/sort-by-another-lists-order"
+    },
+    {
       "topic": "linked-lists",
       "id": "merge-sorted-chains",
       "order": 1,
@@ -5142,6 +5183,33 @@
       "url": "https://bytepatterns.com/practice/linked-lists/clone-a-chain-with-jump-links"
     },
     {
+      "topic": "linked-lists",
+      "id": "chain-reads-the-same-backwards",
+      "order": 11,
+      "title": "Chain Reads the Same Backwards",
+      "difficulty": "easy",
+      "patterns": [
+        "fast-slow-pointers",
+        "in-place-reversal"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/linked-lists/chain-reads-the-same-backwards"
+    },
+    {
+      "topic": "linked-lists",
+      "id": "least-recently-used-cache",
+      "order": 12,
+      "title": "Least Recently Used Cache",
+      "difficulty": "medium",
+      "patterns": [
+        "doubly-linked-list",
+        "hash-map",
+        "sentinel-nodes"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/linked-lists/least-recently-used-cache"
+    },
+    {
       "topic": "stacks-queues",
       "id": "constant-time-min-stack",
       "order": 1,
@@ -5242,6 +5310,46 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/stacks-queues/ring-buffer-deque"
+    },
+    {
+      "topic": "stacks-queues",
+      "id": "evaluate-postfix-tokens",
+      "order": 9,
+      "title": "Evaluate Postfix Tokens",
+      "difficulty": "easy",
+      "patterns": [
+        "stack",
+        "expression-evaluation"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/stacks-queues/evaluate-postfix-tokens"
+    },
+    {
+      "topic": "stacks-queues",
+      "id": "colliding-rocks-in-a-row",
+      "order": 10,
+      "title": "Colliding Rocks in a Row",
+      "difficulty": "medium",
+      "patterns": [
+        "stack",
+        "pop-while-weaker"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/stacks-queues/colliding-rocks-in-a-row"
+    },
+    {
+      "topic": "stacks-queues",
+      "id": "evaluate-sums-with-brackets",
+      "order": 11,
+      "title": "Evaluate Sums With Brackets",
+      "difficulty": "hard",
+      "patterns": [
+        "stack",
+        "expression-parsing",
+        "sign-tracking"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/stacks-queues/evaluate-sums-with-brackets"
     },
     {
       "topic": "hash-tables",
@@ -5375,6 +5483,32 @@
       "url": "https://bytepatterns.com/practice/hash-tables/least-frequently-used-cache"
     },
     {
+      "topic": "hash-tables",
+      "id": "longest-balanced-zeros-and-ones",
+      "order": 11,
+      "title": "Longest Balanced Zeros and Ones",
+      "difficulty": "medium",
+      "patterns": [
+        "prefix-sum",
+        "first-seen-index"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/hash-tables/longest-balanced-zeros-and-ones"
+    },
+    {
+      "topic": "hash-tables",
+      "id": "count-pairs-with-a-given-gap",
+      "order": 12,
+      "title": "Count Pairs With a Given Gap",
+      "difficulty": "easy",
+      "patterns": [
+        "hash-map",
+        "complement-lookup"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/hash-tables/count-pairs-with-a-given-gap"
+    },
+    {
       "topic": "recursion",
       "id": "flatten-nested-counts",
       "order": 1,
@@ -5490,6 +5624,19 @@
       ],
       "minutes": 15,
       "url": "https://bytepatterns.com/practice/recursion/look-and-say-term"
+    },
+    {
+      "topic": "recursion",
+      "id": "upside-down-numbers-of-a-given-length",
+      "order": 10,
+      "title": "Upside-Down Numbers of a Given Length",
+      "difficulty": "medium",
+      "patterns": [
+        "recursion",
+        "build-from-inside-out"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/recursion/upside-down-numbers-of-a-given-length"
     },
     {
       "topic": "backtracking",
@@ -5608,6 +5755,20 @@
       ],
       "minutes": 45,
       "url": "https://bytepatterns.com/practice/backtracking/fill-a-sudoku-grid"
+    },
+    {
+      "topic": "backtracking",
+      "id": "matchsticks-into-a-square",
+      "order": 10,
+      "title": "Matchsticks Into a Square",
+      "difficulty": "hard",
+      "patterns": [
+        "backtracking",
+        "pruning",
+        "k-way-partition"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/backtracking/matchsticks-into-a-square"
     },
     {
       "topic": "greedy",
@@ -6150,6 +6311,19 @@
       "url": "https://bytepatterns.com/practice/heaps/how-far-bricks-and-ladders-go"
     },
     {
+      "topic": "heaps",
+      "id": "process-tasks-on-one-cpu",
+      "order": 10,
+      "title": "Process Tasks on One CPU",
+      "difficulty": "medium",
+      "patterns": [
+        "min-heap",
+        "event-simulation"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/heaps/process-tasks-on-one-cpu"
+    },
+    {
       "topic": "two-heaps-k-way",
       "id": "kth-smallest-in-sorted-matrix",
       "order": 1,
@@ -6587,6 +6761,45 @@
       "url": "https://bytepatterns.com/practice/matrix-grid/largest-all-ones-rectangle"
     },
     {
+      "topic": "matrix-grid",
+      "id": "same-value-along-every-diagonal",
+      "order": 10,
+      "title": "Same Value Along Every Diagonal",
+      "difficulty": "easy",
+      "patterns": [
+        "matrix-indexing",
+        "diagonals"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/matrix-grid/same-value-along-every-diagonal"
+    },
+    {
+      "topic": "matrix-grid",
+      "id": "next-generation-of-cells",
+      "order": 11,
+      "title": "Next Generation of Cells",
+      "difficulty": "medium",
+      "patterns": [
+        "eight-neighbours",
+        "in-place-encoding"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/matrix-grid/next-generation-of-cells"
+    },
+    {
+      "topic": "matrix-grid",
+      "id": "cells-draining-to-both-coasts",
+      "order": 12,
+      "title": "Cells Draining to Both Coasts",
+      "difficulty": "medium",
+      "patterns": [
+        "reverse-flood-fill",
+        "multi-source-search"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/matrix-grid/cells-draining-to-both-coasts"
+    },
+    {
       "topic": "union-find",
       "id": "count-provinces",
       "order": 1,
@@ -6822,6 +7035,20 @@
       "url": "https://bytepatterns.com/practice/intervals/drop-spans-covered-by-others"
     },
     {
+      "topic": "intervals",
+      "id": "calendar-without-double-booking",
+      "order": 10,
+      "title": "Calendar Without Double Booking",
+      "difficulty": "medium",
+      "patterns": [
+        "sorted-intervals",
+        "bisect-insert",
+        "half-open-intervals"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/intervals/calendar-without-double-booking"
+    },
+    {
       "topic": "bit-manipulation",
       "id": "reverse-bit-order",
       "order": 1,
@@ -6952,6 +7179,33 @@
       "url": "https://bytepatterns.com/practice/bit-manipulation/shortest-walk-through-every-node"
     },
     {
+      "topic": "bit-manipulation",
+      "id": "add-two-numbers-without-plus",
+      "order": 11,
+      "title": "Add Two Numbers Without Plus",
+      "difficulty": "medium",
+      "patterns": [
+        "bitwise-add",
+        "carry-propagation",
+        "twos-complement"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/bit-manipulation/add-two-numbers-without-plus"
+    },
+    {
+      "topic": "bit-manipulation",
+      "id": "bitwise-and-across-a-range",
+      "order": 12,
+      "title": "Bitwise AND Across a Range",
+      "difficulty": "medium",
+      "patterns": [
+        "common-prefix",
+        "bit-shift"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/bit-manipulation/bitwise-and-across-a-range"
+    },
+    {
       "topic": "math-number-theory",
       "id": "factorial-trailing-zeros",
       "order": 1,
@@ -7067,6 +7321,19 @@
       ],
       "minutes": 40,
       "url": "https://bytepatterns.com/practice/math-number-theory/primes-in-a-wide-range"
+    },
+    {
+      "topic": "math-number-theory",
+      "id": "one-row-of-pascals-triangle",
+      "order": 10,
+      "title": "One Row of Pascal's Triangle",
+      "difficulty": "easy",
+      "patterns": [
+        "binomial-coefficients",
+        "multiplicative-formula"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/math-number-theory/one-row-of-pascals-triangle"
     },
     {
       "topic": "dynamic-programming",
