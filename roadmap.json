@@ -5678,6 +5678,33 @@
       "url": "https://bytepatterns.com/practice/recursion/upside-down-numbers-of-a-given-length"
     },
     {
+      "topic": "recursion",
+      "id": "nth-tribonacci-number",
+      "order": 11,
+      "title": "Nth Tribonacci Number",
+      "difficulty": "easy",
+      "patterns": [
+        "recurrence",
+        "rolling-state"
+      ],
+      "minutes": 10,
+      "url": "https://bytepatterns.com/practice/recursion/nth-tribonacci-number"
+    },
+    {
+      "topic": "recursion",
+      "id": "scrambled-string-check",
+      "order": 12,
+      "title": "Scrambled String Check",
+      "difficulty": "hard",
+      "patterns": [
+        "recursion",
+        "memoization",
+        "divide-and-conquer"
+      ],
+      "minutes": 40,
+      "url": "https://bytepatterns.com/practice/recursion/scrambled-string-check"
+    },
+    {
       "topic": "backtracking",
       "id": "phone-keypad-words",
       "order": 1,
@@ -5955,6 +5982,33 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/greedy/fewest-clips-to-cover-a-broadcast"
+    },
+    {
+      "topic": "greedy",
+      "id": "smallest-start-for-a-positive-walk",
+      "order": 11,
+      "title": "Smallest Start for a Positive Walk",
+      "difficulty": "easy",
+      "patterns": [
+        "running-sum",
+        "prefix-minimum"
+      ],
+      "minutes": 10,
+      "url": "https://bytepatterns.com/practice/greedy/smallest-start-for-a-positive-walk"
+    },
+    {
+      "topic": "greedy",
+      "id": "longest-chain-of-pairs",
+      "order": 12,
+      "title": "Longest Chain of Pairs",
+      "difficulty": "medium",
+      "patterns": [
+        "greedy",
+        "sort-by-end",
+        "interval-scheduling"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/greedy/longest-chain-of-pairs"
     },
     {
       "topic": "trees",
@@ -6271,6 +6325,32 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/tries/shortest-unique-prefixes"
+    },
+    {
+      "topic": "tries",
+      "id": "spot-dictionary-words-in-a-text",
+      "order": 11,
+      "title": "Spot Dictionary Words in a Text",
+      "difficulty": "easy",
+      "patterns": [
+        "trie",
+        "prefix-pruning"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/tries/spot-dictionary-words-in-a-text"
+    },
+    {
+      "topic": "tries",
+      "id": "shortest-encoding-of-a-word-list",
+      "order": 12,
+      "title": "Shortest Encoding of a Word List",
+      "difficulty": "medium",
+      "patterns": [
+        "trie",
+        "suffix-sharing"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/tries/shortest-encoding-of-a-word-list"
     },
     {
       "topic": "heaps",
@@ -7115,6 +7195,33 @@
       "url": "https://bytepatterns.com/practice/union-find/largest-group-by-shared-factor"
     },
     {
+      "topic": "union-find",
+      "id": "edges-form-a-single-tree",
+      "order": 11,
+      "title": "Edges Form a Single Tree",
+      "difficulty": "easy",
+      "patterns": [
+        "union-find",
+        "cycle-detection"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/union-find/edges-form-a-single-tree"
+    },
+    {
+      "topic": "union-find",
+      "id": "islands-after-each-land-drop",
+      "order": 12,
+      "title": "Islands After Each Land Drop",
+      "difficulty": "medium",
+      "patterns": [
+        "union-find",
+        "online-connectivity",
+        "grid"
+      ],
+      "minutes": 30,
+      "url": "https://bytepatterns.com/practice/union-find/islands-after-each-land-drop"
+    },
+    {
       "topic": "intervals",
       "id": "non-overlapping-removals",
       "order": 1,
@@ -7548,6 +7655,32 @@
       "url": "https://bytepatterns.com/practice/math-number-theory/one-row-of-pascals-triangle"
     },
     {
+      "topic": "math-number-theory",
+      "id": "greatest-common-divisor-of-strings",
+      "order": 11,
+      "title": "Greatest Common Divisor of Strings",
+      "difficulty": "easy",
+      "patterns": [
+        "gcd",
+        "string-period"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/math-number-theory/greatest-common-divisor-of-strings"
+    },
+    {
+      "topic": "math-number-theory",
+      "id": "song-pairs-filling-whole-minutes",
+      "order": 12,
+      "title": "Song Pairs Filling Whole Minutes",
+      "difficulty": "medium",
+      "patterns": [
+        "modular-arithmetic",
+        "remainder-count"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/math-number-theory/song-pairs-filling-whole-minutes"
+    },
+    {
       "topic": "dynamic-programming",
       "id": "cheapest-stair-climb",
       "order": 1,
@@ -7885,6 +8018,140 @@
       ],
       "minutes": 20,
       "url": "https://bytepatterns.com/practice/dynamic-programming/fewest-deletions-to-match-two-words"
+    },
+    {
+      "topic": "sql",
+      "id": "second-highest-salary",
+      "order": 1,
+      "title": "Second Highest Salary",
+      "difficulty": "easy",
+      "patterns": [
+        "scalar-subquery",
+        "aggregate"
+      ],
+      "minutes": 10,
+      "url": "https://bytepatterns.com/practice/sql/second-highest-salary"
+    },
+    {
+      "topic": "sql",
+      "id": "emails-used-more-than-once",
+      "order": 2,
+      "title": "Emails Used More Than Once",
+      "difficulty": "easy",
+      "patterns": [
+        "group-by",
+        "having"
+      ],
+      "minutes": 10,
+      "url": "https://bytepatterns.com/practice/sql/emails-used-more-than-once"
+    },
+    {
+      "topic": "sql",
+      "id": "customers-who-never-ordered",
+      "order": 3,
+      "title": "Customers Who Never Ordered",
+      "difficulty": "easy",
+      "patterns": [
+        "left-join",
+        "anti-join"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/sql/customers-who-never-ordered"
+    },
+    {
+      "topic": "sql",
+      "id": "paid-more-than-their-manager",
+      "order": 4,
+      "title": "Paid More Than Their Manager",
+      "difficulty": "easy",
+      "patterns": [
+        "self-join"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/sql/paid-more-than-their-manager"
+    },
+    {
+      "topic": "sql",
+      "id": "department-with-the-highest-average-pay",
+      "order": 5,
+      "title": "Department With the Highest Average Pay",
+      "difficulty": "medium",
+      "patterns": [
+        "group-by",
+        "cte",
+        "ties"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/sql/department-with-the-highest-average-pay"
+    },
+    {
+      "topic": "sql",
+      "id": "top-two-earners-per-department",
+      "order": 6,
+      "title": "Top Two Earners per Department",
+      "difficulty": "medium",
+      "patterns": [
+        "window-function",
+        "top-n-per-group"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/sql/top-two-earners-per-department"
+    },
+    {
+      "topic": "sql",
+      "id": "author-book-counts-in-one-query",
+      "order": 7,
+      "title": "Author Book Counts in One Query",
+      "difficulty": "medium",
+      "patterns": [
+        "n-plus-one",
+        "left-join",
+        "group-by"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/sql/author-book-counts-in-one-query"
+    },
+    {
+      "topic": "sql",
+      "id": "running-balance-per-account",
+      "order": 8,
+      "title": "Running Balance per Account",
+      "difficulty": "medium",
+      "patterns": [
+        "window-function",
+        "running-total",
+        "window-frame"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/sql/running-balance-per-account"
+    },
+    {
+      "topic": "sql",
+      "id": "logged-in-three-days-in-a-row",
+      "order": 9,
+      "title": "Logged In Three Days in a Row",
+      "difficulty": "medium",
+      "patterns": [
+        "window-function",
+        "consecutive-rows",
+        "dedupe"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/sql/logged-in-three-days-in-a-row"
+    },
+    {
+      "topic": "sql",
+      "id": "collapse-a-status-log-into-runs",
+      "order": 10,
+      "title": "Collapse a Status Log Into Runs",
+      "difficulty": "hard",
+      "patterns": [
+        "gaps-and-islands",
+        "window-function",
+        "row-number"
+      ],
+      "minutes": 35,
+      "url": "https://bytepatterns.com/practice/sql/collapse-a-status-log-into-runs"
     }
   ]
 }
