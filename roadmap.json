@@ -4882,6 +4882,19 @@
       "url": "https://bytepatterns.com/practice/searching/value-at-a-point-in-time"
     },
     {
+      "topic": "searching",
+      "id": "next-letter-after-the-target",
+      "order": 11,
+      "title": "Next Letter After the Target",
+      "difficulty": "easy",
+      "patterns": [
+        "binary-search",
+        "upper-bound"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/searching/next-letter-after-the-target"
+    },
+    {
       "topic": "sorting",
       "id": "out-of-place-count",
       "order": 1,
@@ -5352,6 +5365,32 @@
       "url": "https://bytepatterns.com/practice/stacks-queues/evaluate-sums-with-brackets"
     },
     {
+      "topic": "stacks-queues",
+      "id": "next-greater-value-lookup",
+      "order": 12,
+      "title": "Next Greater Value Lookup",
+      "difficulty": "easy",
+      "patterns": [
+        "monotonic-stack",
+        "hash-map"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/stacks-queues/next-greater-value-lookup"
+    },
+    {
+      "topic": "stacks-queues",
+      "id": "prices-after-the-next-discount",
+      "order": 13,
+      "title": "Prices After the Next Discount",
+      "difficulty": "easy",
+      "patterns": [
+        "monotonic-stack",
+        "next-smaller"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/stacks-queues/prices-after-the-next-discount"
+    },
+    {
       "topic": "hash-tables",
       "id": "repeated-value-check",
       "order": 1,
@@ -5771,6 +5810,19 @@
       "url": "https://bytepatterns.com/practice/backtracking/matchsticks-into-a-square"
     },
     {
+      "topic": "backtracking",
+      "id": "binary-strings-with-no-adjacent-ones",
+      "order": 11,
+      "title": "Binary Strings With No Adjacent Ones",
+      "difficulty": "easy",
+      "patterns": [
+        "backtracking",
+        "pruning"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/backtracking/binary-strings-with-no-adjacent-ones"
+    },
+    {
       "topic": "greedy",
       "id": "fewest-removals-to-unclash",
       "order": 1,
@@ -5889,6 +5941,20 @@
       ],
       "minutes": 30,
       "url": "https://bytepatterns.com/practice/greedy/most-events-you-can-attend"
+    },
+    {
+      "topic": "greedy",
+      "id": "fewest-clips-to-cover-a-broadcast",
+      "order": 10,
+      "title": "Fewest Clips to Cover a Broadcast",
+      "difficulty": "medium",
+      "patterns": [
+        "greedy",
+        "reach-frontier",
+        "interval-cover"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/greedy/fewest-clips-to-cover-a-broadcast"
     },
     {
       "topic": "trees",
@@ -6194,6 +6260,19 @@
       "url": "https://bytepatterns.com/practice/tries/word-endings-in-a-letter-stream"
     },
     {
+      "topic": "tries",
+      "id": "shortest-unique-prefixes",
+      "order": 10,
+      "title": "Shortest Unique Prefixes",
+      "difficulty": "medium",
+      "patterns": [
+        "trie",
+        "prefix-count"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/tries/shortest-unique-prefixes"
+    },
+    {
       "topic": "heaps",
       "id": "kth-largest-value",
       "order": 1,
@@ -6324,6 +6403,32 @@
       "url": "https://bytepatterns.com/practice/heaps/process-tasks-on-one-cpu"
     },
     {
+      "topic": "heaps",
+      "id": "k-weakest-squads",
+      "order": 11,
+      "title": "K Weakest Squads",
+      "difficulty": "easy",
+      "patterns": [
+        "top-k",
+        "max-heap"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/heaps/k-weakest-squads"
+    },
+    {
+      "topic": "heaps",
+      "id": "closest-k-values-to-a-target",
+      "order": 12,
+      "title": "Closest K Values to a Target",
+      "difficulty": "easy",
+      "patterns": [
+        "top-k",
+        "max-heap"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/heaps/closest-k-values-to-a-target"
+    },
+    {
       "topic": "two-heaps-k-way",
       "id": "kth-smallest-in-sorted-matrix",
       "order": 1,
@@ -6441,6 +6546,33 @@
       ],
       "minutes": 30,
       "url": "https://bytepatterns.com/practice/two-heaps-k-way/kth-smallest-prime-fraction"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "middle-score-after-each-entry",
+      "order": 10,
+      "title": "Middle Score After Each Entry",
+      "difficulty": "easy",
+      "patterns": [
+        "two-heaps",
+        "streaming"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/middle-score-after-each-entry"
+    },
+    {
+      "topic": "two-heaps-k-way",
+      "id": "bid-ask-spread-after-each-quote",
+      "order": 11,
+      "title": "Bid-Ask Spread After Each Quote",
+      "difficulty": "easy",
+      "patterns": [
+        "two-heaps",
+        "max-heap",
+        "min-heap"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/two-heaps-k-way/bid-ask-spread-after-each-quote"
     },
     {
       "topic": "graphs",
@@ -6641,6 +6773,59 @@
       ],
       "minutes": 45,
       "url": "https://bytepatterns.com/practice/graphs/fewest-roads-to-link-every-town"
+    },
+    {
+      "topic": "graphs",
+      "id": "order-the-build-steps",
+      "order": 16,
+      "title": "Order the Build Steps",
+      "difficulty": "easy",
+      "patterns": [
+        "topological-sort",
+        "indegree"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/graphs/order-the-build-steps"
+    },
+    {
+      "topic": "graphs",
+      "id": "deadlock-in-a-wait-for-graph",
+      "order": 17,
+      "title": "Deadlock in a Wait-For Graph",
+      "difficulty": "easy",
+      "patterns": [
+        "cycle-detection",
+        "graph-colouring",
+        "topological-sort"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/graphs/deadlock-in-a-wait-for-graph"
+    },
+    {
+      "topic": "graphs",
+      "id": "cheapest-route-between-two-stops",
+      "order": 18,
+      "title": "Cheapest Route Between Two Stops",
+      "difficulty": "easy",
+      "patterns": [
+        "dijkstra",
+        "min-heap"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/graphs/cheapest-route-between-two-stops"
+    },
+    {
+      "topic": "graphs",
+      "id": "shortest-paths-with-rebate-roads",
+      "order": 19,
+      "title": "Shortest Paths With Rebate Roads",
+      "difficulty": "easy",
+      "patterns": [
+        "bellman-ford",
+        "negative-edges"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/graphs/shortest-paths-with-rebate-roads"
     },
     {
       "topic": "matrix-grid",
@@ -6917,6 +7102,19 @@
       "url": "https://bytepatterns.com/practice/union-find/spare-roads-for-two-travellers"
     },
     {
+      "topic": "union-find",
+      "id": "largest-group-by-shared-factor",
+      "order": 10,
+      "title": "Largest Group by Shared Factor",
+      "difficulty": "hard",
+      "patterns": [
+        "union-find",
+        "prime-factors"
+      ],
+      "minutes": 45,
+      "url": "https://bytepatterns.com/practice/union-find/largest-group-by-shared-factor"
+    },
+    {
       "topic": "intervals",
       "id": "non-overlapping-removals",
       "order": 1,
@@ -7047,6 +7245,20 @@
       ],
       "minutes": 25,
       "url": "https://bytepatterns.com/practice/intervals/calendar-without-double-booking"
+    },
+    {
+      "topic": "intervals",
+      "id": "fewest-shots-to-burst-every-balloon",
+      "order": 11,
+      "title": "Fewest Shots to Burst Every Balloon",
+      "difficulty": "medium",
+      "patterns": [
+        "intervals",
+        "greedy",
+        "sort-by-end"
+      ],
+      "minutes": 25,
+      "url": "https://bytepatterns.com/practice/intervals/fewest-shots-to-burst-every-balloon"
     },
     {
       "topic": "bit-manipulation",
@@ -7621,6 +7833,58 @@
       ],
       "minutes": 30,
       "url": "https://bytepatterns.com/practice/dynamic-programming/closest-two-team-split"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "gift-cards-for-an-exact-total",
+      "order": 23,
+      "title": "Gift Cards for an Exact Total",
+      "difficulty": "easy",
+      "patterns": [
+        "0-1-knapsack",
+        "subset-sum"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/gift-cards-for-an-exact-total"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "exact-change-with-unlimited-coins",
+      "order": 24,
+      "title": "Exact Change With Unlimited Coins",
+      "difficulty": "easy",
+      "patterns": [
+        "unbounded-knapsack",
+        "bottom-up-dp"
+      ],
+      "minutes": 15,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/exact-change-with-unlimited-coins"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "cheapest-path-across-a-grid",
+      "order": 25,
+      "title": "Cheapest Path Across a Grid",
+      "difficulty": "easy",
+      "patterns": [
+        "grid-dp",
+        "2d-dp"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/cheapest-path-across-a-grid"
+    },
+    {
+      "topic": "dynamic-programming",
+      "id": "fewest-deletions-to-match-two-words",
+      "order": 26,
+      "title": "Fewest Deletions to Match Two Words",
+      "difficulty": "easy",
+      "patterns": [
+        "lcs",
+        "string-dp"
+      ],
+      "minutes": 20,
+      "url": "https://bytepatterns.com/practice/dynamic-programming/fewest-deletions-to-match-two-words"
     }
   ]
 }
