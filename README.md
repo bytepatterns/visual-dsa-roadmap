@@ -1657,6 +1657,8 @@ Original problems, each tied to the lesson that teaches its pattern. Company tag
 New lessons ship every few weeks and each one becomes a short animated video.
 
 - Website: [bytepatterns.com](https://bytepatterns.com?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- Cheat sheets: [Big-O](https://bytepatterns.com/cheatsheets/big-o?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [interview patterns](https://bytepatterns.com/cheatsheets/patterns?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [SQL](https://bytepatterns.com/cheatsheets/sql?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap) · [Python](https://bytepatterns.com/cheatsheets/python?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap)
+- Long reads: [the blog](https://bytepatterns.com/blog?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap), one article per lesson with the same animation embedded
 - YouTube: [@bytepatterns](https://www.youtube.com/@bytepatterns)
 - Instagram: [@bytepatterns](https://www.instagram.com/bytepatterns/)
 - TikTok: [@bytepatterns](https://www.tiktok.com/@bytepatterns)
