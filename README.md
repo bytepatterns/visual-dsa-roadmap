@@ -1,6 +1,6 @@
 # Visual DSA Roadmap
 
-**Coding-interview algorithms you can watch.** Every lesson below is a 3-minute interactive page on [bytepatterns.com](https://bytepatterns.com?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap): a step-by-step animation you control, under 150 words of explanation, one real-world example, one exercise, and a three-question quiz. No wall of text.
+**Coding-interview algorithms you can watch.** Every lesson below is a five-minute interactive page on [bytepatterns.com](https://bytepatterns.com?utm_source=github&utm_medium=readme&utm_campaign=visual-dsa-roadmap): a step-by-step animation you control, under 150 words of explanation, one real-world example, one exercise, and a three-question quiz. No wall of text.
 
 This repository is the map. It is regenerated from the site's content, so the numbers and links are always current.
 
